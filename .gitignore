@@ -1,0 +1,53 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+npm-debug.log*
+
+# Temporary files
+*.tmp
+*.temp
+*.bak
+*~
+
+# Local environment files
+.env
+.env.local
+.env.*.local
+
+# PHP specific (if using)
+*.php.bak
+*.sql
+
+# Deployment config (keep workflow files)
+!.github/workflows/
+
+# Agent/Debug files
+.agent/
+*.html
+!index.html
+!products.html
+
+# Design documents (optional - keep if needed)
+!设计文档/
+
+# Large image files (optional - consider using Git LFS)
+# *.jpg
+# *.png
+# *.webp
+# *.jpeg
