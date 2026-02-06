@@ -1,0 +1,2508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="tianhong - Professional manufacturer of high-quality fasteners since 1987. Specializing in stainless steel screws, nuts, custom fasteners, and special fastening solutions.">
+    <meta name="keywords" content="fasteners, screws, nuts, bolts, stainless steel fasteners, custom fasteners, China manufacturer, Zhejiang fasteners, Tianhong">
+    <meta name="author" content="tianhong">
+    
+    <title>tianhong | Professional Fastener Manufacturer Since 1987</title>
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --primary-color: #0d1b2a;
+            --secondary-color: #1b263b;
+            --accent-color: #e63946;
+            --dark-color: #0d1b2a;
+            --light-color: #1b263b;
+            --text-color: #e0e1dd;
+            --text-light: #778da9;
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--dark-color);
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Preloader */
+        .preloader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: var(--dark-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 9999;
+            transition: opacity 0.5s ease;
+        }
+        
+        .preloader.hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        
+        .preloader-content {
+            text-align: center;
+        }
+        
+        .preloader-spinner {
+            width: 50px;
+            height: 50px;
+            border: 3px solid rgba(255,255,255,0.1);
+            border-top-color: var(--accent-color);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+        }
+        
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+        
+        .preloader-text {
+            color: #fff;
+            margin-top: 15px;
+            font-size: 14px;
+            letter-spacing: 2px;
+        }
+        
+        /* Top Bar */
+        .top-bar {
+            background: var(--dark-color);
+            color: #fff;
+            padding: 8px 0;
+            font-size: 13px;
+        }
+        
+        .top-bar-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+        
+        .top-bar-left {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        
+        .top-bar-item {
+            color: rgba(255,255,255,0.8);
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        
+        .top-bar-item i {
+            color: var(--accent-color);
+        }
+        
+        .top-bar-right {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .top-bar-right a {
+            color: rgba(255,255,255,0.8);
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .top-bar-right a:hover {
+            color: var(--accent-color);
+        }
+        
+        .social-links {
+            display: flex;
+            gap: 10px;
+        }
+        
+        .social-link {
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        
+        .social-link:hover {
+            background: var(--accent-color);
+            transform: translateY(-2px);
+        }
+        
+        /* Main Header */
+        .main-header {
+            background: #fff;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+        
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 0;
+        }
+        
+        .logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--dark-color);
+        }
+        
+        .logo-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 24px;
+        }
+        
+        .logo-text {
+            display: flex;
+            align-items: baseline;
+            gap: 8px;
+        }
+        
+        .logo-tnho {
+            font-weight: 800;
+            font-size: 22px;
+            color: #e74c3c;
+            letter-spacing: 3px;
+        }
+        
+        .logo-text-cn {
+            font-weight: 600;
+            font-size: 14px;
+            color: #2c3e50;
+        }
+        
+        .logo-tagline {
+            font-size: 11px;
+            color: var(--text-light);
+            letter-spacing: 1px;
+        }
+        
+        .main-nav {
+            display: flex;
+            align-items: center;
+        }
+        
+        .nav-menu {
+            display: flex;
+            list-style: none;
+            gap: 5px;
+        }
+        
+        .nav-item {
+            position: relative;
+        }
+        
+        .nav-link {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 12px 18px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+        }
+        
+        .nav-link:hover, .nav-link.active {
+            color: var(--primary-color);
+            background: rgba(26, 95, 122, 0.08);
+        }
+        
+        .dropdown-arrow {
+            font-size: 10px;
+            transition: var(--transition);
+        }
+        
+        .nav-item:hover .dropdown-arrow {
+            transform: rotate(180deg);
+        }
+        
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            min-width: 220px;
+            background: #fff;
+            border-radius: var(--border-radius);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            list-style: none;
+            padding: 10px 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(10px);
+            transition: var(--transition);
+        }
+        
+        .nav-item:hover .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+        
+        .dropdown-menu a {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 20px;
+            color: var(--text-color);
+            text-decoration: none;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        
+        .dropdown-menu a:hover {
+            background: rgba(26, 95, 122, 0.08);
+            color: var(--primary-color);
+            padding-left: 25px;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 24px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 14px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: #fff;
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(26, 95, 122, 0.3);
+        }
+        
+        .btn-outline {
+            background: transparent;
+            border: 2px solid var(--primary-color);
+            color: var(--primary-color);
+        }
+        
+        .btn-outline:hover {
+            background: var(--primary-color);
+            color: #fff;
+        }
+        
+        .btn-light {
+            background: #fff;
+            color: var(--primary-color);
+        }
+        
+        .btn-light:hover {
+            background: var(--light-color);
+            transform: translateY(-2px);
+        }
+        
+        /* Hero Section */
+        .hero {
+            position: relative;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            background: url('warehouse.jpg') no-repeat center center;
+            background-size: cover;
+            overflow: hidden;
+        }
+        
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(13, 27, 42, 0.85);
+        }
+        
+        .hero-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: radial-gradient(ellipse at 30% 20%, rgba(26, 95, 122, 0.3) 0%, transparent 50%);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+        }
+        
+        .hero-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            background: rgba(255,255,255,0.1);
+            padding: 8px 16px;
+            border-radius: 30px;
+            color: #fff;
+            font-size: 13px;
+            margin-bottom: 25px;
+            backdrop-filter: blur(10px);
+        }
+        
+        .hero-badge i {
+            color: var(--accent-color);
+        }
+        
+        .hero-title {
+            font-size: 52px;
+            font-weight: 800;
+            color: #fff;
+            line-height: 1.2;
+            margin-bottom: 20px;
+        }
+        
+        .hero-subtitle {
+            font-size: 20px;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 35px;
+            line-height: 1.6;
+        }
+        
+        .hero-buttons {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+        
+        .hero-image {
+            position: absolute;
+            right: -5%;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: 1;
+            opacity: 0.15;
+        }
+        
+        .hero-image img {
+            max-width: 600px;
+            filter: brightness(0) invert(1);
+        }
+        
+        /* Stats Section */
+        .stats {
+            background: var(--secondary-color);
+            padding: 40px 0;
+            margin-top: -60px;
+            position: relative;
+            z-index: 2;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            background: var(--secondary-color);
+            border-radius: 16px;
+            padding: 40px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .stat-icon {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 15px;
+            font-size: 24px;
+            color: #fff;
+        }
+        
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 5px;
+        }
+        
+        .stat-label {
+            color: var(--text-light);
+            font-size: 14px;
+        }
+        
+        /* Section Styles */
+        .section {
+            padding: 100px 0;
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 60px;
+        }
+        
+        .section-tag {
+            display: inline-block;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+        
+        .section-title {
+            font-size: 40px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+        
+        .section-subtitle {
+            color: var(--text-light);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        
+        /* Products Section */
+        .products {
+            background: var(--secondary-color);
+        }
+        
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+        
+        .product-card {
+            background: #fff;
+            border-radius: 12px;
+            padding:30px;
+            text-align: center;
+            transition: var(--transition);
+            cursor: pointer;
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.1);
+        }
+        
+        .product-icon {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 32px;
+            color: #fff;
+        }
+        
+        .product-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 10px;
+        }
+        
+        .product-description {
+            color: var(--text-light);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+        
+        .product-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 14px;
+            transition: var(--transition);
+        }
+        
+        .product-link:hover {
+            gap: 10px;
+        }
+        
+        /* About Section */
+        .about-content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 60px;
+            align-items: center;
+        }
+        
+        .about-image {
+            position: relative;
+        }
+        
+        .about-image-main {
+            width: 100%;
+            height: 450px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 120px;
+        }
+        
+        .about-image-badge {
+            position: absolute;
+            bottom: -30px;
+            right: -30px;
+            background: var(--accent-color);
+            color: #fff;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+        
+        .about-image-badge span {
+            display: block;
+        }
+        
+        .about-badge-number {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        
+        .about-badge-text {
+            font-size: 13px;
+        }
+        
+        .about-text h3 {
+            font-size: 32px;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 20px;
+        }
+        
+        .about-text p {
+            color: var(--text-light);
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+        
+        .about-features {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+        
+        .about-feature {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+        
+        .about-feature-icon {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 18px;
+        }
+        
+        .about-feature-text {
+            font-weight: 500;
+            color: var(--dark-color);
+        }
+        
+        /* Certifications Section */
+        .certifications {
+            background: var(--light-color);
+        }
+        
+        .certifications-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 30px;
+        }
+        
+        .certification-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 30px;
+            text-align: center;
+            transition: var(--transition);
+        }
+        
+        .certification-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .certification-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+            color: #fff;
+        }
+        
+        .certification-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 8px;
+        }
+        
+        .certification-description {
+            color: var(--text-light);
+            font-size: 13px;
+        }
+        
+        /* Why Choose Us Section */
+        .why-choose-us {
+            background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%);
+            color: #fff;
+        }
+        
+        .why-choose-us .section-title {
+            color: #fff;
+        }
+        
+        .why-choose-us .section-subtitle {
+            color: rgba(255,255,255,0.8);
+        }
+        
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+        }
+        
+        .feature-card {
+            background: rgba(255,255,255,0.1);
+            border-radius: 16px;
+            padding: 35px;
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+        }
+        
+        .feature-card:hover {
+            background: rgba(255,255,255,0.15);
+            transform: translateY(-5px);
+        }
+        
+        .feature-icon {
+            width: 60px;
+            height: 60px;
+            background: rgba(255,255,255,0.2);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            font-size: 26px;
+        }
+        
+        .feature-title {
+            font-size: 20px;
+            font-weight: 600;
+            margin-bottom: 12px;
+        }
+        
+        .feature-description {
+            color: rgba(255,255,255,0.8);
+            line-height: 1.7;
+            font-size: 14px;
+        }
+        
+        /* Contact Section */
+        .contact {
+            background: var(--secondary-color);
+        }
+        
+        .contact-content {
+            display: grid;
+            grid-template-columns: 1fr 1.5fr;
+            gap: 50px;
+        }
+        
+        .contact-info {
+            background: var(--dark-color);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        
+        .contact-info h3 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 25px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 15px;
+            padding: 20px 0;
+            border-bottom: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .contact-item:last-child {
+            border-bottom: none;
+        }
+        
+        .contact-icon {
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 20px;
+            flex-shrink: 0;
+        }
+        
+        .contact-label {
+            font-size: 12px;
+            color: var(--text-light);
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-bottom: 5px;
+        }
+        
+        .contact-value {
+            font-weight: 600;
+            color: var(--dark-color);
+            text-decoration: none;
+            display: block;
+            transition: var(--transition);
+        }
+        
+        .contact-value:hover {
+            color: var(--primary-color);
+        }
+        
+        .contact-form {
+            background: var(--dark-color);
+            border-radius: 16px;
+            padding: 40px;
+        }
+        
+        .contact-form h3 {
+            font-size: 26px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 25px;
+        }
+        
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: var(--dark-color);
+        }
+        
+        .form-group input,
+        .form-group select,
+        .form-group textarea {
+            width: 100%;
+            padding: 14px 18px;
+            border: 2px solid #e9ecef;
+            border-radius: var(--border-radius);
+            font-size: 14px;
+            font-family: inherit;
+            transition: var(--transition);
+        }
+        
+        .form-group input:focus,
+        .form-group select:focus,
+        .form-group textarea:focus {
+            outline: none;
+            border-color: var(--accent-color);
+        }
+        
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+        
+        /* Footer */
+        .footer {
+            background: var(--dark-color);
+            color: #fff;
+            padding-top: 80px;
+        }
+        
+        .footer-top {
+            padding-bottom: 50px;
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1.5fr;
+            gap: 50px;
+        }
+        
+        .footer-widget h4 {
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 12px;
+        }
+        
+        .footer-widget h4::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 3px;
+            background: var(--accent-color);
+            border-radius: 2px;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            margin-bottom: 20px;
+        }
+        
+        .footer-logo .logo-icon {
+            width: 45px;
+            height: 45px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            color: #fff;
+        }
+        
+        .footer-logo .logo-tnho {
+            font-weight: 800;
+            font-size: 20px;
+            color: #e74c3c;
+            letter-spacing: 2px;
+        }
+        
+        .footer-logo .logo-text-cn {
+            font-weight: 600;
+            font-size: 13px;
+            color: #fff;
+        }
+        
+        .footer-widget p {
+            color: rgba(255,255,255,0.7);
+            line-height: 1.8;
+            margin-bottom: 20px;
+        }
+        
+        .footer-links {
+            list-style: none;
+        }
+        
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+        
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+        
+        .footer-links a:hover {
+            color: var(--accent-color);
+            padding-left: 5px;
+        }
+        
+        .footer-contact li {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            margin-bottom: 18px;
+            color: rgba(255,255,255,0.7);
+        }
+        
+        .footer-contact i {
+            color: var(--accent-color);
+            margin-top: 4px;
+        }
+        
+        .footer-bottom {
+            background: rgba(0,0,0,0.2);
+            padding: 25px 0;
+        }
+        
+        .footer-bottom-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        
+        .copyright {
+            color: rgba(255,255,255,0.6);
+            font-size: 14px;
+        }
+        
+        .copyright a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+        
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: #fff;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            font-size: 18px;
+            opacity: 0;
+            visibility: hidden;
+            transition: var(--transition);
+            z-index: 1000;
+            box-shadow: 0 5px 20px rgba(26, 95, 122, 0.3);
+        }
+        
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+        
+        .back-to-top:hover {
+            transform: translateY(-5px);
+        }
+        
+        /* WhatsApp Float */
+        .whatsapp-float {
+            position: fixed;
+            bottom: 30px;
+            left: 30px;
+            width: 55px;
+            height: 55px;
+            background: #25d366;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            text-decoration: none;
+            z-index: 1000;
+            box-shadow: 0 5px 20px rgba(37, 211, 102, 0.4);
+            transition: var(--transition);
+        }
+        
+        .whatsapp-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+        }
+        
+        /* Animations */
+        [data-aos] {
+            opacity: 0;
+            transition: opacity 0.6s ease, transform 0.6s ease;
+        }
+        
+        [data-aos="fade-up"] {
+            transform: translateY(30px);
+        }
+        
+        [data-aos="fade-down"] {
+            transform: translateY(-30px);
+        }
+        
+        [data-aos="fade-right"] {
+            transform: translateX(-30px);
+        }
+        
+        [data-aos="fade-left"] {
+            transform: translateX(30px);
+        }
+        
+        [data-aos="zoom-in"] {
+            transform: scale(0.9);
+        }
+        
+        [data-aos].aos-animate {
+            opacity: 1;
+            transform: translateY(0) translateX(0) scale(1);
+        }
+        
+        /* Factory Gallery Section */
+        .factory-gallery {
+            background: var(--secondary-color);
+            padding: 80px 0;
+        }
+        
+        .factory-gallery .section-header {
+            margin-bottom: 40px;
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        
+        .gallery-item {
+            position: relative;
+            border-radius: 12px;
+            overflow: hidden;
+            aspect-ratio: 4/3;
+            cursor: pointer;
+        }
+        
+        .gallery-item img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            transition: var(--transition);
+        }
+        
+        .gallery-item:hover img {
+            transform: scale(1.1);
+        }
+        
+        .gallery-overlay {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 20px;
+            background: linear-gradient(transparent, rgba(0,0,0,0.8));
+            color: #fff;
+        }
+        
+        .gallery-overlay h4 {
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .gallery-overlay p {
+            font-size: 12px;
+            color: rgba(255,255,255,0.8);
+        }
+        
+        /* Timeline Section */
+        .timeline-section {
+            background: var(--dark-color);
+            padding: 80px 0;
+        }
+        
+        .timeline {
+            position: relative;
+            max-width: 800px;
+            margin: 40px auto 0;
+        }
+        
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 3px;
+            height: 100%;
+            background: var(--accent-color);
+        }
+        
+        .timeline-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .timeline-item:nth-child(odd) {
+            flex-direction: row-reverse;
+        }
+        
+        .timeline-content {
+            width: 45%;
+            padding: 20px;
+            background: var(--secondary-color);
+            border-radius: 12px;
+            position: relative;
+        }
+        
+        .timeline-item:nth-child(odd) .timeline-content {
+            margin-right: 5%;
+        }
+        
+        .timeline-item:nth-child(even) .timeline-content {
+            margin-left: 5%;
+        }
+        
+        .timeline-year {
+            display: inline-block;
+            padding: 5px 15px;
+            background: var(--accent-color);
+            color: #fff;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+        
+        .timeline-content h4 {
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+        
+        .timeline-content p {
+            color: var(--text-light);
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        
+        /* Customers Section */
+        .customers-section {
+            background: var(--secondary-color);
+            padding: 80px 0;
+        }
+        
+        .customers-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 40px;
+        }
+        
+        .customers-banner {
+            border-radius: 16px;
+            overflow: hidden;
+        }
+        
+        .customers-banner img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        
+        /* Certifications with Images */
+        .certifications-images {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .cert-image-card {
+            background: var(--dark-color);
+            border-radius: 12px;
+            overflow: hidden;
+            transition: var(--transition);
+        }
+        
+        .cert-image-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.3);
+        }
+        
+        .cert-image-card img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        
+        .cert-image-card .cert-info {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .cert-image-card .cert-info h4 {
+            color: #fff;
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+        
+        .cert-image-card .cert-info p {
+            color: var(--text-light);
+            font-size: 13px;
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .gallery-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .gallery-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .timeline::before {
+                left: 20px;
+            }
+            
+            .timeline-item,
+            .timeline-item:nth-child(odd) {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            
+            .timeline-content,
+            .timeline-item:nth-child(odd) .timeline-content,
+            .timeline-item:nth-child(even) .timeline-content {
+                width: 100%;
+                margin: 0 0 0 50px !important;
+            }
+            
+            .certifications-images {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .certifications-images {
+                grid-template-columns: 1fr;
+            }
+        }
+        
+        /* Responsive Design */
+        @media (max-width: 1200px) {
+            .hero-title {
+                font-size: 42px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .products-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .certifications-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .header-content {
+                flex-wrap: wrap;
+            }
+            
+            .main-nav {
+                order: 3;
+                width: 100%;
+                display: none;
+                margin-top: 15px;
+            }
+            
+            .main-nav.active {
+                display: block;
+            }
+            
+            .nav-menu {
+                flex-direction: column;
+            }
+            
+            .dropdown-menu {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                padding-left: 20px;
+                display: none;
+            }
+            
+            .nav-item:hover .dropdown-menu {
+                display: block;
+            }
+            
+            .about-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .features-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-content {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                min-height: auto;
+                padding: 100px 0;
+            }
+            
+            .hero-title {
+                font-size: 32px;
+            }
+            
+            .hero-subtitle {
+                font-size: 16px;
+            }
+            
+            .hero-buttons {
+                flex-direction: column;
+            }
+            
+            .section {
+                padding: 60px 0;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .stats-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .certifications-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            
+            .about-features {
+                grid-template-columns: 1fr;
+            }
+            
+            .form-row {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .footer-bottom-content {
+                flex-direction: column;
+                gap: 15px;
+                text-align: center;
+            }
+            
+            .top-bar-content {
+                flex-direction: column;
+                gap: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="preloader-spinner"></div>
+            <div class="preloader-text">LOADING...</div>
+        </div>
+    </div>
+
+    <!-- Top Bar -->
+    <div class="top-bar">
+        <div class="container">
+            <div class="top-bar-content">
+                <div class="top-bar-left">
+                    <span class="top-bar-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        Yueqing, Wenzhou, Zhejiang, China
+                    </span>
+                </div>
+                <div class="top-bar-right">
+                    <a href="tel:+8618958770140" class="top-bar-item">
+                        <i class="fas fa-phone-alt"></i>
+                        +86 189 5877 0140
+                    </a>
+                    <a href="mailto:yqtianhong@163.com" class="top-bar-item">
+                        <i class="fas fa-envelope"></i>
+                        yqtianhong@163.com
+                    </a>
+                    <div class="social-links">
+                        <a href="#" class="social-link" aria-label="Facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="#" class="social-link" aria-label="YouTube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="logo-text">
+                        tianhong
+                    </div>
+                </a>
+
+                <nav class="main-nav" id="mainNav">
+                    <ul class="nav-menu">
+                        <li class="nav-item active">
+                            <a href="#" class="nav-link">
+                                <i class="fas fa-home"></i>
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-item has-dropdown">
+                            <a href="products.html" class="nav-link">
+                                <i class="fas fa-box"></i>
+                                PRODUCTS
+                                <i class="fas fa-chevron-down dropdown-arrow"></i>
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a href="products.html#stainless-screws">Stainless Steel Screws</a></li>
+                                <li><a href="products.html#stainless-nuts">Stainless Steel Nuts</a></li>
+                                <li><a href="products.html#lead-seal">Lead Seal Screws</a></li>
+                                <li><a href="products.html#custom">Custom Fasteners</a></li>
+                                <li><a href="products.html#special">Special Fasteners</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">
+                                <i class="fas fa-building"></i>
+                                ABOUT US
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#certifications" class="nav-link">
+                                <i class="fas fa-certificate"></i>
+                                CERTIFICATIONS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">
+                                <i class="fas fa-envelope"></i>
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Get Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-overlay"></div>
+        <div class="container">
+            <div class="hero-content" data-aos="fade-right">
+                <div class="hero-badge">
+                    <i class="fas fa-star"></i>
+                    Since 1987 - Over 35 Years of Excellence
+                </div>
+                <h1 class="hero-title">Professional Fastener Manufacturer</h1>
+                <p class="hero-subtitle">
+                    tianhong is a leading manufacturer specializing in 
+                    high-quality stainless steel screws, nuts, custom fasteners, and special fastening solutions.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#products" class="btn btn-light">
+                        <i class="fas fa-box"></i>
+                        View Products
+                    </a>
+                    <a href="#contact" class="btn btn-outline" style="border-color: #fff; color: #fff;">
+                        <i class="fas fa-envelope"></i>
+                        Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="100">
+                    <div class="stat-icon">
+                        <i class="fas fa-calendar-alt"></i>
+                    </div>
+                    <div class="stat-number">1987</div>
+                    <div class="stat-label">Year Established</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="200">
+                    <div class="stat-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <div class="stat-number">170+</div>
+                    <div class="stat-label">Skilled Employees</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="300">
+                    <div class="stat-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <div class="stat-number">1000万</div>
+                    <div class="stat-label">Registered Capital (RMB)</div>
+                </div>
+                <div class="stat-item" data-aos="fade-up" data-aos-delay="400">
+                    <div class="stat-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <div class="stat-number">50+</div>
+                    <div class="stat-label">Countries Served</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="section products" id="products">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Products</span>
+                <h2 class="section-title">Comprehensive Fastener Solutions</h2>
+                <p class="section-subtitle">
+                    We manufacture a wide range of high-quality fasteners serving various industries worldwide
+                </p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-icon">
+                        <i class="fas fa-screwdriver"></i>
+                    </div>
+                    <h3 class="product-title">Stainless Steel Screws</h3>
+                    <p class="product-description">
+                        High-quality stainless steel screws in various specifications for industrial applications
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-icon">
+                        <i class="fas fa-dharmachakra"></i>
+                    </div>
+                    <h3 class="product-title">Stainless Steel Nuts</h3>
+                    <p class="product-description">
+                        Precision-engineered nuts in multiple sizes and grades for secure fastening
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-icon">
+                        <i class="fas fa-lock"></i>
+                    </div>
+                    <h3 class="product-title">Lead Seal Screws</h3>
+                    <p class="product-description">
+                        Specialized sealing screws for security and tamper-proof applications
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="product-title">Custom Fasteners</h3>
+                    <p class="product-description">
+                        OEM/ODM services for custom-designed fasteners according to your specifications
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="product-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="product-title">Electrical Screws</h3>
+                    <p class="product-description">
+                        Specialized fasteners for electrical equipment and electronic applications
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="600">
+                    <div class="product-icon">
+                        <i class="fas fa-sliders-h"></i>
+                    </div>
+                    <h3 class="product-title">Button Screws</h3>
+                    <p class="product-description">
+                        Precision button head screws for mechanical assemblies
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="700">
+                    <div class="product-icon">
+                        <i class="fas fa-piston"></i>
+                    </div>
+                    <h3 class="product-title">Cylinder Rod Nuts</h3>
+                    <p class="product-description">
+                        Specialty nuts for pneumatic and hydraulic cylinder applications
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="800">
+                    <div class="product-icon">
+                        <i class="fas fa-shapes"></i>
+                    </div>
+                    <h3 class="product-title">Standard Fasteners</h3>
+                    <p class="product-description">
+                        DIN, ISO, and GB standard fasteners for various industrial applications
+                    </p>
+                    <a href="#contact" class="product-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image" data-aos="fade-right">
+                    <img src="reception.jpg" alt="tianhong Company Reception" style="width: 100%; height: 450px; object-fit: cover; border-radius: 16px;">
+                    <div class="about-image-badge">
+                        <span class="about-badge-number">35+</span>
+                        <span class="about-badge-text">Years Experience</span>
+                    </div>
+                </div>
+                
+                <div class="about-text" data-aos="fade-left">
+                    <span class="section-tag">About Us</span>
+                    <h3>Leading Fastener Manufacturer Since 1987</h3>
+                    <p>
+                        tianhong (formerly Yueqing Tianhong Special Fastener Factory) 
+                        was founded in 1987 and has grown to become one of the most reputable fastener manufacturers 
+                        in Wenzhou, Zhejiang Province.
+                    </p>
+                    <p>
+                        With over 35 years of experience in fastener manufacturing, we have established ourselves 
+                        as a reliable partner for businesses worldwide, delivering high-quality fastening solutions 
+                        across multiple industries.
+                    </p>
+                    
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+<i class="fas fa-check"></i>
+                            </div>
+                            <span class="about-feature-text">Advanced Production Equipment</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="about-feature-text">Strong R&D Capabilities</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="about-feature-text">Quality Control Systems</span>
+                        </div>
+                        <div class="about-feature">
+                            <div class="about-feature-icon">
+                                <i class="fas fa-check"></i>
+                            </div>
+                            <span class="about-feature-text">Export-Ready Manufacturing</span>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Partner With Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Factory Gallery Section -->
+    <section class="section factory-gallery" id="factory">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our Facility</span>
+                <h2 class="section-title">Production Capabilities</h2>
+                <p class="section-subtitle">
+                    State-of-the-art manufacturing facilities with advanced equipment
+                </p>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="workshop.jpg" alt="Production Workshop">
+                    <div class="gallery-overlay">
+                        <h4>Production Workshop</h4>
+                        <p>Advanced manufacturing equipment</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="150">
+                    <img src="production_line.jpg" alt="Nutting Production Line">
+                    <div class="gallery-overlay">
+                        <h4>Nutting Production Line</h4>
+                        <p>Internal thread rolling for nuts</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="ccd_machine.jpg" alt="CCD Optical Inspection">
+                    <div class="gallery-overlay">
+                        <h4>CCD Optical Inspection</h4>
+                        <p>High-precision quality control</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="300">
+                    <img src="warehouse.jpg" alt="Finished Goods Warehouse">
+                    <div class="gallery-overlay">
+                        <h4>Finished Goods Warehouse</h4>
+                        <p>Well-organized inventory system</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="350">
+                    <img src="laboratory.jpg" alt="R&D Laboratory">
+                    <div class="gallery-overlay">
+                        <h4>R&D Laboratory</h4>
+                        <p>Fastener research & innovation</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="400">
+                    <img src="meeting.jpg" alt="Meeting Room">
+                    <div class="gallery-overlay">
+                        <h4>Meeting Room</h4>
+                        <p>Professional team collaboration</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="section timeline-section" id="timeline">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Our History</span>
+                <h2 class="section-title">35 Years of Excellence</h2>
+                <p class="section-subtitle">
+                    Since 1987, building a reputation for quality and reliability
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <span class="timeline-year">1987</span>
+                        <h4>Foundation</h4>
+                        <p>Founded as Yueqing Tianhong Special Fastener Factory</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2000</span>
+                        <h4>Expansion</h4>
+                        <p>Expanded production capacity and modernized equipment</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2010</span>
+                        <h4>Innovation</h4>
+                        <p>Established R&D center, filed first patents</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-left">
+                    <div class="timeline-content">
+                        <span class="timeline-year">2020</span>
+                        <h4>Global Reach</h4>
+                        <p>Serving customers in 50+ countries worldwide</p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item" data-aos="fade-right">
+                    <div class="timeline-content">
+                        <span class="timeline-year">Today</span>
+                        <h4>Industry Leader</h4>
+                        <p>High-tech enterprise with 23+ patents</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section class="section certifications" id="certifications">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Certifications</span>
+                <h2 class="section-title">Our Qualifications</h2>
+                <p class="section-subtitle">
+                    Industry-leading certifications that demonstrate our commitment to quality and excellence
+                </p>
+            </div>
+            
+            <div class="certifications-grid">
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="certification-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h4 class="certification-title">High-Tech Enterprise</h4>
+                    <p class="certification-description">Certified high-technology enterprise by Chinese government</p>
+                </div>
+                
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="certification-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h4 class="certification-title">A-Level Tax Payer</h4>
+                    <p class="certification-description">Highest tax credit rating classification</p>
+                </div>
+                
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="certification-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h4 class="certification-title">Quality System</h4>
+                    <p class="certification-description">ISO quality management certification</p>
+                </div>
+                
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="certification-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h4 class="certification-title">23+ Patents</h4>
+                    <p class="certification-description">Proprietary technology and innovations</p>
+                </div>
+                
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="500">
+                    <div class="certification-icon">
+                        <i class="fas fa-trademark"></i>
+                    </div>
+                    <h4 class="certification-title">5+ Trademarks</h4>
+                    <p class="certification-description">Registered brand protection</p>
+                </div>
+            </div>
+            
+            <div class="certifications-images">
+                <div class="cert-image-card" data-aos="fade-up" data-aos-delay="100">
+                    <img src="certificates.jpg" alt="Company Certifications">
+                    <div class="cert-info">
+                        <h4>Professional Certifications</h4>
+                        <p>Industry-leading quality standards</p>
+                    </div>
+                </div>
+                
+                <div class="cert-image-card" data-aos="fade-up" data-aos-delay="200">
+                    <img src="timeline.jpg" alt="Company Timeline">
+                    <div class="cert-info">
+                        <h4>35 Years of History</h4>
+                        <p>Since 1987</p>
+                    </div>
+                </div>
+                
+                <div class="cert-image-card" data-aos="fade-up" data-aos-delay="300">
+                    <img src="customers.jpg" alt="Global Customers">
+                    <div class="cert-info">
+                        <h4>Global Customer Base</h4>
+                        <p>Serving 50+ countries</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="section why-choose-us">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Why Choose Us</span>
+                <h2 class="section-title">Our Competitive Advantages</h2>
+                <p class="section-subtitle">
+                    Partner with a manufacturer that combines experience, technology, and reliability
+                </p>
+            </div>
+            
+            <div class="features-grid">
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="feature-icon">
+                        <i class="fas fa-history"></i>
+                    </div>
+                    <h3 class="feature-title">35+ Years Experience</h3>
+                    <p class="feature-description">
+                        Since 1987, we have accumulated extensive expertise in fastener manufacturing, 
+                        serving diverse industries with precision and reliability.
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="feature-title">Strong Production Capacity</h3>
+                    <p class="feature-description">
+                        Equipped with advanced imported machinery and production lines, 
+                        we ensure consistent quality and timely delivery for bulk orders.
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="feature-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="feature-title">R&D Excellence</h3>
+                    <p class="feature-description">
+                        Our dedicated R&D team develops innovative fastening solutions, 
+                        holding 23+ patents to meet specialized customer requirements.
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe-americas"></i>
+                    </div>
+                    <h3 class="feature-title">Global Export Experience</h3>
+                    <p class="feature-description">
+                        Serving customers in 50+ countries with professional export services, 
+                        compliant with international standards and regulations.
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="feature-title">Quality Assurance</h3>
+                    <p class="feature-description">
+                        Rigorous quality control processes and testing procedures ensure 
+                        every fastener meets the highest industry standards.
+                    </p>
+                </div>
+                
+                <div class="feature-card" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="feature-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3 class="feature-title">Customer Focus</h3>
+                    <p class="feature-description">
+                        We believe partners are our greatest asset, committed to creating 
+                        maximum value through innovative and efficient service.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Industries Section -->
+    <section class="section industries">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Industries</span>
+                <h2 class="section-title">Industries We Serve</h2>
+                <p class="section-subtitle">
+                    Our fasteners are trusted across diverse sectors worldwide
+                </p>
+            </div>
+            
+            <div class="products-grid">
+                <div class="product-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="product-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="product-title">Automotive</h3>
+                    <p class="product-description">
+                        High-strength fasteners for automotive manufacturing and assembly
+                    </p>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="product-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="product-title">Solar Energy</h3>
+                    <p class="product-description">
+                        Reliable fasteners for solar panel mounting and bracket systems
+                    </p>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="product-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="product-title">Machinery</h3>
+                    <p class="product-description">
+                        Precision fasteners for mechanical equipment and industrial machinery
+                    </p>
+                </div>
+                
+                <div class="product-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="product-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="product-title">Electrical</h3>
+                    <p class="product-description">
+                        Specialized fasteners for electric meters and electronic equipment
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-tag">Contact Us</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-subtitle">
+                    Ready to discuss your fastener requirements? We're here to help!
+                </p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right">
+                    <h3>Contact Information</h3>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Address</div>
+                            <div class="contact-value">
+                                No. 309, Weishi Road, Economic Development Zone<br>
+                                Yueqing City, Wenzhou, Zhejiang Province, China
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-user"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Contact Person</div>
+                            <div class="contact-value">Mr. Xie Baole (谢宝乐)</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Phone / WhatsApp</div>
+                            <a href="tel:+8618958770140" class="contact-value">+86 189 5877 0140</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Email</div>
+                            <a href="mailto:yqtianhong@163.com" class="contact-value">yqtianhong@163.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">Business Hours</div>
+                            <div class="contact-value">Monday - Friday: 8:00 AM - 6:00 PM (UTC+8)</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left">
+                    <h3>Send Us a Message</h3>
+                    <form id="inquiryForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Your Name *</label>
+                                <input type="text" id="name" name="name" required placeholder="John Smith">
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input type="email" id="email" name="email" required placeholder="john@company.com">
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="phone">Phone Number</label>
+                                <input type="tel" id="phone" name="phone" placeholder="+1 234 567 8900">
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Company Name</label>
+                                <input type="text" id="company" name="company" placeholder="Your Company Ltd.">
+                            </div>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="product">Product Interest</label>
+                            <select id="product" name="product">
+                                <option value="">Select a product category...</option>
+                                <option value="stainless-screws">Stainless Steel Screws</option>
+                                <option value="stainless-nuts">Stainless Steel Nuts</option>
+                                <option value="lead-seal">Lead Seal Screws</option>
+                                <option value="custom">Custom Fasteners</option>
+                                <option value="electrical">Electrical Screws</option>
+                                <option value="button">Button Screws</option>
+                                <option value="cylinder">Cylinder Rod Nuts</option>
+                                <option value="standard">Standard Fasteners</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Your Message *</label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Please describe your requirements, including quantity, specifications, etc."></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary btn-block">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Inquiry
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <div class="logo-text">
+                                tianhong
+                            </div>
+                        </div>
+                        <p>
+                            tianhong is a professional manufacturer 
+                            specializing in high-quality fasteners since 1987. We serve customers 
+                            worldwide with reliable products and excellent service.
+                        </p>
+                        <div class="social-links">
+                            <a href="#" class="social-link" aria-label="Facebook">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="#" class="social-link" aria-label="YouTube">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h4>Quick Links</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Home</a></li>
+                            <li><a href="#products"><i class="fas fa-chevron-right"></i> Products</a></li>
+                            <li><a href="#about"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                            <li><a href="#certifications"><i class="fas fa-chevron-right"></i> Certifications</a></li>
+                            <li><a href="#contact"><i class="fas fa-chevron-right"></i> Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h4>Products</h4>
+                        <ul class="footer-links">
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Stainless Steel Screws</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Stainless Steel Nuts</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Lead Seal Screws</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Custom Fasteners</a></li>
+                            <li><a href="#"><i class="fas fa-chevron-right"></i> Special Fasteners</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h4>Contact Us</h4>
+                        <ul class="footer-contact">
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                No. 309, Weishi Road, Yueqing Economic Development Zone, Wenzhou, Zhejiang, China
+                            </li>
+                            <li>
+                                <i class="fas fa-phone-alt"></i>
+                                <a href="tel:+8618958770140">+86 189 5877 0140</a>
+                            </li>
+                            <li>
+                                <i class="fab fa-whatsapp"></i>
+                                <a href="#">+86 189 5877 0140</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="mailto:yqtianhong@163.com">yqtianhong@163.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="footer-bottom-content">
+                    <div class="copyright">
+                        &copy; 2026 <a href="#">tianhong</a> All Rights Reserved.
+                    </div>
+                    <div class="footer-bottom-links">
+                        <a href="#">Privacy Policy</a>
+                        <span>|</span>
+                        <a href="#">Terms of Service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/8618958770140" class="whatsapp-float" target="_blank" aria-label="Contact via WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- AOS Animation Library -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    
+    <script>
+        // Preloader
+        window.addEventListener('load', function() {
+            const preloader = document.querySelector('.preloader');
+            preloader.classList.add('hidden');
+            
+            setTimeout(function() {
+                preloader.style.display = 'none';
+            }, 500);
+        });
+
+        // Initialize AOS
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100
+        });
+
+        // Back to Top Button
+        const backToTop = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTop.classList.add('visible');
+            } else {
+                backToTop.classList.remove('visible');
+            }
+        });
+        
+        backToTop.addEventListener('click', function() {
+            window.scrollTo({
+top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Form Submission Handler
+        document.getElementById('inquiryForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            // Get form data
+            const formData = new FormData(this);
+            const data = {};
+            formData.forEach((value, key) => {
+                data[key] = value;
+            });
+            
+            // Show success message (in production, send to server)
+            alert('Thank you for your inquiry! We will get back to you within 24 hours.');
+            this.reset();
+        });
+
+        // Smooth scroll for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            const header = document.querySelector('.main-header');
+            if (window.pageYOffset > 50) {
+                header.style.boxShadow = '0 4px 20px rgba(0,0,0,0.1)';
+            } else {
+                header.style.boxShadow = '0 2px 10px rgba(0,0,0,0.1)';
+            }
+        });
+    </script>
+</body>
+</html>

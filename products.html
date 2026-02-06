@@ -1,0 +1,702 @@
+<?php
+/**
+ * 产品展示页面
+ * Products Display Page
+ * 
+ * 本页面展示精选产品，使用真实产品图片
+ */
+
+$page_title = "Products | TNHO Fasteners - Professional Fastener Manufacturer";
+$page_description = "Explore our wide range of high-quality fasteners including hex bolts, nuts, custom fasteners, and special parts. Since 1987.";
+?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="<?php echo $page_description; ?>">
+    <meta name="keywords" content="fasteners, screws, nuts, bolts, hex bolts, stainless steel fasteners, China manufacturer">
+    
+    <title><?php echo $page_title; ?></title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <style>
+        /* Global Styles */
+        :root {
+            --primary-color: #1a5f7a;
+            --secondary-color: #57837b;
+            --accent-color: #c38e70;
+            --dark-color: #2c3e50;
+            --light-color: #f8f9fa;
+            --text-color: #333;
+            --text-light: #666;
+            --border-radius: 8px;
+            --transition: all 0.3s ease;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        html {
+            scroll-behavior: smooth;
+        }
+        
+        body {
+            font-family: 'Inter', 'Poppins', sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #fff;
+        }
+        
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        /* Products Grid Styles */
+        .products-showcase {
+            padding: 80px 0;
+            background: var(--light-color);
+        }
+        
+        .section-header {
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto 50px;
+        }
+        
+        .section-tag {
+            display: inline-block;
+            color: var(--primary-color);
+            font-weight: 600;
+            font-size: 13px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 12px;
+        }
+        
+        .section-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: var(--dark-color);
+            margin-bottom: 15px;
+        }
+        
+        .section-subtitle {
+            color: var(--text-light);
+            font-size: 16px;
+            line-height: 1.7;
+        }
+        
+        .showcase-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+        
+        .showcase-card {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            transition: var(--transition);
+            cursor: pointer;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+        
+        .showcase-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
+        }
+        
+        .showcase-image {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+            border-radius: 12px 12px 0 0;
+            transition: var(--transition);
+        }
+        
+        .showcase-card:hover .showcase-image {
+            transform: scale(1.05);
+        }
+        
+        .showcase-image-wrapper {
+            overflow: hidden;
+            border-radius: 12px 12px 0 0;
+        }
+        
+        .showcase-content {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        .showcase-title {
+            font-size: 16px;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 8px;
+        }
+        
+        .showcase-description {
+            color: var(--text-light);
+            font-size: 13px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+        
+        .showcase-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 13px;
+            transition: var(--transition);
+        }
+        
+        .showcase-link:hover {
+            gap: 10px;
+        }
+        
+        .showcase-link i {
+            font-size: 12px;
+        }
+        
+        /* Category Cards */
+        .category-section {
+            padding: 80px 0;
+        }
+        
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            margin-top: 50px;
+        }
+        
+        .category-card {
+            background: #fff;
+            border-radius: 16px;
+            padding: 35px;
+            text-align: center;
+            transition: var(--transition);
+            border: 1px solid rgba(0,0,0,0.05);
+        }
+        
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+        }
+        
+        .category-icon {
+            width: 70px;
+            height: 70px;
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            border-radius: 16px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin: 0 auto 20px;
+            font-size: 28px;
+            color: #fff;
+        }
+        
+        .category-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: var(--dark-color);
+            margin-bottom: 12px;
+        }
+        
+        .category-description {
+            color: var(--text-light);
+            font-size: 14px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+        
+        /* CTA Section */
+        .cta-section {
+            padding: 80px 0;
+            background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%);
+            text-align: center;
+        }
+        
+        .cta-content {
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        
+        .cta-title {
+            font-size: 36px;
+            font-weight: 700;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        
+        .cta-subtitle {
+            font-size: 18px;
+            color: rgba(255,255,255,0.8);
+            margin-bottom: 35px;
+            line-height: 1.7;
+        }
+        
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 35px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 15px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            transition: var(--transition);
+        }
+        
+        .btn-primary {
+            background: var(--accent-color);
+            color: #fff;
+        }
+        
+        .btn-primary:hover {
+            background: #b07d60;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 20px rgba(195, 142, 112, 0.4);
+        }
+        
+        .btn-light {
+            background: #fff;
+            color: var(--primary-color);
+        }
+        
+        .btn-light:hover {
+            background: var(--light-color);
+            transform: translateY(-2px);
+        }
+        
+        /* Responsive */
+        @media (max-width: 1200px) {
+            .showcase-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .showcase-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .category-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .section-title {
+                font-size: 28px;
+            }
+            
+            .cta-title {
+                font-size: 28px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header (Include from header.php in production) -->
+    <header class="main-header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <div class="logo-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-name">TNHO</span>
+                        <span class="logo-tagline">FASTENERS</span>
+                    </div>
+                </a>
+
+                <nav class="main-nav">
+                    <ul class="nav-menu">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link">
+                                <i class="fas fa-home"></i>
+                                HOME
+                            </a>
+                        </li>
+                        <li class="nav-item active">
+                            <a href="products.html" class="nav-link">
+                                <i class="fas fa-box"></i>
+                                PRODUCTS
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#about" class="nav-link">
+                                <i class="fas fa-building"></i>
+                                ABOUT
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="index.html#contact" class="nav-link">
+                                <i class="fas fa-envelope"></i>
+                                CONTACT
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <a href="index.html#contact" class="btn btn-primary">
+                    <i class="fas fa-paper-plane"></i>
+                    Get Quote
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section style="background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%); padding: 60px 0; text-align: center;">
+        <div class="container">
+            <h1 style="font-size: 42px; font-weight: 700; color: #fff; margin-bottom: 15px;">Our Products</h1>
+            <p style="font-size: 18px; color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto;">High-quality fasteners manufactured since 1987</p>
+        </div>
+    </section>
+
+    <!-- Featured Products Showcase -->
+    <section class="products-showcase">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Featured Products</span>
+                <h2 class="section-title">Premium Fastener Solutions</h2>
+                <p class="section-subtitle">
+                    Explore our most popular products with professional imagery
+                </p>
+            </div>
+            
+            <div class="showcase-grid">
+                <!-- Product 1 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/hex-bolt-1.png" alt="Hex Bolt" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Hex Head Bolts</h3>
+                        <p class="showcase-description">High-strength hex bolts for industrial applications</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 2 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/stainless-nuts.jpg" alt="Stainless Steel Nuts" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Stainless Steel Nuts</h3>
+                        <p class="showcase-description">Premium quality nuts in 304 & 316 grades</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 3 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/custom-fasteners.jpg" alt="Custom Fasteners" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Custom Fasteners</h3>
+                        <p class="showcase-description">OEM/ODM solutions for special requirements</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 4 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/dacromet-bolt.webp" alt="Dacromet Coated Bolts" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Dacromet Coated Bolts</h3>
+                        <p class="showcase-description">Corrosion-resistant coated fasteners</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 5 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/fastener-assembly.jpg" alt="Fastener Assembly" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Fastener Assemblies</h3>
+                        <p class="showcase-description">Complete assembly solutions for manufacturing</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 6 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/hex-flange-bolt.jpg" alt="Hex Flange Bolts" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Hex Flange Bolts</h3>
+                        <p class="showcase-description">Integrated flange design for secure fastening</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 7 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/special-fasteners.jpg" alt="Special Fasteners" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Special Fasteners</h3>
+                        <p class="showcase-description">Non-standard custom parts per your drawings</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 8 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/special-shaped-screws.webp" alt="Special Shaped Screws" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Special Shaped Screws</h3>
+                        <p class="showcase-description">Custom shapes and designs for unique applications</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Product Categories -->
+    <section class="category-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Categories</span>
+                <h2 class="section-title">Product Categories</h2>
+                <p class="section-subtitle">
+                    Comprehensive fastener solutions for various industries
+                </p>
+            </div>
+            
+            <div class="category-grid">
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-ruler-vertical"></i>
+                    </div>
+                    <h3 class="category-title">Long Fasteners</h3>
+                    <p class="category-description">Custom screws and bolts up to 300mm and above for specialized applications</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="category-title">High-Strength Fasteners</h3>
+                    <p class="category-description">Strength classes up to 12.9 and above for demanding applications</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-drafting-compass"></i>
+                    </div>
+                    <h3 class="category-title">Special Head Designs</h3>
+                    <p class="category-description">Developed from your drawings or clear pictures for unique requirements</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="category-title">Composite Structures</h3>
+                    <p class="category-description">Formed by cold forging plus CNC machining for precision parts</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bezier-curve"></i>
+                    </div>
+                    <h3 class="category-title">U-Bolts & Shaped Parts</h3>
+                    <p class="category-description">Custom U-bolts and bent fasteners according to your requirements</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="category-title">Automotive Fasteners</h3>
+                    <p class="category-description">High-strength and special-structure screws and bolts for automotive</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-solar-panel"></i>
+                    </div>
+                    <h3 class="category-title">Solar Mounting Fasteners</h3>
+                    <p class="category-description">Fasteners for photovoltaic brackets and support structures</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-industry"></i>
+                    </div>
+                    <h3 class="category-title">Machinery Fasteners</h3>
+                    <p class="category-description">Custom fasteners and special-shaped parts for mechanical assemblies</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+                
+                <div class="category-card">
+                    <div class="category-icon">
+                        <i class="fas fa-bolt"></i>
+                    </div>
+                    <h3 class="category-title">Electrical Fasteners</h3>
+                    <p class="category-description">Precision screws and parts for electric meters and electronic equipment</p>
+                    <a href="index.html#contact" class="showcase-link">
+                        Learn More <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2 class="cta-title">Need Custom Fasteners?</h2>
+                <p class="cta-subtitle">
+                    Contact us for custom solutions tailored to your specific requirements. 
+                    Our team is ready to assist with drawings, samples, and bulk orders.
+                </p>
+                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+                    <a href="index.html#contact" class="btn btn-primary">
+                        <i class="fas fa-envelope"></i>
+                        Send Inquiry
+                    </a>
+                    <a href="tel:+8618958770140" class="btn btn-light">
+                        <i class="fab fa-whatsapp"></i>
+                        WhatsApp: +86 189 5877 0140
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer (Include from footer.php in production) -->
+    <footer class="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
+                    <div class="footer-widget">
+                        <div class="footer-logo">
+                            <div class="logo-icon">
+                                <i class="fas fa-cogs"></i>
+                            </div>
+                            <span class="logo-name">TNHO</span>
+                        </div>
+                        <p style="color: rgba(255,255,255,0.7); line-height: 1.8; font-size: 14px;">
+                            Zhejiang TNHO Fasteners Co., Ltd. - Professional fastener manufacturer since 1987.
+                        </p>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 20px; color: #fff;">Quick Links</h4>
+                        <ul style="list-style: none; padding: 0;">
+                            <li style="margin-bottom: 10px;"><a href="index.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">Home</a></li>
+                            <li style="margin-bottom: 10px;"><a href="products.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">Products</a></li>
+                            <li style="margin-bottom: 10px;"><a href="index.html#about" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">About Us</a></li>
+                            <li style="margin-bottom: 10px;"><a href="index.html#contact" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">Contact</a></li>
+                        </ul>
+                    </div>
+                    
+                    <div class="footer-widget">
+                        <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 20px; color: #fff;">Contact</h4>
+                        <ul style="list-style: none; padding: 0; color: rgba(255,255,255,0.7); font-size: 14px;">
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-map-marker-alt" style="color: var(--accent-color); margin-right: 8px;"></i>
+                                Yueqing, Wenzhou, Zhejiang, China
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-phone-alt" style="color: var(--accent-color); margin-right: 8px;"></i>
+                                +86 189 5877 0140
+                            </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fas fa-envelope" style="color: var(--accent-color); margin-right: 8px;"></i>
+                                xiebaole5@gmail.com
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom" style="background: rgba(0,0,0,0.2); padding: 20px 0;">
+            <div class="container">
+                <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 13px;">
+                    &copy; 2026 Zhejiang TNHO Fasteners Co., Ltd. All rights reserved.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
