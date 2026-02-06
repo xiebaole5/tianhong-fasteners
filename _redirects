@@ -1,0 +1,13 @@
+# Cloudflare Pages Static Site Configuration
+# This file redirects URLs for better SEO and user experience
+
+# Clean URL redirects (optional - remove # to enable)
+# /products.html /products
+# /index.html /
+
+# SPA fallback (uncomment if using React/Vue/Angular)
+# /* /index.html 200
+
+# Cache control for static assets
+# /images/* 31536000
+# /imgs/* 31536000

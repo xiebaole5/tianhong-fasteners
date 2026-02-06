@@ -1,0 +1,13 @@
+# Cloudflare Pages Configuration
+# This configures Cloudflare Pages as a static website host
+
+name = "tianhong-fasteners"
+compatibility_date = "2026-02-07"
+
+# Pages static asset deployment
+[assets]
+directory = "."
+binding = "ASSETS"
+
+# Don't run any build commands (pure static HTML)
+# Build command should be empty in Cloudflare Pages settings
