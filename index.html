@@ -201,13 +201,22 @@
         .logo-icon {
             width: 50px;
             height: 50px;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             border-radius: var(--border-radius);
             display: flex;
             align-items: center;
             justify-content: center;
-            color: #fff;
+            overflow: hidden;
+        }
+        
+        .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .logo-icon i {
             font-size: 24px;
+            color: #fff;
         }
         
         .logo-text {
@@ -973,11 +982,21 @@
         .footer-logo .logo-icon {
             width: 45px;
             height: 45px;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
             border-radius: 10px;
             display: flex;
             align-items: center;
             justify-content: center;
+            overflow: hidden;
+            flex-shrink: 0;
+        }
+        
+        .footer-logo .logo-icon img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+        
+        .footer-logo .logo-icon i {
             font-size: 20px;
             color: #fff;
         }
@@ -1557,7 +1576,7 @@
             <div class="header-content">
                 <a href="#" class="logo">
                     <div class="logo-icon">
-                        <i class="fas fa-cogs"></i>
+                        <img src="images/logo.png" alt="tianhong Logo">
                     </div>
                     <div class="logo-text">
                         tianhong
@@ -2328,7 +2347,7 @@
                     <div class="footer-widget">
                         <div class="footer-logo">
                             <div class="logo-icon">
-                                <i class="fas fa-cogs"></i>
+                                <img src="images/logo.png" alt="tianhong Logo">
                             </div>
                             <div class="logo-text">
                                 tianhong
