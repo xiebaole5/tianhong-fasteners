@@ -10,7 +10,7 @@ import json
 import os
 
 # GitHub Token (use with caution)
-TOKEN = "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"
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_API = "https://api.github.com"
 REPO_NAME = "tianhong-fasteners"
 
