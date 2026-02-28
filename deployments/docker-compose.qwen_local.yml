@@ -1,0 +1,144 @@
+# docker-compose.qwen_local.yml
+#
+# 本地 Qwen-3-8B (4-bit) 部署方案
+# 包含三个服务：
+#   1. model-webui  — text-generation-webui（GPU 加速，加载量化模型）
+#   2. wecom-bridge — WeCom <-> 本地模型的桥接服务（FastAPI）
+#   3. cloudflared  — （可选）Cloudflare Tunnel，将本地端口暴露到公网
+#
+# 用法：
+#   cp .env.example .env        # 复制并填写所有环境变量
+#   docker compose -f deployments/docker-compose.qwen_local.yml up -d
+#
+# 停止：
+#   docker compose -f deployments/docker-compose.qwen_local.yml down
+#
+# TODO: 生产使用前请确认已完成企业微信消息签名验证和 access_token 安全存储。
+
+services:
+
+  # ─────────────────────────────────────────────────────────────
+  # 服务 1: text-generation-webui
+  # 镜像默认使用官方 CUDA 构建版本；也可换成 Ollama（见注释）。
+  # GPU 要求: NVIDIA RTX 4070 8 GB 及以上
+  # ─────────────────────────────────────────────────────────────
+  model-webui:
+    image: ghcr.io/oobabooga/text-generation-webui:latest   # 官方镜像
+    container_name: qwen-model-webui
+    restart: unless-stopped
+    runtime: nvidia          # 需要 nvidia-container-toolkit
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=all
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+      - MODEL=${MODEL_PATH:-Qwen3-8B-Q4_K_M.gguf}
+      # 加载参数：4-bit 量化 + 限制上下文窗口以节省显存
+      - EXTRA_LAUNCH_ARGS=--load-in-4bit --n-gpu-layers 35 --n_ctx 4096
+    volumes:
+      - ${MODELS_DIR:-./models}:/home/user/text-generation-webui/models:ro
+    ports:
+      - "7860:7860"   # WebUI 界面
+      - "5000:5000"   # OpenAI 兼容 API（/v1/chat/completions）
+    networks:
+      - local-ai
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:5000/v1/models"]
+      interval: 30s
+      timeout: 10s
+      retries: 5
+
+  # ─────────────────────────────────────────────────────────────
+  # 备选方案：使用 Ollama 替代 text-generation-webui
+  # 取消注释下方块并注释上方 model-webui 块即可。
+  # ─────────────────────────────────────────────────────────────
+  # ollama:
+  #   image: ollama/ollama:latest
+  #   container_name: qwen-ollama
+  #   restart: unless-stopped
+  #   runtime: nvidia
+  #   environment:
+  #     - NVIDIA_VISIBLE_DEVICES=all
+  #     - OLLAMA_HOST=0.0.0.0
+  #   volumes:
+  #     - ${MODELS_DIR:-./models}:/root/.ollama:rw
+  #   ports:
+  #     - "11434:11434"
+  #   networks:
+  #     - local-ai
+
+  # ─────────────────────────────────────────────────────────────
+  # 服务 2: WeCom Bridge（企业微信 <-> 本地模型桥接）
+  # 源码：services/wecom_bridge.py
+  # ─────────────────────────────────────────────────────────────
+  wecom-bridge:
+    build:
+      context: ../services
+      dockerfile: Dockerfile.bridge  # 见下方 Dockerfile 说明
+    container_name: qwen-wecom-bridge
+    restart: unless-stopped
+    env_file:
+      - ../.env          # 从仓库根目录 .env 读取敏感变量
+    environment:
+      - MODEL_API_BASE=http://model-webui:5000/v1   # 或 http://ollama:11434
+      - MODEL_BACKEND=${MODEL_BACKEND:-webui}        # webui | ollama
+    ports:
+      - "3000:3000"    # 企业微信回调监听端口
+    volumes:
+      - ./logs:/app/logs:rw   # 审计日志挂载目录
+      - ../services/scripts:/app/scripts:ro  # 白名单脚本（只读）
+    depends_on:
+      model-webui:
+        condition: service_healthy
+    networks:
+      - local-ai
+    healthcheck:
+      test: ["CMD", "curl", "-sf", "http://localhost:3000/health"]
+      interval: 15s
+      timeout: 5s
+      retries: 3
+
+  # ─────────────────────────────────────────────────────────────
+  # 服务 3: Cloudflared 隧道（可选）
+  # 将本地 3000 端口通过 Cloudflare Tunnel 暴露到公网。
+  # 需要先在 Cloudflare Dashboard 创建隧道并获取 CLOUDFLARED_TOKEN。
+  # 也可以直接在宿主机运行 cloudflared（见 docs/DEPLOY_QWEN3_LOCAL.md）。
+  # ─────────────────────────────────────────────────────────────
+  cloudflared:
+    image: cloudflare/cloudflared:latest
+    container_name: qwen-cloudflared
+    restart: unless-stopped
+    command: tunnel --no-autoupdate run --token ${CLOUDFLARED_TOKEN}
+    # 或者使用本地配置文件：
+    # command: tunnel --config /etc/cloudflared/config.yml run
+    # volumes:
+    #   - ../cloudflared/config.yml:/etc/cloudflared/config.yml:ro
+    environment:
+      - TUNNEL_TOKEN=${CLOUDFLARED_TOKEN}
+    networks:
+      - local-ai
+    depends_on:
+      - wecom-bridge
+    profiles:
+      - tunnel   # 默认不启动；加 --profile tunnel 启用
+
+networks:
+  local-ai:
+    driver: bridge
+
+# ─────────────────────────────────────────────────────────────
+# 关于 services/Dockerfile.bridge 的说明（须手动创建）：
+#
+#   FROM python:3.11-slim
+#   WORKDIR /app
+#   COPY requirements.txt .
+#   RUN pip install --no-cache-dir -r requirements.txt
+#   COPY wecom_bridge.py .
+#   COPY scripts/ ./scripts/
+#   CMD ["uvicorn", "wecom_bridge:app", "--host", "0.0.0.0", "--port", "3000"]
+#
+# requirements.txt 应包含：
+#   fastapi>=0.110.0
+#   uvicorn[standard]>=0.29.0
+#   httpx>=0.27.0
+#   python-dotenv>=1.0.0
+#   pycryptodome>=3.20.0   # 用于企业微信消息加解密（TODO）
+# ─────────────────────────────────────────────────────────────
