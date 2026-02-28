@@ -1,0 +1,39 @@
+# Dockerfile.bridge
+# WeCom Bridge 服务 Docker 镜像
+#
+# 构建：
+#   docker build -t wecom-bridge -f services/Dockerfile.bridge services/
+#
+# 或通过 docker compose 自动构建：
+#   docker compose -f deployments/docker-compose.qwen_local.yml up -d --build
+
+FROM python:3.11-slim
+
+# 安全：以非 root 用户运行
+RUN groupadd -r bridge && useradd -r -g bridge bridge
+
+WORKDIR /app
+
+# 安装依赖
+COPY requirements.bridge.txt ./requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# 复制源码
+COPY wecom_bridge.py .
+COPY scripts/ ./scripts/
+
+# 确保脚本可执行
+RUN chmod +x ./scripts/*.sh 2>/dev/null || true
+
+# 创建日志目录
+RUN mkdir -p /app/logs && chown bridge:bridge /app/logs
+
+# 切换到非 root 用户
+USER bridge
+
+EXPOSE 3000
+
+HEALTHCHECK --interval=15s --timeout=5s --retries=3 \
+  CMD python -c "import urllib.request; urllib.request.urlopen('http://localhost:3000/health')"
+
+CMD ["uvicorn", "wecom_bridge:app", "--host", "0.0.0.0", "--port", "3000", "--workers", "1"]

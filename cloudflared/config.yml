@@ -1,0 +1,104 @@
+# cloudflared/config.yml
+#
+# Cloudflare Tunnel 配置示例
+# 将本地服务（3000 端口）暴露到 tnho-fasteners.com 的子域。
+#
+# ═══════════════════════════════════════════════════════════════
+# 前置步骤（在 Cloudflare Dashboard 创建隧道）：
+# ═══════════════════════════════════════════════════════════════
+#
+# 1. 登录 Cloudflare Dashboard → Zero Trust → Networks → Tunnels
+# 2. 点击 "Create a tunnel" → 选择 "Cloudflared"
+# 3. 为隧道命名（如 "tianhong-local-ai"）
+# 4. 安装 cloudflared 并获取隧道令牌（Token）：
+#
+#    # macOS (Homebrew)
+#    brew install cloudflared
+#
+#    # Linux (Debian/Ubuntu)
+#    wget -q https://github.com/cloudflare/cloudflared/releases/latest/download/cloudflared-linux-amd64.deb
+#    sudo dpkg -i cloudflared-linux-amd64.deb
+#
+#    # 认证（会打开浏览器）
+#    cloudflared tunnel login
+#
+# 5. 创建隧道：
+#    cloudflared tunnel create tianhong-local-ai
+#
+# 6. 记下输出的 <TUNNEL_ID>（UUID 格式）
+#
+# 7. 将凭证文件路径写入本配置文件（credentials-file）：
+#    通常位于 ~/.cloudflared/<TUNNEL_ID>.json
+#
+# 8. 在 Cloudflare DNS 添加 CNAME 记录：
+#    类型: CNAME
+#    名称: ai（即 ai.tnho-fasteners.com）
+#    目标: <TUNNEL_ID>.cfargotunnel.com
+#    代理状态: 已代理（橙色云朵）
+#
+# ═══════════════════════════════════════════════════════════════
+# 运行方式：
+# ═══════════════════════════════════════════════════════════════
+#
+# 方式 A：使用本配置文件（推荐本地开发）
+#   cloudflared tunnel --config cloudflared/config.yml run
+#
+# 方式 B：使用隧道 Token（适合 Docker/CI）
+#   cloudflared tunnel --no-autoupdate run --token <CLOUDFLARED_TOKEN>
+#   （或在 docker-compose 中通过环境变量 CLOUDFLARED_TOKEN 传入）
+#
+# 方式 C：systemd 服务（见 docs/DEPLOY_QWEN3_LOCAL.md）
+#   sudo cloudflared service install <CLOUDFLARED_TOKEN>
+#   sudo systemctl start cloudflared
+#
+# ═══════════════════════════════════════════════════════════════
+# 证书说明：
+# ═══════════════════════════════════════════════════════════════
+#
+# - cloudflared 通过 Cloudflare 网络建立加密隧道，无需在本地配置 TLS 证书。
+# - 企业微信要求回调地址使用 HTTPS；通过 Cloudflare Tunnel 后，
+#   Cloudflare 自动提供 HTTPS 证书，本地服务只需监听 HTTP。
+# - 若使用自定义域名，确保域名的 DNS 托管在 Cloudflare 上。
+#
+# ═══════════════════════════════════════════════════════════════
+
+# ⚠️  警告：以下两个占位符（<TUNNEL_ID>）必须替换为实际值，否则 cloudflared 将无法启动。
+# 运行前请先按照上方"创建隧道"步骤获取隧道 ID。
+tunnel: <TUNNEL_ID>   # 替换为实际的隧道 UUID，例如 a1b2c3d4-e5f6-7890-abcd-ef1234567890
+credentials-file: /root/.cloudflared/<TUNNEL_ID>.json   # 替换为凭证文件路径
+
+# 日志级别：info | warn | error | fatal
+loglevel: info
+
+# 入口规则：将不同路径路由到不同的本地服务
+ingress:
+  # 规则 1: 企业微信回调端点 → WeCom Bridge（本地 3000 端口）
+  - hostname: ai.tnho-fasteners.com
+    path: /wecom/callback
+    service: http://localhost:3000
+    originRequest:
+      # 连接超时设置（企业微信要求 5 秒内响应）
+      connectTimeout: 10s
+      tcpKeepAlive: 30s
+      # 禁用 TLS 验证（本地 HTTP 服务不需要）
+      noTLSVerify: true
+
+  # 规则 2: 健康检查端点 → WeCom Bridge
+  - hostname: ai.tnho-fasteners.com
+    path: /health
+    service: http://localhost:3000
+
+  # 规则 3: 可选 - 将 text-generation-webui 界面也暴露（仅开发用，生产不建议）
+  # - hostname: webui.tnho-fasteners.com
+  #   service: http://localhost:7860
+
+  # 规则 4: 默认 catch-all（必须存在，返回 404）
+  - service: http_status:404
+
+# ─────────────────────────────────────────────────────────────────────────────
+# 安全注意：
+# - 不要将企业微信 callback 暴露到没有签名验证的公网！
+#   wecom_bridge.py 已实现签名验证，但 TODO 中的加密模式需在生产前完成。
+# - 建议在 Cloudflare Dashboard 的 Zero Trust → Access 中为管理端点添加访问策略。
+# - CLOUDFLARED_TOKEN 不得写入仓库，应通过环境变量或密钥管理服务传入。
+# ─────────────────────────────────────────────────────────────────────────────

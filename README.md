@@ -1,5 +1,96 @@
 # 浙江天宏紧固件有限公司 - 外贸独立站
 
+---
+
+## 🤖 本地 AI 助手：Qwen-3-8B (4-bit) + 企业微信桥接
+
+> **新增功能**：在本地笔记本（RTX 4070 8GB）上运行量化 Qwen-3-8B 模型，通过企业微信与之对话，并通过 Cloudflared 隧道安全暴露到公网。
+
+### 架构图
+
+```
+企业微信 App
+     │  HTTPS
+     ▼
+Cloudflare Tunnel (ai.tnho-fasteners.com/wecom/callback)
+     │
+     ▼
+cloudflared (本地)
+     │
+     ▼
+wecom-bridge :3000  ──→  本地 Qwen-3-8B API
+     │                    (text-generation-webui :5000
+     │                     或 Ollama :11434)
+     ▼
+trigger_cursor()  ──→  services/scripts/ 白名单脚本
+     │
+     ▼
+回复消息 → 企业微信用户
+```
+
+### 快速启动（Docker Compose）
+
+```bash
+# 1. 复制并填写环境变量
+cp .env.example .env
+nano .env
+
+# 2. 准备模型文件（约 5.5 GB）
+mkdir -p models/
+# 将 Qwen3-8B-Q4_K_M.gguf 放入 models/ 目录
+
+# 3. 启动所有服务
+docker compose -f deployments/docker-compose.qwen_local.yml up -d
+
+# 4. 可选：同时启动 Cloudflared 隧道
+docker compose -f deployments/docker-compose.qwen_local.yml --profile tunnel up -d
+
+# 5. 验证服务健康
+curl http://localhost:3000/health
+```
+
+### 相关文件
+
+| 文件 | 说明 |
+|------|------|
+| `deployments/docker-compose.qwen_local.yml` | Docker Compose 编排（模型 + Bridge + 隧道） |
+| `services/wecom_bridge.py` | WeCom → 本地模型桥接服务（FastAPI） |
+| `services/scripts/trigger_generate_boilerplate.sh` | 示例白名单任务脚本 |
+| `cloudflared/config.yml` | Cloudflare Tunnel 配置样例 |
+| `docs/DEPLOY_QWEN3_LOCAL.md` | **详细部署说明文档（中文）** |
+| `.env.example` | 环境变量模板 |
+
+### 安全注意
+
+- **绝不**将 `.env` 文件提交到仓库（已在 `.gitignore` 中排除）
+- 生产使用前需完成企业微信消息**加解密**和**签名验证**（见 TODO 注释）
+- Bridge 仅允许执行白名单内的脚本，不执行任意命令
+- 详见 `docs/DEPLOY_QWEN3_LOCAL.md` 第 12 节安全注意事项
+
+### 故障排查
+
+```bash
+# 查看 Bridge 日志
+docker compose -f deployments/docker-compose.qwen_local.yml logs -f wecom-bridge
+
+# 查看审计日志
+cat deployments/logs/audit.log
+
+# 检查 GPU 状态
+nvidia-smi
+
+# 手动测试模型 API（text-generation-webui）
+curl http://localhost:5000/v1/chat/completions \
+  -H "Content-Type: application/json" \
+  -d '{"model":"Qwen3-8B-Q4_K_M","messages":[{"role":"user","content":"你好"}]}'
+
+# 手动测试模型 API（Ollama）
+curl http://localhost:11434/api/chat \
+  -d '{"model":"qwen3:8b","messages":[{"role":"user","content":"你好"}],"stream":false}'
+```
+
+---
+
 ## 项目完成情况总结
 
 **完成日期**: 2026年2月7日
