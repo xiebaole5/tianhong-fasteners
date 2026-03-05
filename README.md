@@ -183,11 +183,25 @@ git push -u origin main
 
 ---
 
+## ERP 环境工具文档
+
+### Windows 包管理器（非微软官方版）
+
+ERP 环境推荐使用社区维护的开源包管理器 **Scoop** 替代微软官方 `winget`：
+
+- 📄 **使用指南**: [`docs/package-manager-guide.md`](docs/package-manager-guide.md)
+- ⚙️ **自动安装脚本**: [`docs/scripts/install-scoop.ps1`](docs/scripts/install-scoop.ps1)
+
+Scoop 的优势：无需管理员权限、不修改注册表、适合受限企业环境。
+
+---
+
 ## 参考网站
 
 - **www.thjgj.net**: 产品展示风格参考
 - **GitHub Pages**: https://pages.github.com
 - **Cloudflare**: https://www.cloudflare.com
+- **Scoop（非微软包管理器）**: https://github.com/ScoopInstaller/Scoop
 
 ---
 
