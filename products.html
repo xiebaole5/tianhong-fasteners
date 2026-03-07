@@ -1,702 +1,548 @@
-<?php
-/**
- * 产品展示页面
- * Products Display Page
- * 
- * 本页面展示精选产品，使用真实产品图片
- */
-
-$page_title = "Products | TNHO Fasteners - Professional Fastener Manufacturer";
-$page_description = "Explore our wide range of high-quality fasteners including hex bolts, nuts, custom fasteners, and special parts. Since 1987.";
-?>
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="<?php echo $page_description; ?>">
-    <meta name="keywords" content="fasteners, screws, nuts, bolts, hex bolts, stainless steel fasteners, China manufacturer">
-    
-    <title><?php echo $page_title; ?></title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
-    
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <style>
-        /* Global Styles */
-        :root {
-            --primary-color: #1a5f7a;
-            --secondary-color: #57837b;
-            --accent-color: #c38e70;
-            --dark-color: #2c3e50;
-            --light-color: #f8f9fa;
-            --text-color: #333;
-            --text-light: #666;
-            --border-radius: 8px;
-            --transition: all 0.3s ease;
-        }
-        
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        
-        html {
-            scroll-behavior: smooth;
-        }
-        
-        body {
-            font-family: 'Inter', 'Poppins', sans-serif;
-            line-height: 1.6;
-            color: var(--text-color);
-            background-color: #fff;
-        }
-        
-        .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 0 20px;
-        }
-        
-        /* Products Grid Styles */
-        .products-showcase {
-            padding: 80px 0;
-            background: var(--light-color);
-        }
-        
-        .section-header {
-            text-align: center;
-            max-width: 600px;
-            margin: 0 auto 50px;
-        }
-        
-        .section-tag {
-            display: inline-block;
-            color: var(--primary-color);
-            font-weight: 600;
-            font-size: 13px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            margin-bottom: 12px;
-        }
-        
-        .section-title {
-            font-size: 36px;
-            font-weight: 700;
-            color: var(--dark-color);
-            margin-bottom: 15px;
-        }
-        
-        .section-subtitle {
-            color: var(--text-light);
-            font-size: 16px;
-            line-height: 1.7;
-        }
-        
-        .showcase-grid {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 25px;
-        }
-        
-        .showcase-card {
-            background: #fff;
-            border-radius: 12px;
-            overflow: hidden;
-            transition: var(--transition);
-            cursor: pointer;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
-        }
-        
-        .showcase-card:hover {
-            transform: translateY(-8px);
-            box-shadow: 0 15px 40px rgba(0,0,0,0.12);
-        }
-        
-        .showcase-image {
-            width: 100%;
-            height: 220px;
-            object-fit: cover;
-            border-radius: 12px 12px 0 0;
-            transition: var(--transition);
-        }
-        
-        .showcase-card:hover .showcase-image {
-            transform: scale(1.05);
-        }
-        
-        .showcase-image-wrapper {
-            overflow: hidden;
-            border-radius: 12px 12px 0 0;
-        }
-        
-        .showcase-content {
-            padding: 20px;
-            text-align: center;
-        }
-        
-        .showcase-title {
-            font-size: 16px;
-            font-weight: 600;
-            color: var(--dark-color);
-            margin-bottom: 8px;
-        }
-        
-        .showcase-description {
-            color: var(--text-light);
-            font-size: 13px;
-            line-height: 1.5;
-            margin-bottom: 15px;
-        }
-        
-        .showcase-link {
-            display: inline-flex;
-            align-items: center;
-            gap: 6px;
-            color: var(--primary-color);
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 13px;
-            transition: var(--transition);
-        }
-        
-        .showcase-link:hover {
-            gap: 10px;
-        }
-        
-        .showcase-link i {
-            font-size: 12px;
-        }
-        
-        /* Category Cards */
-        .category-section {
-            padding: 80px 0;
-        }
-        
-        .category-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 30px;
-            margin-top: 50px;
-        }
-        
-        .category-card {
-            background: #fff;
-            border-radius: 16px;
-            padding: 35px;
-            text-align: center;
-            transition: var(--transition);
-            border: 1px solid rgba(0,0,0,0.05);
-        }
-        
-        .category-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-        }
-        
-        .category-icon {
-            width: 70px;
-            height: 70px;
-            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto 20px;
-            font-size: 28px;
-            color: #fff;
-        }
-        
-        .category-title {
-            font-size: 20px;
-            font-weight: 600;
-            color: var(--dark-color);
-            margin-bottom: 12px;
-        }
-        
-        .category-description {
-            color: var(--text-light);
-            font-size: 14px;
-            line-height: 1.6;
-            margin-bottom: 20px;
-        }
-        
-        /* CTA Section */
-        .cta-section {
-            padding: 80px 0;
-            background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%);
-            text-align: center;
-        }
-        
-        .cta-content {
-            max-width: 700px;
-            margin: 0 auto;
-        }
-        
-        .cta-title {
-            font-size: 36px;
-            font-weight: 700;
-            color: #fff;
-            margin-bottom: 20px;
-        }
-        
-        .cta-subtitle {
-            font-size: 18px;
-            color: rgba(255,255,255,0.8);
-            margin-bottom: 35px;
-            line-height: 1.7;
-        }
-        
-        .btn {
-            display: inline-flex;
-            align-items: center;
-            gap: 10px;
-            padding: 15px 35px;
-            border-radius: var(--border-radius);
-            font-weight: 600;
-            font-size: 15px;
-            text-decoration: none;
-            cursor: pointer;
-            border: none;
-            transition: var(--transition);
-        }
-        
-        .btn-primary {
-            background: var(--accent-color);
-            color: #fff;
-        }
-        
-        .btn-primary:hover {
-            background: #b07d60;
-            transform: translateY(-2px);
-            box-shadow: 0 5px 20px rgba(195, 142, 112, 0.4);
-        }
-        
-        .btn-light {
-            background: #fff;
-            color: var(--primary-color);
-        }
-        
-        .btn-light:hover {
-            background: var(--light-color);
-            transform: translateY(-2px);
-        }
-        
-        /* Responsive */
-        @media (max-width: 1200px) {
-            .showcase-grid {
-                grid-template-columns: repeat(2, 1fr);
-            }
-        }
-        
-        @media (max-width: 768px) {
-            .showcase-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .category-grid {
-                grid-template-columns: 1fr;
-            }
-            
-            .section-title {
-                font-size: 28px;
-            }
-            
-            .cta-title {
-                font-size: 28px;
-            }
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>产品中心 | 浙江天虹紧固件有限公司</title>
+  <meta name="description" content="浙江天虹紧固件有限公司产品中心 – 六角螺栓、螺母、垫圈、U型螺栓、高强度紧固件及各类异型定制紧固件，服务全球50余个国家。" />
+  <meta name="keywords" content="紧固件,螺栓,螺母,垫圈,高强度螺栓,不锈钢螺钉,定制紧固件,浙江天虹" />
+  <meta name="author" content="浙江天虹紧固件有限公司" />
+  <meta property="og:title" content="产品中心 | 浙江天虹紧固件有限公司" />
+  <meta property="og:description" content="专业生产高强度螺栓、螺母、垫圈及异型紧固件，1987年创立。" />
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="zh_CN" />
+
+  <!-- Pre-built Tailwind CSS (primary stylesheet) -->
+  <link rel="stylesheet" href="css/tailwind.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <style>
+    html { scroll-behavior: smooth; }
+    .product-img-fallback {
+      background: linear-gradient(135deg, #1b263b 0%, #374151 50%, #d4891a22 100%);
+    }
+    .nav-link { position: relative; }
+    .nav-link::after {
+      content: '';
+      position: absolute; bottom: -2px; left: 0;
+      width: 0; height: 2px;
+      background: #d4891a;
+      transition: width 0.3s ease;
+    }
+    .nav-link:hover::after { width: 100%; }
+    .lang-toggle {
+      display: inline-flex; align-items: center;
+      border: 1.5px solid #d4891a; border-radius: 999px; overflow: hidden;
+    }
+    .lang-btn { padding: 4px 12px; font-size: 0.8rem; font-weight: 600; transition: background 0.2s, color 0.2s; cursor: pointer; -webkit-tap-highlight-color: transparent; text-decoration: none; display: inline-block; }
+    .lang-btn.active { background: #d4891a; color: #fff; }
+    .lang-btn:not(.active) { background: transparent; color: #d4891a; }
+    .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .product-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
+    .product-card img { transition: transform 0.4s ease; }
+    .product-card:hover img { transform: scale(1.06); }
+    .section-divider { width: 60px; height: 4px; background: linear-gradient(90deg, #d4891a, #f0a833); border-radius: 2px; margin: 12px auto 0; }
+    .category-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
+    .category-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    #browser-hint { display: none; }
+    #browser-hint.show { display: flex; }
+    ::-webkit-scrollbar { width: 6px; }
+    ::-webkit-scrollbar-track { background: #f1f5f9; }
+    ::-webkit-scrollbar-thumb { background: #d4891a; border-radius: 3px; }
+  </style>
 </head>
-<body>
 
-    <!-- Header (Include from header.php in production) -->
-    <header class="main-header">
-        <div class="container">
-            <div class="header-content">
-                <a href="index.html" class="logo">
-                    <div class="logo-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <div class="logo-text">
-                        <span class="logo-name">TNHO</span>
-                        <span class="logo-tagline">FASTENERS</span>
-                    </div>
-                </a>
+<body class="font-sans antialiased bg-white text-gray-800">
 
-                <nav class="main-nav">
-                    <ul class="nav-menu">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link">
-                                <i class="fas fa-home"></i>
-                                HOME
-                            </a>
-                        </li>
-                        <li class="nav-item active">
-                            <a href="products.html" class="nav-link">
-                                <i class="fas fa-box"></i>
-                                PRODUCTS
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html#about" class="nav-link">
-                                <i class="fas fa-building"></i>
-                                ABOUT
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="index.html#contact" class="nav-link">
-                                <i class="fas fa-envelope"></i>
-                                CONTACT
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+<!-- DOUYIN / WECHAT IN-APP BROWSER HINT -->
+<div id="browser-hint" role="alert"
+  style="position:fixed;top:0;left:0;right:0;z-index:9999;background:#d4891a;color:#fff;padding:10px 16px;font-size:13px;align-items:center;justify-content:space-between;gap:8px;">
+  <span>📱 建议点击右上角 ··· 选择「在浏览器中打开」以获得最佳体验</span>
+  <button onclick="document.getElementById('browser-hint').remove()" aria-label="关闭"
+    style="background:rgba(0,0,0,0.2);border:none;color:#fff;border-radius:50%;width:22px;height:22px;cursor:pointer;font-size:14px;flex-shrink:0;display:flex;align-items:center;justify-content:center;line-height:1;">✕</button>
+</div>
 
-                <a href="index.html#contact" class="btn btn-primary">
-                    <i class="fas fa-paper-plane"></i>
-                    Get Quote
-                </a>
-            </div>
+<!-- HEADER -->
+<header id="site-header" class="fixed top-0 left-0 right-0 z-50 bg-[#0d1b2a]/95 backdrop-blur-sm shadow-lg">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-16">
+      <a href="index.html" class="flex items-center gap-3 flex-shrink-0">
+        <div class="w-9 h-9 bg-[#d4891a] rounded-lg flex items-center justify-center">
+          <i class="fas fa-bolt text-white text-sm"></i>
         </div>
-    </header>
-
-    <!-- Page Header -->
-    <section style="background: linear-gradient(135deg, var(--dark-color) 0%, var(--primary-color) 100%); padding: 60px 0; text-align: center;">
-        <div class="container">
-            <h1 style="font-size: 42px; font-weight: 700; color: #fff; margin-bottom: 15px;">Our Products</h1>
-            <p style="font-size: 18px; color: rgba(255,255,255,0.8); max-width: 600px; margin: 0 auto;">High-quality fasteners manufactured since 1987</p>
+        <div>
+          <div class="text-white font-bold text-base leading-tight" style="font-family:Poppins,sans-serif">天虹紧固件</div>
+          <div class="text-[#f0a833] text-xs">Since 1987</div>
         </div>
-    </section>
+      </a>
 
-    <!-- Featured Products Showcase -->
-    <section class="products-showcase">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Featured Products</span>
-                <h2 class="section-title">Premium Fastener Solutions</h2>
-                <p class="section-subtitle">
-                    Explore our most popular products with professional imagery
-                </p>
-            </div>
-            
-            <div class="showcase-grid">
-                <!-- Product 1 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/hex-bolt-1.png" alt="Hex Bolt" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Hex Head Bolts</h3>
-                        <p class="showcase-description">High-strength hex bolts for industrial applications</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 2 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/stainless-nuts.jpg" alt="Stainless Steel Nuts" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Stainless Steel Nuts</h3>
-                        <p class="showcase-description">Premium quality nuts in 304 & 316 grades</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 3 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/custom-fasteners.jpg" alt="Custom Fasteners" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Custom Fasteners</h3>
-                        <p class="showcase-description">OEM/ODM solutions for special requirements</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 4 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/dacromet-bolt.webp" alt="Dacromet Coated Bolts" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Dacromet Coated Bolts</h3>
-                        <p class="showcase-description">Corrosion-resistant coated fasteners</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 5 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/fastener-assembly.jpg" alt="Fastener Assembly" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Fastener Assemblies</h3>
-                        <p class="showcase-description">Complete assembly solutions for manufacturing</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 6 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/hex-flange-bolt.jpg" alt="Hex Flange Bolts" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Hex Flange Bolts</h3>
-                        <p class="showcase-description">Integrated flange design for secure fastening</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 7 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/special-fasteners.jpg" alt="Special Fasteners" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Special Fasteners</h3>
-                        <p class="showcase-description">Non-standard custom parts per your drawings</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-                
-                <!-- Product 8 -->
-                <div class="showcase-card">
-                    <div class="showcase-image-wrapper">
-                        <img src="images/products/special-shaped-screws.webp" alt="Special Shaped Screws" class="showcase-image">
-                    </div>
-                    <div class="showcase-content">
-                        <h3 class="showcase-title">Special Shaped Screws</h3>
-                        <p class="showcase-description">Custom shapes and designs for unique applications</p>
-                        <a href="index.html#contact" class="showcase-link">
-                            Inquire Now <i class="fas fa-arrow-right"></i>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+      <nav class="hidden md:flex items-center gap-6">
+        <a href="index.html" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">首页</a>
+        <a href="products.html" class="nav-link text-[#d4891a] text-sm font-medium transition-colors" aria-current="page">产品中心</a>
+        <a href="index.html#about" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">关于我们</a>
+        <a href="index.html#contact" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">联系我们</a>
+      </nav>
 
-    <!-- Product Categories -->
-    <section class="category-section">
-        <div class="container">
-            <div class="section-header">
-                <span class="section-tag">Categories</span>
-                <h2 class="section-title">Product Categories</h2>
-                <p class="section-subtitle">
-                    Comprehensive fastener solutions for various industries
-                </p>
-            </div>
-            
-            <div class="category-grid">
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-ruler-vertical"></i>
-                    </div>
-                    <h3 class="category-title">Long Fasteners</h3>
-                    <p class="category-description">Custom screws and bolts up to 300mm and above for specialized applications</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-shield-alt"></i>
-                    </div>
-                    <h3 class="category-title">High-Strength Fasteners</h3>
-                    <p class="category-description">Strength classes up to 12.9 and above for demanding applications</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-drafting-compass"></i>
-                    </div>
-                    <h3 class="category-title">Special Head Designs</h3>
-                    <p class="category-description">Developed from your drawings or clear pictures for unique requirements</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-cogs"></i>
-                    </div>
-                    <h3 class="category-title">Composite Structures</h3>
-                    <p class="category-description">Formed by cold forging plus CNC machining for precision parts</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-bezier-curve"></i>
-                    </div>
-                    <h3 class="category-title">U-Bolts & Shaped Parts</h3>
-                    <p class="category-description">Custom U-bolts and bent fasteners according to your requirements</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-car"></i>
-                    </div>
-                    <h3 class="category-title">Automotive Fasteners</h3>
-                    <p class="category-description">High-strength and special-structure screws and bolts for automotive</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-solar-panel"></i>
-                    </div>
-                    <h3 class="category-title">Solar Mounting Fasteners</h3>
-                    <p class="category-description">Fasteners for photovoltaic brackets and support structures</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-industry"></i>
-                    </div>
-                    <h3 class="category-title">Machinery Fasteners</h3>
-                    <p class="category-description">Custom fasteners and special-shaped parts for mechanical assemblies</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-                
-                <div class="category-card">
-                    <div class="category-icon">
-                        <i class="fas fa-bolt"></i>
-                    </div>
-                    <h3 class="category-title">Electrical Fasteners</h3>
-                    <p class="category-description">Precision screws and parts for electric meters and electronic equipment</p>
-                    <a href="index.html#contact" class="showcase-link">
-                        Learn More <i class="fas fa-arrow-right"></i>
-                    </a>
-                </div>
-            </div>
+      <div class="flex items-center gap-3">
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <span class="lang-btn active" aria-current="page">中文</span>
+          <a class="lang-btn" href="en-products.html" aria-label="English">EN</a>
         </div>
-    </section>
+        <button onclick="openInquiry()"
+          class="hidden md:inline-flex items-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">
+          <i class="fas fa-envelope text-xs"></i>
+          在线询价
+        </button>
+        <button id="menu-btn" onclick="toggleMenu()" class="md:hidden text-gray-300 hover:text-white p-2" aria-label="Menu">
+          <i class="fas fa-bars text-lg"></i>
+        </button>
+      </div>
+    </div>
+  </div>
 
-    <!-- CTA Section -->
-    <section class="cta-section">
-        <div class="container">
-            <div class="cta-content">
-                <h2 class="cta-title">Need Custom Fasteners?</h2>
-                <p class="cta-subtitle">
-                    Contact us for custom solutions tailored to your specific requirements. 
-                    Our team is ready to assist with drawings, samples, and bulk orders.
-                </p>
-                <div style="display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-                    <a href="index.html#contact" class="btn btn-primary">
-                        <i class="fas fa-envelope"></i>
-                        Send Inquiry
-                    </a>
-                    <a href="tel:+8618958770140" class="btn btn-light">
-                        <i class="fab fa-whatsapp"></i>
-                        WhatsApp: +86 189 5877 0140
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div id="mobile-menu" class="hidden md:hidden bg-[#1b263b] border-t border-gray-700">
+    <div class="px-4 py-3 space-y-2">
+      <a href="index.html" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">首页</a>
+      <a href="products.html" onclick="toggleMenu()" class="block text-[#d4891a] py-2 text-sm font-semibold">产品中心</a>
+      <a href="index.html#about" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">关于我们</a>
+      <a href="index.html#contact" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">联系我们</a>
+      <button onclick="openInquiry(); toggleMenu();"
+        class="w-full bg-[#d4891a] hover:bg-[#f0a833] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors mt-2">
+        在线询价
+      </button>
+    </div>
+  </div>
+</header>
 
-    <!-- Footer (Include from footer.php in production) -->
-    <footer class="footer">
-        <div class="footer-top">
-            <div class="container">
-                <div class="footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px;">
-                    <div class="footer-widget">
-                        <div class="footer-logo">
-                            <div class="logo-icon">
-                                <i class="fas fa-cogs"></i>
-                            </div>
-                            <span class="logo-name">TNHO</span>
-                        </div>
-                        <p style="color: rgba(255,255,255,0.7); line-height: 1.8; font-size: 14px;">
-                            Zhejiang TNHO Fasteners Co., Ltd. - Professional fastener manufacturer since 1987.
-                        </p>
-                    </div>
-                    
-                    <div class="footer-widget">
-                        <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 20px; color: #fff;">Quick Links</h4>
-                        <ul style="list-style: none; padding: 0;">
-                            <li style="margin-bottom: 10px;"><a href="index.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">Home</a></li>
-                            <li style="margin-bottom: 10px;"><a href="products.html" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">Products</a></li>
-                            <li style="margin-bottom: 10px;"><a href="index.html#about" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">About Us</a></li>
-                            <li style="margin-bottom: 10px;"><a href="index.html#contact" style="color: rgba(255,255,255,0.7); text-decoration: none; font-size: 14px;">Contact</a></li>
-                        </ul>
-                    </div>
-                    
-                    <div class="footer-widget">
-                        <h4 style="font-size: 16px; font-weight: 600; margin-bottom: 20px; color: #fff;">Contact</h4>
-                        <ul style="list-style: none; padding: 0; color: rgba(255,255,255,0.7); font-size: 14px;">
-                            <li style="margin-bottom: 10px;">
-                                <i class="fas fa-map-marker-alt" style="color: var(--accent-color); margin-right: 8px;"></i>
-                                Yueqing, Wenzhou, Zhejiang, China
-                            </li>
-                            <li style="margin-bottom: 10px;">
-                                <i class="fas fa-phone-alt" style="color: var(--accent-color); margin-right: 8px;"></i>
-                                +86 189 5877 0140
-                            </li>
-                            <li style="margin-bottom: 10px;">
-                                <i class="fas fa-envelope" style="color: var(--accent-color); margin-right: 8px;"></i>
-                                xiebaole5@gmail.com
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <div class="footer-bottom" style="background: rgba(0,0,0,0.2); padding: 20px 0;">
-            <div class="container">
-                <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 13px;">
-                    &copy; 2026 Zhejiang TNHO Fasteners Co., Ltd. All rights reserved.
-                </p>
-            </div>
-        </div>
-    </footer>
 
+<!-- PAGE BANNER -->
+<section class="bg-[#0d1b2a] pt-16">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 text-center">
+    <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-3">产品目录</p>
+    <h1 class="text-3xl md:text-5xl font-extrabold text-white mb-4" style="font-family:Poppins,sans-serif">
+      产品中心
+    </h1>
+    <div class="w-16 h-1 bg-[#d4891a] rounded mx-auto mb-5"></div>
+    <p class="text-gray-400 text-base md:text-lg max-w-2xl mx-auto">
+      涵盖螺栓、螺母、垫圈及定制紧固件，满足汽车、光伏、机械等多行业需求。
+    </p>
+    <div class="flex items-center justify-center gap-2 mt-6 text-sm text-gray-500">
+      <a href="index.html" class="hover:text-[#d4891a] transition-colors">首页</a>
+      <i class="fas fa-chevron-right text-xs"></i>
+      <span class="text-[#d4891a]">产品中心</span>
+    </div>
+  </div>
+</section>
+
+
+<!-- PRODUCTS CATALOG -->
+<section id="products" class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">精选产品</p>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
+        专业紧固件系列
+      </h2>
+      <div class="section-divider"></div>
+      <p class="text-gray-500 mt-4 max-w-xl mx-auto text-base">
+        1987年创立，专注高强度螺栓、螺母、垫圈及定制异型紧固件研发与制造。
+      </p>
+    </div>
+
+    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+      <!-- Populated by JavaScript -->
+    </div>
+  </div>
+</section>
+
+
+<!-- PRODUCT CATEGORIES -->
+<section class="py-20 bg-white">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">产品分类</p>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
+        全面的紧固件解决方案
+      </h2>
+      <div class="section-divider"></div>
+    </div>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-ruler-vertical text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">超长紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">可生产300mm及以上超长螺钉、螺栓，满足特殊行业需求。</p>
+        <button onclick="openInquiry('超长紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-shield-alt text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">高强度紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">强度等级可达12.9级及以上，满足高载荷工况要求。</p>
+        <button onclick="openInquiry('高强度紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-drafting-compass text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">异型头部设计</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">根据客户图纸或样品进行异型头部开发，满足个性化需求。</p>
+        <button onclick="openInquiry('异型头部设计紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-cogs text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">冷镦+CNC复合件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">冷镦成形与CNC精密加工结合，生产高精度复合结构零件。</p>
+        <button onclick="openInquiry('冷镦CNC复合紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-bezier-curve text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">U型螺栓及弯形件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">按图定制U型螺栓及各类弯形紧固件，满足特殊安装需求。</p>
+        <button onclick="openInquiry('U型螺栓及弯形件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-car text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">汽车紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">高强度及特殊结构汽车用螺钉、螺栓，按图定制。</p>
+        <button onclick="openInquiry('汽车紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-solar-panel text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">光伏支架紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">适用于光伏铝型材支架系统的不锈钢及铝合金紧固件。</p>
+        <button onclick="openInquiry('光伏支架紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-industry text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">机械设备紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">为机械装配提供定制紧固件及异型零件，满足各类工况。</p>
+        <button onclick="openInquiry('机械设备紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-bolt text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">电气仪表紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">精密螺钉及零件，适用于电表、仪表及电子设备的装配需求。</p>
+        <button onclick="openInquiry('电气仪表紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- CTA SECTION -->
+<section class="py-20 bg-gradient-to-br from-[#0d1b2a] to-[#1a5f7a] text-center">
+  <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <h2 class="text-3xl md:text-4xl font-extrabold text-white mb-5" style="font-family:Poppins,sans-serif">
+      需要定制紧固件？
+    </h2>
+    <p class="text-gray-300 text-base md:text-lg leading-relaxed mb-8">
+      联系我们获取定制解决方案，我们团队可根据您的图纸提供打样、小批量及批量订单服务。
+    </p>
+    <div class="flex flex-col sm:flex-row gap-4 justify-center">
+      <button onclick="openInquiry()"
+        class="inline-flex items-center justify-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold px-8 py-3 rounded-xl transition-all shadow-lg">
+        <i class="fas fa-envelope"></i>
+        发送询价
+      </button>
+      <a href="tel:+8618958770140"
+        class="inline-flex items-center justify-center gap-2 bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-8 py-3 rounded-xl transition-all">
+        <i class="fab fa-whatsapp"></i>
+        WhatsApp: +86 189 5877 0140
+      </a>
+    </div>
+  </div>
+</section>
+
+
+<!-- FOOTER -->
+<footer class="bg-[#0d1b2a] text-gray-400">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="lg:col-span-2">
+        <div class="flex items-center gap-3 mb-4">
+          <div class="w-9 h-9 bg-[#d4891a] rounded-lg flex items-center justify-center">
+            <i class="fas fa-bolt text-white text-sm"></i>
+          </div>
+          <div>
+            <div class="text-white font-bold" style="font-family:Poppins,sans-serif">浙江天虹紧固件有限公司</div>
+          </div>
+        </div>
+        <p class="text-sm leading-relaxed mb-4 max-w-xs">
+          专业生产高强度螺栓、螺母、垫圈及异型紧固件，服务全球50余个国家和地区。
+        </p>
+        <div class="flex gap-3">
+          <a href="tel:+8618958770140" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="电话">
+            <i class="fas fa-phone text-xs"></i>
+          </a>
+          <a href="mailto:xiebaole5@gmail.com" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="邮件">
+            <i class="fas fa-envelope text-xs"></i>
+          </a>
+          <button type="button" onclick="openWeChat()" class="w-9 h-9 bg-gray-700 hover:bg-green-600 rounded-lg flex items-center justify-center transition-colors cursor-pointer" aria-label="微信">
+            <i class="fab fa-weixin text-sm"></i>
+          </button>
+          <a href="https://wa.me/8618958770140" target="_blank" rel="noopener noreferrer" class="w-9 h-9 bg-gray-700 hover:bg-green-500 rounded-lg flex items-center justify-center transition-colors" aria-label="WhatsApp">
+            <i class="fab fa-whatsapp text-sm"></i>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">快速导航</h4>
+        <ul class="space-y-2 text-sm">
+          <li><a href="index.html" class="hover:text-[#d4891a] transition-colors">首页</a></li>
+          <li><a href="products.html" class="text-[#d4891a]">产品中心</a></li>
+          <li><a href="index.html#about" class="hover:text-[#d4891a] transition-colors">关于我们</a></li>
+          <li><a href="index.html#quality" class="hover:text-[#d4891a] transition-colors">质量认证</a></li>
+          <li><a href="index.html#contact" class="hover:text-[#d4891a] transition-colors">联系我们</a></li>
+        </ul>
+      </div>
+
+      <div>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">联系方式</h4>
+        <ul class="space-y-3 text-sm">
+          <li class="flex items-start gap-2">
+            <i class="fas fa-phone text-[#d4891a] mt-0.5 text-xs flex-shrink-0"></i>
+            <a href="tel:+8618958770140" class="hover:text-[#d4891a] transition-colors">+86 189-5877-0140</a>
+          </li>
+          <li class="flex items-start gap-2">
+            <i class="fas fa-envelope text-[#d4891a] mt-0.5 text-xs flex-shrink-0"></i>
+            <a href="mailto:xiebaole5@gmail.com" class="hover:text-[#d4891a] transition-colors break-all">xiebaole5@gmail.com</a>
+          </li>
+          <li class="flex items-start gap-2">
+            <i class="fab fa-weixin text-[#d4891a] mt-0.5 text-sm flex-shrink-0"></i>
+            <span>18958770140</span>
+          </li>
+          <li class="flex items-start gap-2">
+            <i class="fas fa-map-marker-alt text-[#d4891a] mt-0.5 text-xs flex-shrink-0"></i>
+            <span>浙江省乐清经济开发区纬十路309号</span>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="border-t border-gray-700">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
+      <div>© 2026 浙江天虹紧固件有限公司 版权所有</div>
+      <div class="flex items-center gap-4">
+        <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"
+          class="hover:text-[#d4891a] transition-colors flex items-center gap-1">
+          <i class="fas fa-shield-alt text-xs"></i>
+          浙ICP备2026010279号
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+
+<!-- INQUIRY MODAL -->
+<div id="inquiry-modal" class="hidden fixed inset-0 z-[200] flex items-center justify-center p-4" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+  <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeInquiry()"></div>
+  <div class="relative bg-white rounded-2xl w-full max-w-lg shadow-2xl max-h-[90vh] overflow-y-auto">
+    <div class="flex items-center justify-between p-6 border-b">
+      <h2 id="modal-title" class="font-bold text-xl text-[#0d1b2a]" style="font-family:Poppins,sans-serif">产品询价</h2>
+      <button onclick="closeInquiry()" class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors" aria-label="关闭">
+        <i class="fas fa-times text-gray-500"></i>
+      </button>
+    </div>
+    <div class="p-6">
+      <form id="modal-form" onsubmit="submitModalForm(event)">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">姓名 *</label>
+            <input type="text" name="name" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
+          </div>
+          <div>
+            <label class="block text-sm font-medium text-gray-700 mb-1">公司</label>
+            <input type="text" name="company" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
+          </div>
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium text-gray-700 mb-1">电子邮件 *</label>
+          <input type="email" name="email" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium text-gray-700 mb-1">电话/WhatsApp</label>
+          <input type="tel" name="phone" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
+        </div>
+        <div class="mb-4">
+          <label class="block text-sm font-medium text-gray-700 mb-1">感兴趣的产品</label>
+          <input type="text" name="product" id="modal-product" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
+        </div>
+        <div class="mb-6">
+          <label class="block text-sm font-medium text-gray-700 mb-1">询价内容 *</label>
+          <textarea name="message" rows="4" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] resize-none"></textarea>
+        </div>
+        <button type="submit"
+          class="w-full bg-[#0d1b2a] hover:bg-[#1b263b] text-white font-semibold py-3 px-6 rounded-xl transition-colors flex items-center justify-center gap-2">
+          <i class="fas fa-paper-plane text-sm"></i>
+          发送询价
+        </button>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+<!-- FLOATING BUTTONS -->
+<button id="back-to-top"
+  onclick="window.scrollTo({top:0,behavior:'smooth'})"
+  class="hidden fixed bottom-6 right-6 z-40 w-11 h-11 bg-[#0d1b2a] hover:bg-[#1b263b] text-white rounded-xl shadow-lg transition-all items-center justify-center"
+  aria-label="返回顶部">
+  <i class="fas fa-chevron-up text-sm"></i>
+</button>
+
+<a href="https://wa.me/8618958770140" target="_blank" rel="noopener noreferrer"
+  class="fixed bottom-20 right-6 z-40 w-11 h-11 bg-green-500 hover:bg-green-600 text-white rounded-xl shadow-lg transition-all flex items-center justify-center"
+  aria-label="WhatsApp">
+  <i class="fab fa-whatsapp text-xl"></i>
+</a>
+
+
+<!-- JAVASCRIPT -->
+<script>
+/* Mobile Menu */
+function toggleMenu() {
+  document.getElementById('mobile-menu').classList.toggle('hidden');
+}
+
+/* Inquiry Modal */
+function openInquiry(productName) {
+  var modal = document.getElementById('inquiry-modal');
+  modal.classList.remove('hidden');
+  document.body.style.overflow = 'hidden';
+  if (productName) document.getElementById('modal-product').value = productName;
+}
+function closeInquiry() {
+  document.getElementById('inquiry-modal').classList.add('hidden');
+  document.body.style.overflow = '';
+}
+document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeInquiry(); });
+
+/* WeChat: open protocol on mobile, show ID in alert on desktop */
+function openWeChat() {
+  if (/Mobile|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+    window.location.href = 'weixin://dl/chat?18958770140';
+  } else {
+    alert('微信号：18958770140\n请在微信中搜索该号码添加好友咨询');
+  }
+}
+
+/* Form Submission */
+function submitModalForm(e) {
+  e.preventDefault();
+  alert('感谢您的询价！我们将在24小时内与您联系。');
+  e.target.reset();
+  closeInquiry();
+}
+
+/* Back to Top */
+window.addEventListener('scroll', function() {
+  var btn = document.getElementById('back-to-top');
+  if (window.scrollY > 400) { btn.classList.remove('hidden'); btn.classList.add('flex'); }
+  else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
+});
+
+/* Load Products */
+fetch('data/products.json')
+  .then(function(r) { return r.json(); })
+  .then(function(data) { renderProducts(data.products); })
+  .catch(function() { renderProducts(getFallbackProducts()); });
+
+function renderProducts(products) {
+  var grid = document.getElementById('product-grid');
+  if (!grid) return;
+  grid.innerHTML = products.map(function(p) {
+    return '<div class="product-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">' +
+      '<div class="relative aspect-[4/3] overflow-hidden product-img-fallback">' +
+      '<img src="' + p.image + '" alt="' + p.name_zh + '"' +
+      ' class="w-full h-full object-cover" loading="lazy" onerror="this.style.display=\'none\'">' +
+      '<div class="absolute top-3 left-3"><span class="bg-[#d4891a] text-white text-xs font-semibold px-2.5 py-1 rounded-full">' +
+      p.category_zh + '</span></div></div>' +
+      '<div class="p-4">' +
+      '<h3 class="font-bold text-[#0d1b2a] text-base mb-1" style="font-family:Poppins,sans-serif">' + p.name_zh + '</h3>' +
+      '<p class="text-gray-500 text-xs mb-1">规格：' + p.spec + '</p>' +
+      '<p class="text-gray-500 text-xs mb-3">材质：' + p.material + '</p>' +
+      '<button onclick="openInquiry(\'' + p.name_zh + '\')" ' +
+      'class="w-full text-center border border-[#0d1b2a] text-[#0d1b2a] hover:bg-[#0d1b2a] hover:text-white text-xs font-semibold py-2 rounded-lg transition-colors">' +
+      '询价</button>' +
+      '</div></div>';
+  }).join('');
+}
+
+function getFallbackProducts() {
+  return [
+    {id:1, name_zh:"六角螺栓", spec:"M4–M64, Grade 4.6/8.8/10.9/12.9", material:"碳钢 / SS304 / SS316", category_zh:"螺栓类", image:""},
+    {id:2, name_zh:"内六角螺钉", spec:"M3–M36, DIN 912", material:"碳钢 / 合金钢 / SS304", category_zh:"螺钉类", image:""},
+    {id:3, name_zh:"法兰螺栓", spec:"M6–M24, Grade 8.8/10.9", material:"碳钢镀锌 / 不锈钢", category_zh:"螺栓类", image:""},
+    {id:4, name_zh:"高强度螺栓", spec:"M12–M100, Grade 10.9/12.9", material:"合金钢热处理", category_zh:"高强度紧固件", image:""},
+    {id:5, name_zh:"U型螺栓", spec:"M6–M30, Custom", material:"碳钢 / SS316", category_zh:"异型螺栓", image:""},
+    {id:6, name_zh:"不锈钢自攻螺钉", spec:"ST2.2–ST6.3, DIN 7981", material:"SS304 / SS316L", category_zh:"螺钉类", image:""},
+    {id:7, name_zh:"六角螺母", spec:"M3–M64, DIN 934", material:"碳钢 / SS304 / SS316", category_zh:"螺母类", image:""},
+    {id:8, name_zh:"尼龙自锁螺母", spec:"M4–M36, DIN 985", material:"碳钢镀锌 / SS304", category_zh:"螺母类", image:""},
+    {id:9, name_zh:"平垫圈", spec:"M3–M100, DIN 125", material:"碳钢 / SS304 / 黄铜", category_zh:"垫圈类", image:""},
+    {id:10, name_zh:"弹簧垫圈", spec:"M3–M64, DIN 127", material:"弹簧钢 / SS301", category_zh:"垫圈类", image:""},
+    {id:11, name_zh:"汽车专用紧固件", spec:"按图定制, Grade 8.8–12.9", material:"合金钢 / 达克罗镀层", category_zh:"汽车紧固件", image:""},
+    {id:12, name_zh:"光伏支架紧固件", spec:"M8–M16, 适用光伏铝型材", material:"SS304 / SS316 / 铝合金 6061", category_zh:"新能源紧固件", image:""}
+  ];
+}
+
+/* Douyin / WeChat in-app browser detection */
+(function() {
+  var ua = navigator.userAgent || '';
+  var isInApp = /Aweme|BytedanceWebview|musical_ly|MicroMessenger|MQQBrowser|QQ\//i.test(ua);
+  if (isInApp) {
+    var hint = document.getElementById('browser-hint');
+    if (hint) hint.classList.add('show');
+  }
+})();
+</script>
 </body>
 </html>
