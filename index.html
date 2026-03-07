@@ -1,14 +1,14 @@
 <!DOCTYPE html>
-<html lang="zh" id="html-root">
+<html lang="zh-CN">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>浙江天虹紧固件有限公司 | Zhejiang Tianhong Fasteners Co., Ltd.</title>
-  <meta name="description" content="浙江天虹紧固件有限公司 – 专业生产高强度螺栓、螺母、垫圈及异型紧固件，服务汽车、光伏、机械等行业。Zhejiang Tianhong Fasteners – Professional manufacturer of high-strength bolts, nuts, washers and custom fasteners." />
-  <meta name="keywords" content="紧固件,螺栓,螺母,高强度螺栓,不锈钢螺钉,fastener,bolt,nut,washer,stainless steel screw,浙江天虹" />
+  <title>浙江天虹紧固件有限公司 | 专业紧固件制造商</title>
+  <meta name="description" content="浙江天虹紧固件有限公司 – 专业生产高强度螺栓、螺母、垫圈及异型紧固件，服务汽车、光伏、机械等行业。" />
+  <meta name="keywords" content="紧固件,螺栓,螺母,高强度螺栓,不锈钢螺钉,浙江天虹" />
   <meta name="author" content="浙江天虹紧固件有限公司" />
-  <meta property="og:title" content="浙江天虹紧固件有限公司 | Zhejiang Tianhong Fasteners" />
-  <meta property="og:description" content="专业生产高强度螺栓、螺母、垫圈及异型紧固件 | Professional fastener manufacturer since 1987" />
+  <meta property="og:title" content="浙江天虹紧固件有限公司" />
+  <meta property="og:description" content="专业生产高强度螺栓、螺母、垫圈及异型紧固件" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="zh_CN" />
 
@@ -21,8 +21,6 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <style>
-    html.lang-zh [data-en] { display: none !important; }
-    html.lang-en [data-zh] { display: none !important; }
     html { scroll-behavior: smooth; }
     .hero-overlay {
       background: linear-gradient(135deg,
@@ -44,19 +42,15 @@
     .nav-link:hover::after { width: 100%; }
     .lang-toggle {
       display: inline-flex; align-items: center;
-      border: 1.5px solid #d4891a; border-radius: 999px; overflow: hidden; cursor: pointer;
+      border: 1.5px solid #d4891a; border-radius: 999px; overflow: hidden;
     }
-    .lang-btn { padding: 4px 12px; font-size: 0.8rem; font-weight: 600; transition: background 0.2s, color 0.2s; cursor: pointer; -webkit-tap-highlight-color: transparent; }
+    .lang-btn { padding: 4px 12px; font-size: 0.8rem; font-weight: 600; transition: background 0.2s, color 0.2s; cursor: pointer; -webkit-tap-highlight-color: transparent; text-decoration: none; display: inline-block; }
     .lang-btn.active { background: #d4891a; color: #fff; }
     .lang-btn:not(.active) { background: transparent; color: #d4891a; }
     .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
     .product-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
     .product-card img { transition: transform 0.4s ease; }
     .product-card:hover img { transform: scale(1.06); }
-    /* Content is visible by default; JS progressively adds animation on desktop */
-    .fade-up { transition: opacity 0.6s ease, transform 0.6s ease; }
-    .fade-anim .fade-up { opacity: 0; transform: translateY(30px); }
-    .fade-up.visible { opacity: 1 !important; transform: none !important; }
     .section-divider { width: 60px; height: 4px; background: linear-gradient(90deg, #d4891a, #f0a833); border-radius: 2px; margin: 12px auto 0; }
     /* Douyin/WeChat in-app browser banner */
     #browser-hint { display: none; }
@@ -67,16 +61,13 @@
   </style>
 </head>
 
-<body class="lang-zh font-sans antialiased bg-white text-gray-800" id="body">
+<body class="font-sans antialiased bg-white text-gray-800">
 
 <!-- DOUYIN / WECHAT IN-APP BROWSER HINT -->
 <div id="browser-hint" role="alert"
   style="position:fixed;top:0;left:0;right:0;z-index:9999;background:#d4891a;color:#fff;padding:10px 16px;font-size:13px;align-items:center;justify-content:space-between;gap:8px;">
-  <span>
-    <span data-zh>📱 建议点击右上角 ··· 选择「在浏览器中打开」以获得最佳体验</span>
-    <span data-en>📱 For the best experience, tap ··· and choose "Open in Browser"</span>
-  </span>
-  <button onclick="document.getElementById('browser-hint').remove()" aria-label="Close"
+  <span>📱 建议点击右上角 ··· 选择「在浏览器中打开」以获得最佳体验</span>
+  <button onclick="document.getElementById('browser-hint').remove()" aria-label="关闭"
     style="background:rgba(0,0,0,0.2);border:none;color:#fff;border-radius:50%;width:22px;height:22px;cursor:pointer;font-size:14px;flex-shrink:0;display:flex;align-items:center;justify-content:center;line-height:1;">✕</button>
 </div>
 
@@ -89,36 +80,27 @@
           <i class="fas fa-bolt text-white text-sm"></i>
         </div>
         <div>
-          <div data-zh class="text-white font-bold text-base leading-tight" style="font-family:Poppins,sans-serif">天虹紧固件</div>
-          <div data-en class="text-white font-bold text-sm leading-tight" style="font-family:Poppins,sans-serif">Tianhong Fasteners</div>
+          <div class="text-white font-bold text-base leading-tight" style="font-family:Poppins,sans-serif">天虹紧固件</div>
           <div class="text-[#f0a833] text-xs">Since 1987</div>
         </div>
       </a>
 
       <nav class="hidden md:flex items-center gap-6">
-        <a href="#products" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">
-          <span data-zh>产品中心</span><span data-en>Products</span>
-        </a>
-        <a href="#about" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">
-          <span data-zh>关于我们</span><span data-en>About</span>
-        </a>
-        <a href="#quality" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">
-          <span data-zh>质量认证</span><span data-en>Quality</span>
-        </a>
-        <a href="#contact" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">
-          <span data-zh>联系我们</span><span data-en>Contact</span>
-        </a>
+        <a href="#products" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">产品中心</a>
+        <a href="#about" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">关于我们</a>
+        <a href="#quality" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">质量认证</a>
+        <a href="#contact" class="nav-link text-gray-300 hover:text-white text-sm font-medium transition-colors">联系我们</a>
       </nav>
 
       <div class="flex items-center gap-3">
-        <div class="lang-toggle" id="lang-toggle" role="group" aria-label="Language selector">
-          <button class="lang-btn active" id="btn-zh" onclick="setLang('zh')" aria-label="中文">中文</button>
-          <button class="lang-btn" id="btn-en" onclick="setLang('en')" aria-label="English">EN</button>
+        <div class="lang-toggle" role="group" aria-label="Language selector">
+          <span class="lang-btn active" aria-current="page">中文</span>
+          <a class="lang-btn" href="en.html" aria-label="English">EN</a>
         </div>
         <button onclick="openInquiry()"
           class="hidden md:inline-flex items-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">
           <i class="fas fa-envelope text-xs"></i>
-          <span data-zh>在线询价</span><span data-en>Inquiry</span>
+          在线询价
         </button>
         <button id="menu-btn" onclick="toggleMenu()" class="md:hidden text-gray-300 hover:text-white p-2" aria-label="Menu">
           <i class="fas fa-bars text-lg"></i>
@@ -129,13 +111,13 @@
 
   <div id="mobile-menu" class="hidden md:hidden bg-[#1b263b] border-t border-gray-700">
     <div class="px-4 py-3 space-y-2">
-      <a href="#products" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm"><span data-zh>产品中心</span><span data-en>Products</span></a>
-      <a href="#about" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm"><span data-zh>关于我们</span><span data-en>About</span></a>
-      <a href="#quality" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm"><span data-zh>质量认证</span><span data-en>Quality</span></a>
-      <a href="#contact" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm"><span data-zh>联系我们</span><span data-en>Contact</span></a>
+      <a href="#products" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">产品中心</a>
+      <a href="#about" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">关于我们</a>
+      <a href="#quality" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">质量认证</a>
+      <a href="#contact" onclick="toggleMenu()" class="block text-gray-300 hover:text-white py-2 text-sm">联系我们</a>
       <button onclick="openInquiry(); toggleMenu();"
         class="w-full bg-[#d4891a] hover:bg-[#f0a833] text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors mt-2">
-        <span data-zh>在线询价</span><span data-en>Online Inquiry</span>
+        在线询价
       </button>
     </div>
   </div>
@@ -145,7 +127,7 @@
 <!-- HERO -->
 <section id="hero" class="relative min-h-screen flex items-center overflow-hidden" style="min-height:100svh">
   <div class="absolute inset-0">
-    <img src="warehouse.jpg" alt="Fastener factory" class="w-full h-full object-cover" loading="eager" onerror="this.style.display='none'" />
+    <img src="warehouse.jpg" alt="紧固件工厂" class="w-full h-full object-cover" loading="eager" onerror="this.style.display='none'" />
     <div class="hero-overlay absolute inset-0"></div>
     <div class="absolute inset-0 bg-[#0d1b2a]/80"></div>
   </div>
@@ -154,32 +136,29 @@
 
   <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 md:pb-24">
     <div class="max-w-3xl">
-      <div class="inline-flex items-center gap-2 bg-[#d4891a]/20 border border-[#d4891a]/40 text-[#f0a833] rounded-full px-4 py-1.5 text-sm font-medium mb-6 fade-up">
+      <div class="inline-flex items-center gap-2 bg-[#d4891a]/20 border border-[#d4891a]/40 text-[#f0a833] rounded-full px-4 py-1.5 text-sm font-medium mb-6">
         <i class="fas fa-industry text-xs"></i>
-        <span data-zh>专业紧固件制造商 · 1987年创立</span>
-        <span data-en>Professional Fastener Manufacturer · Est. 1987</span>
+        <span>专业紧固件制造商 · 1987年创立</span>
       </div>
 
-      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-5 fade-up" style="font-family:Poppins,sans-serif">
-        <span data-zh>浙江天虹<br/><span class="text-[#d4891a]">紧固件</span>有限公司</span>
-        <span data-en>Zhejiang Tianhong<br/><span class="text-[#d4891a]">Fasteners</span> Co., Ltd.</span>
+      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-5" style="font-family:Poppins,sans-serif">
+        浙江天虹<br/><span class="text-[#d4891a]">紧固件</span>有限公司
       </h1>
 
-      <p class="text-gray-300 text-base md:text-lg leading-relaxed mb-8 fade-up max-w-2xl">
-        <span data-zh>专注高强度螺栓、螺母、垫圈及异型紧固件研发与制造，深耕汽车、光伏、机械装备等行业超过35年。</span>
-        <span data-en>Specialising in high-strength bolts, nuts, washers and custom fasteners for automotive, solar energy and industrial machinery sectors for over 35 years.</span>
+      <p class="text-gray-300 text-base md:text-lg leading-relaxed mb-8 max-w-2xl">
+        专注高强度螺栓、螺母、垫圈及异型紧固件研发与制造，深耕汽车、光伏、机械装备等行业超过35年。
       </p>
 
-      <div class="flex flex-col sm:flex-row flex-wrap gap-3 fade-up">
+      <div class="flex flex-col sm:flex-row flex-wrap gap-3">
         <button onclick="openInquiry()"
           class="inline-flex items-center justify-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold px-6 py-3 rounded-xl text-base transition-all shadow-lg">
           <i class="fas fa-paper-plane"></i>
-          <span data-zh>立即询价</span><span data-en>Get a Quote</span>
+          立即询价
         </button>
         <a href="#products"
           class="inline-flex items-center justify-center gap-2 border-2 border-white/40 hover:border-white text-white font-semibold px-6 py-3 rounded-xl text-base transition-all hover:bg-white/10">
           <i class="fas fa-th-large"></i>
-          <span data-zh>浏览产品</span><span data-en>View Products</span>
+          浏览产品
         </a>
         <a href="tel:+8618958770140"
           class="inline-flex items-center justify-center gap-2 border-2 border-green-500/60 hover:border-green-400 text-green-400 font-semibold px-6 py-3 rounded-xl text-base transition-all hover:bg-green-500/10">
@@ -191,7 +170,7 @@
   </div>
 
   <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce hidden sm:flex">
-    <span class="text-gray-400 text-xs"><span data-zh>向下滚动</span><span data-en>Scroll</span></span>
+    <span class="text-gray-400 text-xs">向下滚动</span>
     <i class="fas fa-chevron-down text-[#d4891a] text-sm"></i>
   </div>
 </section>
@@ -201,21 +180,21 @@
 <section class="bg-[#0d1b2a] py-10">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
-      <div class="text-center fade-up">
+      <div class="text-center">
         <div class="text-4xl font-extrabold text-[#d4891a]" style="font-family:Poppins,sans-serif">35+</div>
-        <div class="text-gray-400 text-sm mt-1"><span data-zh>年制造经验</span><span data-en>Years of Experience</span></div>
+        <div class="text-gray-400 text-sm mt-1">年制造经验</div>
       </div>
-      <div class="text-center fade-up">
+      <div class="text-center">
         <div class="text-4xl font-extrabold text-[#d4891a]" style="font-family:Poppins,sans-serif">1000+</div>
-        <div class="text-gray-400 text-sm mt-1"><span data-zh>产品规格</span><span data-en>Product Specs</span></div>
+        <div class="text-gray-400 text-sm mt-1">产品规格</div>
       </div>
-      <div class="text-center fade-up">
+      <div class="text-center">
         <div class="text-4xl font-extrabold text-[#d4891a]" style="font-family:Poppins,sans-serif">50+</div>
-        <div class="text-gray-400 text-sm mt-1"><span data-zh>服务国家</span><span data-en>Countries Served</span></div>
+        <div class="text-gray-400 text-sm mt-1">服务国家</div>
       </div>
-      <div class="text-center fade-up">
+      <div class="text-center">
         <div class="text-4xl font-extrabold text-[#d4891a]" style="font-family:Poppins,sans-serif">ISO</div>
-        <div class="text-gray-400 text-sm mt-1"><span data-zh>国际质量认证</span><span data-en>9001 Certified</span></div>
+        <div class="text-gray-400 text-sm mt-1">国际质量认证</div>
       </div>
     </div>
   </div>
@@ -225,17 +204,14 @@
 <!-- PRODUCTS -->
 <section id="products" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14 fade-up">
-      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">
-        <span data-zh>我们的产品</span><span data-en>Our Products</span>
-      </p>
+    <div class="text-center mb-14">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">我们的产品</p>
       <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
-        <span data-zh>专业紧固件系列</span><span data-en>Professional Fastener Range</span>
+        专业紧固件系列
       </h2>
       <div class="section-divider"></div>
       <p class="text-gray-500 mt-4 max-w-xl mx-auto text-base">
-        <span data-zh>涵盖螺栓、螺母、垫圈及定制紧固件，满足汽车、光伏、机械等多行业需求。</span>
-        <span data-en>Covering bolts, nuts, washers and custom fasteners for automotive, solar and industrial sectors.</span>
+        涵盖螺栓、螺母、垫圈及定制紧固件，满足汽车、光伏、机械等多行业需求。
       </p>
     </div>
 
@@ -243,10 +219,10 @@
       <!-- Populated by JavaScript -->
     </div>
 
-    <div class="text-center mt-10 fade-up">
+    <div class="text-center mt-10">
       <a href="products.html"
         class="inline-flex items-center gap-2 border-2 border-[#0d1b2a] text-[#0d1b2a] hover:bg-[#0d1b2a] hover:text-white font-semibold px-8 py-3 rounded-xl transition-all">
-        <span data-zh>查看全部产品</span><span data-en>View All Products</span>
+        查看全部产品
         <i class="fas fa-arrow-right text-sm"></i>
       </a>
     </div>
@@ -259,33 +235,28 @@
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 
-      <div class="relative fade-up order-2 lg:order-1">
+      <div class="relative order-2 lg:order-1">
         <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-gray-200 product-img-fallback">
-          <img src="workshop.jpg" alt="Workshop" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'" />
+          <img src="workshop.jpg" alt="生产车间" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'" />
         </div>
         <div class="absolute -bottom-5 -right-5 bg-[#d4891a] text-white rounded-2xl px-6 py-4 shadow-2xl">
           <div class="font-extrabold text-3xl leading-none" style="font-family:Poppins,sans-serif">35+</div>
-          <div class="text-xs mt-1 text-amber-100"><span data-zh>年行业经验</span><span data-en>Years Experience</span></div>
+          <div class="text-xs mt-1 text-amber-100">年行业经验</div>
         </div>
         <div class="absolute -top-4 -left-4 w-20 h-20 border-4 border-[#d4891a]/30 rounded-2xl pointer-events-none"></div>
       </div>
 
-      <div class="order-1 lg:order-2 fade-up">
-        <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">
-          <span data-zh>关于我们</span><span data-en>About Us</span>
-        </p>
+      <div class="order-1 lg:order-2">
+        <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">关于我们</p>
         <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a] mb-4" style="font-family:Poppins,sans-serif">
-          <span data-zh>深耕紧固件制造<br/>超过三十五年</span>
-          <span data-en>Crafting Precision<br/>Fasteners Since 1987</span>
+          深耕紧固件制造<br/>超过三十五年
         </h2>
         <div class="w-16 h-1 bg-[#d4891a] rounded mb-6"></div>
         <p class="text-gray-600 leading-relaxed mb-6">
-          <span data-zh>浙江天虹紧固件有限公司成立于1987年，位于中国紧固件之乡——浙江乐清。公司专注于高强度螺栓、螺母、垫圈及各类异型紧固件的研发与生产，产品广泛应用于汽车零部件、光伏支架系统、工业机械设备等领域。</span>
-          <span data-en>Founded in 1987 in Yueqing, Zhejiang — China's fastener capital — Tianhong specialises in R&amp;D and manufacturing of high-strength bolts, nuts, washers and custom fasteners for automotive, solar PV and industrial machinery applications worldwide.</span>
+          浙江天虹紧固件有限公司成立于1987年，位于中国紧固件之乡——浙江乐清。公司专注于高强度螺栓、螺母、垫圈及各类异型紧固件的研发与生产，产品广泛应用于汽车零部件、光伏支架系统、工业机械设备等领域。
         </p>
         <p class="text-gray-600 leading-relaxed mb-8">
-          <span data-zh>依托先进的冷镦成型、CNC精密加工及严格的质量管控体系，我们为全球50余个国家和地区的客户提供可靠的紧固件解决方案。</span>
-          <span data-en>Leveraging advanced cold-forging, CNC machining and rigorous quality control, we deliver reliable fastener solutions to clients in 50+ countries, driven by customer requirements and continuous innovation.</span>
+          依托先进的冷镦成型、CNC精密加工及严格的质量管控体系，我们为全球50余个国家和地区的客户提供可靠的紧固件解决方案。
         </p>
 
         <div class="grid grid-cols-2 gap-4 mb-8">
@@ -294,8 +265,8 @@
               <i class="fas fa-check text-[#d4891a] text-xs"></i>
             </div>
             <div>
-              <div class="font-semibold text-sm text-gray-800"><span data-zh>ISO 9001 认证</span><span data-en>ISO 9001 Certified</span></div>
-              <div class="text-gray-500 text-xs"><span data-zh>国际质量体系</span><span data-en>International QMS</span></div>
+              <div class="font-semibold text-sm text-gray-800">ISO 9001 认证</div>
+              <div class="text-gray-500 text-xs">国际质量体系</div>
             </div>
           </div>
           <div class="flex items-start gap-3">
@@ -303,8 +274,8 @@
               <i class="fas fa-cog text-[#d4891a] text-xs"></i>
             </div>
             <div>
-              <div class="font-semibold text-sm text-gray-800"><span data-zh>按图定制</span><span data-en>Custom to Drawing</span></div>
-              <div class="text-gray-500 text-xs"><span data-zh>异型件OEM/ODM</span><span data-en>OEM / ODM Support</span></div>
+              <div class="font-semibold text-sm text-gray-800">按图定制</div>
+              <div class="text-gray-500 text-xs">异型件OEM/ODM</div>
             </div>
           </div>
           <div class="flex items-start gap-3">
@@ -312,8 +283,8 @@
               <i class="fas fa-shipping-fast text-[#d4891a] text-xs"></i>
             </div>
             <div>
-              <div class="font-semibold text-sm text-gray-800"><span data-zh>快速交货</span><span data-en>Fast Delivery</span></div>
-              <div class="text-gray-500 text-xs"><span data-zh>标准件现货供应</span><span data-en>Stock items ship fast</span></div>
+              <div class="font-semibold text-sm text-gray-800">快速交货</div>
+              <div class="text-gray-500 text-xs">标准件现货供应</div>
             </div>
           </div>
           <div class="flex items-start gap-3">
@@ -321,15 +292,15 @@
               <i class="fas fa-globe text-[#d4891a] text-xs"></i>
             </div>
             <div>
-              <div class="font-semibold text-sm text-gray-800"><span data-zh>全球出口</span><span data-en>Global Export</span></div>
-              <div class="text-gray-500 text-xs"><span data-zh>覆盖50余个国家</span><span data-en>50+ countries served</span></div>
+              <div class="font-semibold text-sm text-gray-800">全球出口</div>
+              <div class="text-gray-500 text-xs">覆盖50余个国家</div>
             </div>
           </div>
         </div>
 
         <button onclick="openInquiry()"
           class="inline-flex items-center gap-2 bg-[#0d1b2a] hover:bg-[#1b263b] text-white font-semibold px-6 py-3 rounded-xl transition-colors">
-          <span data-zh>联系我们获取报价</span><span data-en>Contact Us for a Quote</span>
+          联系我们获取报价
           <i class="fas fa-arrow-right text-sm"></i>
         </button>
       </div>
@@ -341,60 +312,58 @@
 <!-- QUALITY -->
 <section id="quality" class="py-20 bg-[#0d1b2a] text-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14 fade-up">
-      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">
-        <span data-zh>品质保障</span><span data-en>Quality Assurance</span>
-      </p>
+    <div class="text-center mb-14">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">品质保障</p>
       <h2 class="text-3xl md:text-4xl font-extrabold" style="font-family:Poppins,sans-serif">
-        <span data-zh>严格的质量管控体系</span><span data-en>Rigorous Quality Management</span>
+        严格的质量管控体系
       </h2>
       <div class="w-16 h-1 bg-[#d4891a] rounded mx-auto mt-4"></div>
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-16">
-      <div class="bg-[#1b263b]/60 border border-gray-700 rounded-2xl p-6 fade-up hover:border-[#d4891a]/50 transition-colors">
+      <div class="bg-[#1b263b]/60 border border-gray-700 rounded-2xl p-6 hover:border-[#d4891a]/50 transition-colors">
         <div class="w-12 h-12 bg-[#d4891a]/20 rounded-xl flex items-center justify-center mb-4">
           <i class="fas fa-microscope text-[#d4891a] text-xl"></i>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="font-family:Poppins,sans-serif"><span data-zh>精密检测</span><span data-en>Precision Testing</span></h3>
-        <p class="text-gray-400 text-sm leading-relaxed"><span data-zh>拥有三坐标测量仪、影像测量仪、盐雾试验机等先进检测设备，全程把控产品尺寸与表面质量。</span><span data-en>Equipped with CMM, optical measuring, salt spray testers and more to ensure dimensional accuracy and surface quality throughout production.</span></p>
+        <h3 class="font-bold text-lg mb-2" style="font-family:Poppins,sans-serif">精密检测</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">拥有三坐标测量仪、影像测量仪、盐雾试验机等先进检测设备，全程把控产品尺寸与表面质量。</p>
       </div>
-      <div class="bg-[#1b263b]/60 border border-gray-700 rounded-2xl p-6 fade-up hover:border-[#d4891a]/50 transition-colors">
+      <div class="bg-[#1b263b]/60 border border-gray-700 rounded-2xl p-6 hover:border-[#d4891a]/50 transition-colors">
         <div class="w-12 h-12 bg-[#d4891a]/20 rounded-xl flex items-center justify-center mb-4">
           <i class="fas fa-shield-alt text-[#d4891a] text-xl"></i>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="font-family:Poppins,sans-serif"><span data-zh>材质追溯</span><span data-en>Material Traceability</span></h3>
-        <p class="text-gray-400 text-sm leading-relaxed"><span data-zh>每批次原材料均附带材质报告，进行炉批号追溯，确保材料符合国标GB及国际ISO/DIN规范。</span><span data-en>Every batch comes with material certificates and heat-number traceability, ensuring compliance with GB national and ISO/DIN international standards.</span></p>
+        <h3 class="font-bold text-lg mb-2" style="font-family:Poppins,sans-serif">材质追溯</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">每批次原材料均附带材质报告，进行炉批号追溯，确保材料符合国标GB及国际ISO/DIN规范。</p>
       </div>
-      <div class="bg-[#1b263b]/60 border border-gray-700 rounded-2xl p-6 fade-up hover:border-[#d4891a]/50 transition-colors">
+      <div class="bg-[#1b263b]/60 border border-gray-700 rounded-2xl p-6 hover:border-[#d4891a]/50 transition-colors">
         <div class="w-12 h-12 bg-[#d4891a]/20 rounded-xl flex items-center justify-center mb-4">
           <i class="fas fa-award text-[#d4891a] text-xl"></i>
         </div>
-        <h3 class="font-bold text-lg mb-2" style="font-family:Poppins,sans-serif"><span data-zh>认证资质</span><span data-en>Certifications</span></h3>
-        <p class="text-gray-400 text-sm leading-relaxed"><span data-zh>通过ISO 9001质量管理体系认证，并持续满足汽车、光伏等行业的专项认证要求。</span><span data-en>ISO 9001:2015 certified QMS, with ongoing compliance to automotive and solar industry specific certification requirements.</span></p>
+        <h3 class="font-bold text-lg mb-2" style="font-family:Poppins,sans-serif">认证资质</h3>
+        <p class="text-gray-400 text-sm leading-relaxed">通过ISO 9001质量管理体系认证，并持续满足汽车、光伏等行业的专项认证要求。</p>
       </div>
     </div>
 
-    <div class="fade-up">
-      <p class="text-center text-gray-400 text-sm mb-6"><span data-zh>服务行业</span><span data-en>Industries Served</span></p>
+    <div>
+      <p class="text-center text-gray-400 text-sm mb-6">服务行业</p>
       <div class="flex flex-wrap justify-center gap-3">
         <span class="bg-gray-800 border border-gray-600 text-gray-300 rounded-full px-5 py-2 text-sm">
-          <i class="fas fa-car text-[#d4891a] mr-2"></i><span data-zh>汽车零部件</span><span data-en>Automotive</span>
+          <i class="fas fa-car text-[#d4891a] mr-2"></i>汽车零部件
         </span>
         <span class="bg-gray-800 border border-gray-600 text-gray-300 rounded-full px-5 py-2 text-sm">
-          <i class="fas fa-solar-panel text-[#d4891a] mr-2"></i><span data-zh>光伏支架</span><span data-en>Solar PV</span>
+          <i class="fas fa-solar-panel text-[#d4891a] mr-2"></i>光伏支架
         </span>
         <span class="bg-gray-800 border border-gray-600 text-gray-300 rounded-full px-5 py-2 text-sm">
-          <i class="fas fa-cogs text-[#d4891a] mr-2"></i><span data-zh>工业机械</span><span data-en>Industrial Machinery</span>
+          <i class="fas fa-cogs text-[#d4891a] mr-2"></i>工业机械
         </span>
         <span class="bg-gray-800 border border-gray-600 text-gray-300 rounded-full px-5 py-2 text-sm">
-          <i class="fas fa-bolt text-[#d4891a] mr-2"></i><span data-zh>电力电气</span><span data-en>Electrical</span>
+          <i class="fas fa-bolt text-[#d4891a] mr-2"></i>电力电气
         </span>
         <span class="bg-gray-800 border border-gray-600 text-gray-300 rounded-full px-5 py-2 text-sm">
-          <i class="fas fa-ship text-[#d4891a] mr-2"></i><span data-zh>船舶海工</span><span data-en>Marine</span>
+          <i class="fas fa-ship text-[#d4891a] mr-2"></i>船舶海工
         </span>
         <span class="bg-gray-800 border border-gray-600 text-gray-300 rounded-full px-5 py-2 text-sm">
-          <i class="fas fa-building text-[#d4891a] mr-2"></i><span data-zh>建筑钢构</span><span data-en>Construction</span>
+          <i class="fas fa-building text-[#d4891a] mr-2"></i>建筑钢构
         </span>
       </div>
     </div>
@@ -405,27 +374,25 @@
 <!-- CONTACT -->
 <section id="contact" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14 fade-up">
-      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">
-        <span data-zh>联系我们</span><span data-en>Contact Us</span>
-      </p>
+    <div class="text-center mb-14">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">联系我们</p>
       <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
-        <span data-zh>随时为您服务</span><span data-en>We're Here to Help</span>
+        随时为您服务
       </h2>
       <div class="section-divider"></div>
     </div>
 
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
-      <div class="space-y-6 fade-up">
+      <div class="space-y-6">
         <!-- Phone -->
         <div class="flex items-start gap-4 bg-white rounded-2xl p-6 shadow-sm hover:shadow-md transition-shadow">
           <div class="w-12 h-12 bg-green-100 rounded-xl flex items-center justify-center flex-shrink-0">
             <i class="fas fa-phone text-green-600 text-lg"></i>
           </div>
           <div>
-            <div class="font-semibold text-gray-800 mb-1"><span data-zh>电话 / 手机</span><span data-en>Phone / Mobile</span></div>
+            <div class="font-semibold text-gray-800 mb-1">电话 / 手机</div>
             <a href="tel:+8618958770140" class="text-[#0d1b2a] font-bold text-xl hover:text-[#d4891a] transition-colors">+86 189-5877-0140</a>
-            <div class="text-gray-500 text-sm mt-1"><span data-zh>工作日 9:00–18:00 (北京时间)</span><span data-en>Mon–Fri 9:00–18:00 CST</span></div>
+            <div class="text-gray-500 text-sm mt-1">工作日 9:00–18:00（北京时间）</div>
           </div>
         </div>
         <!-- WeChat -->
@@ -434,9 +401,9 @@
             <i class="fab fa-weixin text-green-600 text-xl"></i>
           </div>
           <div>
-            <div class="font-semibold text-gray-800 mb-1"><span data-zh>微信</span><span data-en>WeChat</span></div>
+            <div class="font-semibold text-gray-800 mb-1">微信</div>
             <div class="text-[#0d1b2a] font-bold text-xl">18958770140</div>
-            <div class="text-gray-500 text-sm mt-1"><span data-zh>扫码或搜索微信号添加</span><span data-en>Add on WeChat or scan QR</span></div>
+            <div class="text-gray-500 text-sm mt-1">扫码或搜索微信号添加</div>
           </div>
         </div>
         <!-- Email -->
@@ -445,9 +412,9 @@
             <i class="fas fa-envelope text-blue-600 text-lg"></i>
           </div>
           <div>
-            <div class="font-semibold text-gray-800 mb-1"><span data-zh>电子邮件</span><span data-en>Email</span></div>
+            <div class="font-semibold text-gray-800 mb-1">电子邮件</div>
             <a href="mailto:xiebaole5@gmail.com" class="text-[#0d1b2a] font-semibold hover:text-[#d4891a] transition-colors">xiebaole5@gmail.com</a>
-            <div class="text-gray-500 text-sm mt-1"><span data-zh>我们将在24小时内回复</span><span data-en>We respond within 24 hours</span></div>
+            <div class="text-gray-500 text-sm mt-1">我们将在24小时内回复</div>
           </div>
         </div>
         <!-- Address -->
@@ -456,10 +423,9 @@
             <i class="fas fa-map-marker-alt text-orange-600 text-lg"></i>
           </div>
           <div>
-            <div class="font-semibold text-gray-800 mb-1"><span data-zh>公司地址</span><span data-en>Address</span></div>
+            <div class="font-semibold text-gray-800 mb-1">公司地址</div>
             <div class="text-gray-700 text-sm leading-relaxed">
-              <span data-zh>浙江省乐清经济开发区纬十路309号</span>
-              <span data-en>No. 309, Weishi Road, Yueqing Economic Development Zone, Zhejiang, China</span>
+              浙江省乐清经济开发区纬十路309号
             </div>
           </div>
         </div>
@@ -468,55 +434,53 @@
           <a href="tel:+8618958770140"
             class="flex-1 min-w-[120px] inline-flex items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-semibold py-3 px-4 rounded-xl transition-colors">
             <i class="fas fa-phone-alt"></i>
-            <span data-zh>立即电话</span><span data-en>Call Now</span>
+            立即电话
           </a>
           <button type="button" onclick="openWeChat()"
             class="flex-1 min-w-[120px] inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-xl transition-colors">
             <i class="fab fa-weixin"></i>
-            <span data-zh>微信咨询</span><span data-en>WeChat</span>
+            微信咨询
           </button>
           <button type="button" onclick="openInquiry()"
             class="flex-1 min-w-[120px] inline-flex items-center justify-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold py-3 px-4 rounded-xl transition-colors">
             <i class="fas fa-file-alt"></i>
-            <span data-zh>在线询价</span><span data-en>Inquiry</span>
+            在线询价
           </button>
         </div>
       </div>
 
       <!-- Inquiry form -->
-      <div class="bg-white rounded-2xl p-8 shadow-sm fade-up">
-        <h3 class="font-bold text-xl text-[#0d1b2a] mb-6" style="font-family:Poppins,sans-serif">
-          <span data-zh>快速询价</span><span data-en>Quick Inquiry</span>
-        </h3>
+      <div class="bg-white rounded-2xl p-8 shadow-sm">
+        <h3 class="font-bold text-xl text-[#0d1b2a] mb-6" style="font-family:Poppins,sans-serif">快速询价</h3>
         <form id="contact-form" onsubmit="submitForm(event)">
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
             <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>姓名 *</span><span data-en>Name *</span></label>
+              <label class="block text-sm font-medium text-gray-700 mb-1">姓名 *</label>
               <input type="text" name="name" required class="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] transition-colors" />
             </div>
             <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>公司名称</span><span data-en>Company</span></label>
+              <label class="block text-sm font-medium text-gray-700 mb-1">公司名称</label>
               <input type="text" name="company" class="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] transition-colors" />
             </div>
           </div>
           <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
             <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>电子邮件 *</span><span data-en>Email *</span></label>
+              <label class="block text-sm font-medium text-gray-700 mb-1">电子邮件 *</label>
               <input type="email" name="email" required class="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] transition-colors" />
             </div>
             <div>
-              <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>电话/WhatsApp</span><span data-en>Phone / WhatsApp</span></label>
+              <label class="block text-sm font-medium text-gray-700 mb-1">电话/WhatsApp</label>
               <input type="tel" name="phone" class="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] transition-colors" />
             </div>
           </div>
           <div class="mb-4">
-            <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>询价内容 *</span><span data-en>Inquiry Details *</span></label>
+            <label class="block text-sm font-medium text-gray-700 mb-1">询价内容 *</label>
             <textarea name="message" rows="4" required class="w-full border border-gray-200 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] transition-colors resize-none"></textarea>
           </div>
           <button type="submit"
             class="w-full bg-[#0d1b2a] hover:bg-[#1b263b] text-white font-semibold py-3 px-6 rounded-xl transition-colors flex items-center justify-center gap-2">
             <i class="fas fa-paper-plane text-sm"></i>
-            <span data-zh>提交询价</span><span data-en>Submit Inquiry</span>
+            提交询价
           </button>
         </form>
       </div>
@@ -535,22 +499,20 @@
             <i class="fas fa-bolt text-white text-sm"></i>
           </div>
           <div>
-            <div data-zh class="text-white font-bold" style="font-family:Poppins,sans-serif">浙江天虹紧固件有限公司</div>
-            <div data-en class="text-white font-bold text-sm" style="font-family:Poppins,sans-serif">Zhejiang Tianhong Fasteners Co., Ltd.</div>
+            <div class="text-white font-bold" style="font-family:Poppins,sans-serif">浙江天虹紧固件有限公司</div>
           </div>
         </div>
         <p class="text-sm leading-relaxed mb-4 max-w-xs">
-          <span data-zh>专业生产高强度螺栓、螺母、垫圈及异型紧固件，服务全球50余个国家和地区。</span>
-          <span data-en>Professional manufacturer of high-strength bolts, nuts, washers and custom fasteners, serving clients in 50+ countries.</span>
+          专业生产高强度螺栓、螺母、垫圈及异型紧固件，服务全球50余个国家和地区。
         </p>
         <div class="flex gap-3">
-          <a href="tel:+8618958770140" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="Phone">
+          <a href="tel:+8618958770140" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="电话">
             <i class="fas fa-phone text-xs"></i>
           </a>
-          <a href="mailto:xiebaole5@gmail.com" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="Email">
+          <a href="mailto:xiebaole5@gmail.com" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="邮件">
             <i class="fas fa-envelope text-xs"></i>
           </a>
-          <button type="button" onclick="openWeChat()" class="w-9 h-9 bg-gray-700 hover:bg-green-600 rounded-lg flex items-center justify-center transition-colors cursor-pointer" aria-label="WeChat">
+          <button type="button" onclick="openWeChat()" class="w-9 h-9 bg-gray-700 hover:bg-green-600 rounded-lg flex items-center justify-center transition-colors cursor-pointer" aria-label="微信">
             <i class="fab fa-weixin text-sm"></i>
           </button>
           <a href="https://wa.me/8618958770140" target="_blank" rel="noopener noreferrer" class="w-9 h-9 bg-gray-700 hover:bg-green-500 rounded-lg flex items-center justify-center transition-colors" aria-label="WhatsApp">
@@ -560,22 +522,18 @@
       </div>
 
       <div>
-        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">
-          <span data-zh>快速导航</span><span data-en>Quick Links</span>
-        </h4>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">快速导航</h4>
         <ul class="space-y-2 text-sm">
-          <li><a href="#products" class="hover:text-[#d4891a] transition-colors"><span data-zh>产品中心</span><span data-en>Products</span></a></li>
-          <li><a href="#about" class="hover:text-[#d4891a] transition-colors"><span data-zh>关于我们</span><span data-en>About Us</span></a></li>
-          <li><a href="#quality" class="hover:text-[#d4891a] transition-colors"><span data-zh>质量认证</span><span data-en>Quality</span></a></li>
-          <li><a href="#contact" class="hover:text-[#d4891a] transition-colors"><span data-zh>联系我们</span><span data-en>Contact</span></a></li>
-          <li><a href="products.html" class="hover:text-[#d4891a] transition-colors"><span data-zh>全部产品</span><span data-en>All Products</span></a></li>
+          <li><a href="#products" class="hover:text-[#d4891a] transition-colors">产品中心</a></li>
+          <li><a href="#about" class="hover:text-[#d4891a] transition-colors">关于我们</a></li>
+          <li><a href="#quality" class="hover:text-[#d4891a] transition-colors">质量认证</a></li>
+          <li><a href="#contact" class="hover:text-[#d4891a] transition-colors">联系我们</a></li>
+          <li><a href="products.html" class="hover:text-[#d4891a] transition-colors">全部产品</a></li>
         </ul>
       </div>
 
       <div>
-        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">
-          <span data-zh>联系方式</span><span data-en>Contact Info</span>
-        </h4>
+        <h4 class="text-white font-semibold mb-4 text-sm uppercase tracking-wider">联系方式</h4>
         <ul class="space-y-3 text-sm">
           <li class="flex items-start gap-2">
             <i class="fas fa-phone text-[#d4891a] mt-0.5 text-xs flex-shrink-0"></i>
@@ -591,10 +549,7 @@
           </li>
           <li class="flex items-start gap-2">
             <i class="fas fa-map-marker-alt text-[#d4891a] mt-0.5 text-xs flex-shrink-0"></i>
-            <span>
-              <span data-zh>浙江省乐清经济开发区纬十路309号</span>
-              <span data-en>No. 309 Weishi Rd, Yueqing Economic Development Zone, Zhejiang, China</span>
-            </span>
+            <span>浙江省乐清经济开发区纬十路309号</span>
           </li>
         </ul>
       </div>
@@ -603,10 +558,7 @@
 
   <div class="border-t border-gray-700">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs">
-      <div>
-        <span data-zh>© 2026 浙江天虹紧固件有限公司 版权所有</span>
-        <span data-en>© 2026 Zhejiang Tianhong Fasteners Co., Ltd. All rights reserved.</span>
-      </div>
+      <div>© 2026 浙江天虹紧固件有限公司 版权所有</div>
       <div class="flex items-center gap-4">
         <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"
           class="hover:text-[#d4891a] transition-colors flex items-center gap-1">
@@ -624,10 +576,8 @@
   <div class="absolute inset-0 bg-black/60 backdrop-blur-sm" onclick="closeInquiry()"></div>
   <div class="relative bg-white rounded-2xl w-full max-w-lg shadow-2xl max-h-[90vh] overflow-y-auto">
     <div class="flex items-center justify-between p-6 border-b">
-      <h2 id="modal-title" class="font-bold text-xl text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
-        <span data-zh>产品询价</span><span data-en>Product Inquiry</span>
-      </h2>
-      <button onclick="closeInquiry()" class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors" aria-label="Close">
+      <h2 id="modal-title" class="font-bold text-xl text-[#0d1b2a]" style="font-family:Poppins,sans-serif">产品询价</h2>
+      <button onclick="closeInquiry()" class="w-8 h-8 flex items-center justify-center rounded-full hover:bg-gray-100 transition-colors" aria-label="关闭">
         <i class="fas fa-times text-gray-500"></i>
       </button>
     </div>
@@ -635,34 +585,34 @@
       <form id="modal-form" onsubmit="submitModalForm(event)">
         <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           <div>
-            <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>姓名 *</span><span data-en>Name *</span></label>
+            <label class="block text-sm font-medium text-gray-700 mb-1">姓名 *</label>
             <input type="text" name="name" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
           </div>
           <div>
-            <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>公司</span><span data-en>Company</span></label>
+            <label class="block text-sm font-medium text-gray-700 mb-1">公司</label>
             <input type="text" name="company" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
           </div>
         </div>
         <div class="mb-4">
-          <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>电子邮件 *</span><span data-en>Email *</span></label>
+          <label class="block text-sm font-medium text-gray-700 mb-1">电子邮件 *</label>
           <input type="email" name="email" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
         </div>
         <div class="mb-4">
-          <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>电话/WhatsApp</span><span data-en>Phone / WhatsApp</span></label>
+          <label class="block text-sm font-medium text-gray-700 mb-1">电话/WhatsApp</label>
           <input type="tel" name="phone" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
         </div>
         <div class="mb-4">
-          <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>感兴趣的产品</span><span data-en>Product of Interest</span></label>
+          <label class="block text-sm font-medium text-gray-700 mb-1">感兴趣的产品</label>
           <input type="text" name="product" id="modal-product" class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
         </div>
         <div class="mb-6">
-          <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>询价内容 *</span><span data-en>Message *</span></label>
+          <label class="block text-sm font-medium text-gray-700 mb-1">询价内容 *</label>
           <textarea name="message" rows="4" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a] resize-none"></textarea>
         </div>
         <button type="submit"
           class="w-full bg-[#0d1b2a] hover:bg-[#1b263b] text-white font-semibold py-3 px-6 rounded-xl transition-colors flex items-center justify-center gap-2">
           <i class="fas fa-paper-plane text-sm"></i>
-          <span data-zh>发送询价</span><span data-en>Send Inquiry</span>
+          发送询价
         </button>
       </form>
     </div>
@@ -674,7 +624,7 @@
 <button id="back-to-top"
   onclick="window.scrollTo({top:0,behavior:'smooth'})"
   class="hidden fixed bottom-6 right-6 z-40 w-11 h-11 bg-[#0d1b2a] hover:bg-[#1b263b] text-white rounded-xl shadow-lg transition-all items-center justify-center"
-  aria-label="Back to top">
+  aria-label="返回顶部">
   <i class="fas fa-chevron-up text-sm"></i>
 </button>
 
@@ -687,32 +637,6 @@
 
 <!-- JAVASCRIPT -->
 <script>
-/* Language Toggle */
-function setLang(lang) {
-  var html = document.getElementById('html-root');
-  html.className = 'lang-' + lang;
-  html.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
-  document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
-  document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-  try { localStorage.setItem('th-lang', lang); } catch(e) {}
-}
-(function() {
-  var saved = 'zh';
-  try { saved = localStorage.getItem('th-lang') || 'zh'; } catch(e) {}
-  setLang(saved);
-})();
-/* Attach touch-safe listeners to language buttons */
-(function() {
-  function attachLangBtn(id, lang) {
-    var btn = document.getElementById(id);
-    if (!btn) return;
-    /* touchend with preventDefault stops the synthesised click, avoiding double-fire */
-    btn.addEventListener('touchend', function(e) { e.preventDefault(); setLang(lang); });
-  }
-  attachLangBtn('btn-zh', 'zh');
-  attachLangBtn('btn-en', 'en');
-})();
-
 /* Mobile Menu */
 function toggleMenu() {
   document.getElementById('mobile-menu').classList.toggle('hidden');
@@ -720,7 +644,8 @@ function toggleMenu() {
 
 /* Inquiry Modal */
 function openInquiry(productName) {
-  document.getElementById('inquiry-modal').classList.remove('hidden');
+  var modal = document.getElementById('inquiry-modal');
+  modal.classList.remove('hidden');
   document.body.style.overflow = 'hidden';
   if (productName) document.getElementById('modal-product').value = productName;
 }
@@ -732,25 +657,22 @@ document.addEventListener('keydown', function(e) { if (e.key === 'Escape') close
 
 /* WeChat: open protocol on mobile, show ID in alert on desktop */
 function openWeChat() {
-  var isZh = document.documentElement.classList.contains('lang-zh');
   if (/Mobile|Android|iPhone|iPad/i.test(navigator.userAgent)) {
     window.location.href = 'weixin://dl/chat?18958770140';
   } else {
-    alert(isZh ? '微信号：18958770140\n请在微信中搜索该号码添加好友咨询' : 'WeChat ID: 18958770140\nPlease search this ID in WeChat to connect with us');
+    alert('微信号：18958770140\n请在微信中搜索该号码添加好友咨询');
   }
 }
 
 /* Form Submissions */
 function submitForm(e) {
   e.preventDefault();
-  var isZh = document.getElementById('html-root').className.includes('zh');
-  alert(isZh ? '感谢您的询价！我们将在24小时内与您联系。' : 'Thank you for your inquiry! We will contact you within 24 hours.');
+  alert('感谢您的询价！我们将在24小时内与您联系。');
   e.target.reset();
 }
 function submitModalForm(e) {
   e.preventDefault();
-  var isZh = document.getElementById('html-root').className.includes('zh');
-  alert(isZh ? '感谢您的询价！我们将在24小时内与您联系。' : 'Thank you for your inquiry! We will contact you within 24 hours.');
+  alert('感谢您的询价！我们将在24小时内与您联系。');
   e.target.reset();
   closeInquiry();
 }
@@ -762,22 +684,6 @@ window.addEventListener('scroll', function() {
   else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
 });
 
-/* Scroll Fade-in — desktop only, with progressive enhancement */
-if (window.innerWidth >= 768) {
-  /* Enable fade animation via CSS class so content stays visible without JS */
-  document.documentElement.classList.add('fade-anim');
-  var observer = new IntersectionObserver(function(entries) {
-    entries.forEach(function(entry) {
-      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
-    });
-  }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
-  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
-  /* Safety fallback: ensure all fade-up elements become visible after 800ms */
-  setTimeout(function() {
-    document.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
-  }, 800);
-}
-
 /* Load Products */
 fetch('data/products.json')
   .then(function(r) { return r.json(); })
@@ -788,51 +694,40 @@ function renderProducts(products) {
   var grid = document.getElementById('product-grid');
   if (!grid) return;
   grid.innerHTML = products.map(function(p) {
-    return '<div class="product-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100 fade-up">' +
+    return '<div class="product-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">' +
       '<div class="relative aspect-[4/3] overflow-hidden product-img-fallback">' +
-      '<img src="' + p.image + '" alt="' + p.name_zh + ' / ' + p.name_en + '"' +
+      '<img src="' + p.image + '" alt="' + p.name_zh + '"' +
       ' class="w-full h-full object-cover" loading="lazy" onerror="this.style.display=\'none\'">' +
       '<div class="absolute top-3 left-3"><span class="bg-[#d4891a] text-white text-xs font-semibold px-2.5 py-1 rounded-full">' +
-      '<span class="zh">' + p.category_zh + '</span>' +
-      '<span class="en">' + p.category_en + '</span>' +
-      '</span></div></div>' +
+      p.category_zh + '</span></div></div>' +
       '<div class="p-4">' +
-      '<h3 class="font-bold text-[#0d1b2a] text-base mb-1" style="font-family:Poppins,sans-serif">' +
-      '<span class="zh">' + p.name_zh + '</span><span class="en">' + p.name_en + '</span></h3>' +
-      '<p class="text-gray-500 text-xs mb-1"><span class="zh">规格：</span><span class="en">Spec: </span>' + p.spec + '</p>' +
-      '<p class="text-gray-500 text-xs mb-3"><span class="zh">材质：</span><span class="en">Material: </span>' + p.material + '</p>' +
-      '<button onclick="openInquiry(\'' + p.name_zh + ' / ' + p.name_en + '\')" ' +
+      '<h3 class="font-bold text-[#0d1b2a] text-base mb-1" style="font-family:Poppins,sans-serif">' + p.name_zh + '</h3>' +
+      '<p class="text-gray-500 text-xs mb-1">规格：' + p.spec + '</p>' +
+      '<p class="text-gray-500 text-xs mb-3">材质：' + p.material + '</p>' +
+      '<button onclick="openInquiry(\'' + p.name_zh + '\')" ' +
       'class="w-full text-center border border-[#0d1b2a] text-[#0d1b2a] hover:bg-[#0d1b2a] hover:text-white text-xs font-semibold py-2 rounded-lg transition-colors">' +
-      '<span class="zh">询价</span><span class="en">Inquire</span></button>' +
+      '询价</button>' +
       '</div></div>';
   }).join('');
-
-  /* Re-apply language and observe new elements */
-  var currentLang = document.getElementById('html-root').className.includes('lang-en') ? 'en' : 'zh';
-  setLang(currentLang);
-  if (window.innerWidth >= 768 && typeof observer !== 'undefined') {
-    grid.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
-  } else {
-    grid.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
-  }
 }
 
 function getFallbackProducts() {
   return [
-    {id:1, name_zh:"六角螺栓", name_en:"Hex Bolt", spec:"M4–M64, Grade 4.6/8.8/10.9/12.9", material:"碳钢 / SS304 / SS316", category_zh:"螺栓类", category_en:"Bolts", image:""},
-    {id:2, name_zh:"内六角螺钉", name_en:"Socket Head Cap Screw", spec:"M3–M36, DIN 912", material:"碳钢 / 合金钢 / SS304", category_zh:"螺钉类", category_en:"Screws", image:""},
-    {id:3, name_zh:"法兰螺栓", name_en:"Flange Bolt", spec:"M6–M24, Grade 8.8/10.9", material:"碳钢镀锌 / 不锈钢", category_zh:"螺栓类", category_en:"Bolts", image:""},
-    {id:4, name_zh:"高强度螺栓", name_en:"High-Strength Bolt", spec:"M12–M100, Grade 10.9/12.9", material:"合金钢热处理", category_zh:"高强度紧固件", category_en:"High-Strength", image:""},
-    {id:5, name_zh:"U型螺栓", name_en:"U-Bolt", spec:"M6–M30, Custom", material:"碳钢 / SS316", category_zh:"异型螺栓", category_en:"Special Bolts", image:""},
-    {id:6, name_zh:"不锈钢自攻螺钉", name_en:"SS Self-Tapping Screw", spec:"ST2.2–ST6.3, DIN 7981", material:"SS304 / SS316L", category_zh:"螺钉类", category_en:"Screws", image:""},
-    {id:7, name_zh:"六角螺母", name_en:"Hex Nut", spec:"M3–M64, DIN 934", material:"碳钢 / SS304 / SS316", category_zh:"螺母类", category_en:"Nuts", image:""},
-    {id:8, name_zh:"尼龙自锁螺母", name_en:"Nylon Lock Nut", spec:"M4–M36, DIN 985", material:"碳钢镀锌 / SS304", category_zh:"螺母类", category_en:"Nuts", image:""},
-    {id:9, name_zh:"平垫圈", name_en:"Flat Washer", spec:"M3–M100, DIN 125", material:"碳钢 / SS304 / 黄铜", category_zh:"垫圈类", category_en:"Washers", image:""},
-    {id:10, name_zh:"弹簧垫圈", name_en:"Spring Washer", spec:"M3–M64, DIN 127", material:"弹簧钢 / SS301", category_zh:"垫圈类", category_en:"Washers", image:""},
-    {id:11, name_zh:"汽车专用紧固件", name_en:"Automotive Fastener", spec:"按图定制, Grade 8.8–12.9", material:"合金钢 / 达克罗镀层", category_zh:"汽车紧固件", category_en:"Automotive", image:""},
-    {id:12, name_zh:"光伏支架紧固件", name_en:"Solar Mounting Fastener", spec:"M8–M16, 适用光伏铝型材", material:"SS304 / SS316 / 铝合金 6061", category_zh:"新能源紧固件", category_en:"Solar Energy", image:""}
+    {id:1, name_zh:"六角螺栓", spec:"M4–M64, Grade 4.6/8.8/10.9/12.9", material:"碳钢 / SS304 / SS316", category_zh:"螺栓类", image:""},
+    {id:2, name_zh:"内六角螺钉", spec:"M3–M36, DIN 912", material:"碳钢 / 合金钢 / SS304", category_zh:"螺钉类", image:""},
+    {id:3, name_zh:"法兰螺栓", spec:"M6–M24, Grade 8.8/10.9", material:"碳钢镀锌 / 不锈钢", category_zh:"螺栓类", image:""},
+    {id:4, name_zh:"高强度螺栓", spec:"M12–M100, Grade 10.9/12.9", material:"合金钢热处理", category_zh:"高强度紧固件", image:""},
+    {id:5, name_zh:"U型螺栓", spec:"M6–M30, Custom", material:"碳钢 / SS316", category_zh:"异型螺栓", image:""},
+    {id:6, name_zh:"不锈钢自攻螺钉", spec:"ST2.2–ST6.3, DIN 7981", material:"SS304 / SS316L", category_zh:"螺钉类", image:""},
+    {id:7, name_zh:"六角螺母", spec:"M3–M64, DIN 934", material:"碳钢 / SS304 / SS316", category_zh:"螺母类", image:""},
+    {id:8, name_zh:"尼龙自锁螺母", spec:"M4–M36, DIN 985", material:"碳钢镀锌 / SS304", category_zh:"螺母类", image:""},
+    {id:9, name_zh:"平垫圈", spec:"M3–M100, DIN 125", material:"碳钢 / SS304 / 黄铜", category_zh:"垫圈类", image:""},
+    {id:10, name_zh:"弹簧垫圈", spec:"M3–M64, DIN 127", material:"弹簧钢 / SS301", category_zh:"垫圈类", image:""},
+    {id:11, name_zh:"汽车专用紧固件", spec:"按图定制, Grade 8.8–12.9", material:"合金钢 / 达克罗镀层", category_zh:"汽车紧固件", image:""},
+    {id:12, name_zh:"光伏支架紧固件", spec:"M8–M16, 适用光伏铝型材", material:"SS304 / SS316 / 铝合金 6061", category_zh:"新能源紧固件", image:""}
   ];
 }
+
 /* Douyin / WeChat in-app browser detection */
 (function() {
   var ua = navigator.userAgent || '';
@@ -842,6 +737,6 @@ function getFallbackProducts() {
     if (hint) hint.classList.add('show');
   }
 })();
-<\/script>
+</script>
 </body>
 </html>
