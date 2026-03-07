@@ -21,8 +21,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
   <style>
-    .lang-zh [data-en] { display: none !important; }
-    .lang-en [data-zh] { display: none !important; }
+    html.lang-zh [data-en] { display: none !important; }
+    html.lang-en [data-zh] { display: none !important; }
     html { scroll-behavior: smooth; }
     .hero-overlay {
       background: linear-gradient(135deg,
@@ -53,12 +53,10 @@
     .product-card:hover { transform: translateY(-6px); box-shadow: 0 20px 40px rgba(0,0,0,0.15); }
     .product-card img { transition: transform 0.4s ease; }
     .product-card:hover img { transform: scale(1.06); }
-    .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
-    .fade-up.visible { opacity: 1; transform: translateY(0); }
-    /* Disable fade-up animation on mobile to prevent blank-section issue */
-    @media (max-width: 767px) {
-      .fade-up { opacity: 1; transform: none; transition: none; }
-    }
+    /* Content is visible by default; JS progressively adds animation on desktop */
+    .fade-up { transition: opacity 0.6s ease, transform 0.6s ease; }
+    .fade-anim .fade-up { opacity: 0; transform: translateY(30px); }
+    .fade-up.visible { opacity: 1 !important; transform: none !important; }
     .section-divider { width: 60px; height: 4px; background: linear-gradient(90deg, #d4891a, #f0a833); border-radius: 2px; margin: 12px auto 0; }
     /* Douyin/WeChat in-app browser banner */
     #browser-hint { display: none; }
@@ -472,12 +470,12 @@
             <i class="fas fa-phone-alt"></i>
             <span data-zh>立即电话</span><span data-en>Call Now</span>
           </a>
-          <a href="weixin://dl/chat?18958770140"
+          <button type="button" onclick="openWeChat()"
             class="flex-1 min-w-[120px] inline-flex items-center justify-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-4 rounded-xl transition-colors">
             <i class="fab fa-weixin"></i>
             <span data-zh>微信咨询</span><span data-en>WeChat</span>
-          </a>
-          <button onclick="openInquiry()"
+          </button>
+          <button type="button" onclick="openInquiry()"
             class="flex-1 min-w-[120px] inline-flex items-center justify-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold py-3 px-4 rounded-xl transition-colors">
             <i class="fas fa-file-alt"></i>
             <span data-zh>在线询价</span><span data-en>Inquiry</span>
@@ -552,9 +550,9 @@
           <a href="mailto:xiebaole5@gmail.com" class="w-9 h-9 bg-gray-700 hover:bg-[#d4891a] rounded-lg flex items-center justify-center transition-colors" aria-label="Email">
             <i class="fas fa-envelope text-xs"></i>
           </a>
-          <a href="weixin://dl/chat?18958770140" class="w-9 h-9 bg-gray-700 hover:bg-green-600 rounded-lg flex items-center justify-center transition-colors" aria-label="WeChat">
+          <button type="button" onclick="openWeChat()" class="w-9 h-9 bg-gray-700 hover:bg-green-600 rounded-lg flex items-center justify-center transition-colors cursor-pointer" aria-label="WeChat">
             <i class="fab fa-weixin text-sm"></i>
-          </a>
+          </button>
           <a href="https://wa.me/8618958770140" target="_blank" rel="noopener noreferrer" class="w-9 h-9 bg-gray-700 hover:bg-green-500 rounded-lg flex items-center justify-center transition-colors" aria-label="WhatsApp">
             <i class="fab fa-whatsapp text-sm"></i>
           </a>
@@ -732,6 +730,16 @@ function closeInquiry() {
 }
 document.addEventListener('keydown', function(e) { if (e.key === 'Escape') closeInquiry(); });
 
+/* WeChat: open protocol on mobile, show ID in alert on desktop */
+function openWeChat() {
+  var isZh = document.documentElement.classList.contains('lang-zh');
+  if (/Mobile|Android|iPhone|iPad/i.test(navigator.userAgent)) {
+    window.location.href = 'weixin://dl/chat?18958770140';
+  } else {
+    alert(isZh ? '微信号：18958770140\n请在微信中搜索该号码添加好友咨询' : 'WeChat ID: 18958770140\nPlease search this ID in WeChat to connect with us');
+  }
+}
+
 /* Form Submissions */
 function submitForm(e) {
   e.preventDefault();
@@ -754,21 +762,20 @@ window.addEventListener('scroll', function() {
   else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
 });
 
-/* Scroll Fade-in — skip on mobile (handled by CSS override) */
+/* Scroll Fade-in — desktop only, with progressive enhancement */
 if (window.innerWidth >= 768) {
+  /* Enable fade animation via CSS class so content stays visible without JS */
+  document.documentElement.classList.add('fade-anim');
   var observer = new IntersectionObserver(function(entries) {
     entries.forEach(function(entry) {
       if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
     });
   }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
   document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
-  /* Fallback: ensure all fade-up elements become visible after 1.5s in case observer misses them */
+  /* Safety fallback: ensure all fade-up elements become visible after 800ms */
   setTimeout(function() {
     document.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
-  }, 1500);
-} else {
-  /* On mobile: mark all fade-up elements visible immediately */
-  document.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
+  }, 800);
 }
 
 /* Load Products */
