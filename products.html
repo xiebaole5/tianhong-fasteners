@@ -297,6 +297,65 @@ $page_description = "Explore our wide range of high-quality fasteners including 
             }
         }
         
+        /* WeChat 展示 */
+        .wechat-float {
+            position: fixed;
+            bottom: 95px;
+            left: 30px;
+            width: 55px;
+            height: 55px;
+            background: #07c160;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            border: none;
+            cursor: pointer;
+            z-index: 1000;
+            box-shadow: 0 5px 20px rgba(7, 193, 96, 0.4);
+            transition: var(--transition);
+        }
+        .wechat-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(7, 193, 96, 0.5);
+        }
+        .wechat-popup {
+            position: fixed;
+            bottom: 160px;
+            left: 30px;
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            z-index: 1001;
+            text-align: center;
+            display: none;
+        }
+        .wechat-popup.visible { display: block; }
+        .wechat-popup img {
+            width: 160px;
+            height: 160px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .wechat-popup p { font-size: 14px; color: #333; margin: 0; }
+        .cta-wechat {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            padding: 15px 35px;
+            border-radius: var(--border-radius);
+            font-weight: 600;
+            font-size: 15px;
+            background: #07c160;
+            color: #fff;
+            text-decoration: none;
+            transition: var(--transition);
+        }
+        .cta-wechat:hover { color: #fff; transform: translateY(-2px); box-shadow: 0 5px 20px rgba(7,193,96,0.4); }
+        
         @media (max-width: 768px) {
             .showcase-grid {
                 grid-template-columns: 1fr;
@@ -500,6 +559,62 @@ $page_description = "Explore our wide range of high-quality fasteners including 
                         </a>
                     </div>
                 </div>
+                
+                <!-- Product 9 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/stainless-hex-bolt.jpg" alt="Stainless Hex Bolts" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Stainless Hex Bolts</h3>
+                        <p class="showcase-description">Stainless steel hex bolts, corrosion-resistant and high strength</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 10 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/hex-socket-screw.webp" alt="Hex Socket Screws" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Hex Socket Screws</h3>
+                        <p class="showcase-description">Socket head cap screws for precision assembly</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 11 -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="images/products/zinc-plated-bolt.jpg" alt="Zinc Plated Bolts" class="showcase-image">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Zinc Plated Bolts</h3>
+                        <p class="showcase-description">Zinc-plated for rust resistance, general industrial use</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Product 12 - 临时网络图（Unsplash 免费图，可后续替换为本地图） -->
+                <div class="showcase-card">
+                    <div class="showcase-image-wrapper">
+                        <img src="https://images.unsplash.com/photo-1710129084868-9ff5127b7e6e?w=600&amp;q=80" alt="Nuts and Bolts Assortment" class="showcase-image" loading="lazy">
+                    </div>
+                    <div class="showcase-content">
+                        <h3 class="showcase-title">Nuts &amp; Bolts Assortment</h3>
+                        <p class="showcase-description">Multi-spec nuts and bolts for maintenance and spare parts</p>
+                        <a href="index.html#contact" class="showcase-link">
+                            Inquire Now <i class="fas fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -636,6 +751,10 @@ $page_description = "Explore our wide range of high-quality fasteners including 
                         <i class="fab fa-whatsapp"></i>
                         WhatsApp: +86 189 5877 0140
                     </a>
+                    <a href="index.html#contact" class="cta-wechat">
+                        <i class="fab fa-weixin"></i>
+                        微信咨询
+                    </a>
                 </div>
             </div>
         </div>
@@ -683,6 +802,11 @@ $page_description = "Explore our wide range of high-quality fasteners including 
                                 <i class="fas fa-envelope" style="color: var(--accent-color); margin-right: 8px;"></i>
                                 xiebaole5@gmail.com
                             </li>
+                            <li style="margin-bottom: 10px;">
+                                <i class="fab fa-weixin" style="color: #07c160; margin-right: 8px;"></i>
+                                <span>微信咨询</span>
+                                <img src="images/wechat-qr.png" alt="扫码加微信" style="width: 80px; height: 80px; object-fit: contain; border-radius: 8px; margin-top: 8px; display: block;" onerror="this.style.display='none'">
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -692,11 +816,35 @@ $page_description = "Explore our wide range of high-quality fasteners including 
         <div class="footer-bottom" style="background: rgba(0,0,0,0.2); padding: 20px 0;">
             <div class="container">
                 <p style="text-align: center; color: rgba(255,255,255,0.6); font-size: 13px;">
-                    &copy; 2026 Zhejiang TNHO Fasteners Co., Ltd. All rights reserved.
+                    &copy; 2026 Zhejiang Tianhong Fasteners Co., Ltd. All rights reserved.
+                    <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer" style="color: rgba(255,255,255,0.6); margin-left: 8px;">浙ICP备2026010279号</a>
                 </p>
             </div>
         </div>
     </footer>
 
+    <!-- WeChat Float (click to show QR) -->
+    <button type="button" class="wechat-float" id="wechatFloat" aria-label="微信咨询">
+        <i class="fab fa-weixin"></i>
+    </button>
+    <div class="wechat-popup" id="wechatPopup">
+        <img src="images/wechat-qr.png" alt="扫码添加微信咨询" onerror="this.style.display='none'">
+        <p>扫码添加微信咨询</p>
+    </div>
+
+    <script>
+        (function() {
+            var wf = document.getElementById('wechatFloat');
+            var wp = document.getElementById('wechatPopup');
+            if (wf && wp) {
+                wf.addEventListener('click', function() { wp.classList.toggle('visible'); });
+                document.addEventListener('click', function(e) {
+                    if (wp.classList.contains('visible') && !wf.contains(e.target) && !wp.contains(e.target)) {
+                        wp.classList.remove('visible');
+                    }
+                });
+            }
+        })();
+    </script>
 </body>
 </html>

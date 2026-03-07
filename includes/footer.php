@@ -103,6 +103,9 @@
                     <div class="copyright">
                         <p>
                             &copy; 2026 Zhejiang Tianhong Fasteners Co., Ltd. All Rights Reserved.
+                            <?php if (defined('ICP_NUMBER')): ?>
+                            <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer"><?php echo ICP_NUMBER; ?></a>
+                            <?php endif; ?>
                         </p>
                     </div>
                     <div class="footer-bottom-links">

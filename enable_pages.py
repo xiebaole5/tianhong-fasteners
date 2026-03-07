@@ -3,9 +3,11 @@
 Enable GitHub Pages via API
 """
 
+import os
 import requests
 
-TOKEN = "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"
+# 请设置环境变量 GITHUB_TOKEN 或在本机运行前赋值，勿提交到仓库
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 USERNAME = "xiebaole5"
 REPO_NAME = "tianhong-fasteners"
 

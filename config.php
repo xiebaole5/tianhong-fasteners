@@ -1,22 +1,26 @@
 <?php
 /**
- * 天宏紧固件 - 外贸独立站
+ * 天虹紧固件 - 外贸独立站
  * Tianhong Fasteners - Foreign Trade Website
  * 
  * 网站配置信息
  */
 
 // 网站基本设置
-define('SITE_NAME', '天宏紧固件 | 专业紧固件制造商');
+define('SITE_NAME', '天虹紧固件 | 专业紧固件制造商');
 define('SITE_TITLE', 'Custom Fasteners Manufacturer - High-Strength & Special Fasteners');
-define('SITE_URL', 'https://www.yourdomain.com');
+define('SITE_URL', 'https://www.tnho-fasteners.com');
 define('SITE_EMAIL', 'info@yourdomain.com');
 
+// ICP 备案（国内域名 tnho-fasteners.com）
+define('ICP_NUMBER', '浙ICP备2026010279号');
+
 // 公司信息
-define('COMPANY_NAME', '浙江天宏紧固件有限公司');
+define('COMPANY_NAME', '浙江天虹紧固件有限公司');
 define('COMPANY_NAME_EN', 'Zhejiang Tianhong Fasteners Co., Ltd.');
 define('COMPANY_FOUNDED', '1987');
-define('COMPANY_ADDRESS', 'No. 309, Weishi Road, Economic Development Zone, Yueqing City, Zhejiang Province, China');
+define('COMPANY_ADDRESS', 'No. 309, Weishi Road, Yueqing Economic Development Zone, Yueqing, Wenzhou, Zhejiang Province, China');
+define('COMPANY_ADDRESS_CN', '浙江省温州市乐清市乐清经济开发区纬十路309号');
 define('COMPANY_PHONE', '+86 18958770140');
 define('COMPANY_WHATSAPP', '+86 18958770140');
 define('COMPANY_EMAIL', 'xiebaole5@gmail.com');
@@ -25,6 +29,10 @@ define('COMPANY_EMAIL', 'xiebaole5@gmail.com');
 define('FACEBOOK_URL', 'https://www.facebook.com/yourcompany');
 define('LINKEDIN_URL', 'https://www.linkedin.com/company/yourcompany');
 define('YOUTUBE_URL', 'https://www.youtube.com/yourcompany');
+
+// 国内展示：微信二维码（用于页脚/联系区/悬浮展示，不设价格仅展示与询盘）
+define('WECHAT_QR_IMAGE', 'images/wechat-qr.png');  // 请将二维码图放到该路径
+define('WECHAT_QR_ALT', '扫码添加微信咨询');
 
 // 产品分类
 define('PRODUCT_CATEGORIES', [

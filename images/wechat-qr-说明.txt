@@ -1,0 +1,5 @@
+请将您的微信二维码图片命名为 wechat-qr.png，放在本目录（images/）下。
+
+页面会在此路径加载二维码：images/wechat-qr.png
+
+建议尺寸：200×200 像素或以上，正方形。格式 PNG 或 JPG 均可；若使用 JPG，请将页面中的 images/wechat-qr.png 改为 images/wechat-qr.jpg。

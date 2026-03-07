@@ -1054,6 +1054,20 @@
             color: rgba(255,255,255,0.7);
         }
         
+        .footer-wechat {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            flex-wrap: wrap;
+        }
+        .footer-wechat-qr {
+            width: 80px;
+            height: 80px;
+            object-fit: contain;
+            border-radius: 8px;
+            margin-top: 8px;
+            display: block;
+        }
         .footer-contact i {
             color: var(--accent-color);
             margin-top: 4px;
@@ -1132,6 +1146,75 @@
         .whatsapp-float:hover {
             transform: scale(1.1);
             box-shadow: 0 8px 25px rgba(37, 211, 102, 0.5);
+        }
+        
+        /* WeChat Float (above WhatsApp) */
+        .wechat-float {
+            position: fixed;
+            bottom: 95px;
+            left: 30px;
+            width: 55px;
+            height: 55px;
+            background: #07c160;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 26px;
+            text-decoration: none;
+            cursor: pointer;
+            border: none;
+            z-index: 1000;
+            box-shadow: 0 5px 20px rgba(7, 193, 96, 0.4);
+            transition: var(--transition);
+        }
+        .wechat-float:hover {
+            transform: scale(1.1);
+            box-shadow: 0 8px 25px rgba(7, 193, 96, 0.5);
+        }
+        .wechat-popup {
+            position: fixed;
+            bottom: 160px;
+            left: 30px;
+            background: #fff;
+            border-radius: 12px;
+            padding: 16px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.15);
+            z-index: 1001;
+            text-align: center;
+            display: none;
+        }
+        .wechat-popup.visible {
+            display: block;
+        }
+        .wechat-popup img {
+            width: 160px;
+            height: 160px;
+            display: block;
+            margin: 0 auto 10px;
+        }
+        .wechat-popup p {
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+        }
+        .wechat-qr-block {
+            display: flex;
+            align-items: center;
+            gap: 16px;
+            margin-top: 12px;
+        }
+        .wechat-qr-block img {
+            width: 90px;
+            height: 90px;
+            object-fit: contain;
+            border-radius: 8px;
+        }
+        .wechat-qr-block .wechat-qr-text {
+            font-size: 13px;
+            color: var(--text-light);
+            line-height: 1.5;
         }
         
         /* Animations */
@@ -2237,8 +2320,8 @@
                         <div>
                             <div class="contact-label">Address</div>
                             <div class="contact-value">
-                                No. 309, Weishi Road, Economic Development Zone<br>
-                                Yueqing City, Wenzhou, Zhejiang Province, China
+                                No. 309, Weishi Road, Yueqing Economic Development Zone<br>
+                                Yueqing, Wenzhou, Zhejiang Province, China
                             </div>
                         </div>
                     </div>
@@ -2280,6 +2363,19 @@
                         <div>
                             <div class="contact-label">Business Hours</div>
                             <div class="contact-value">Monday - Friday: 8:00 AM - 6:00 PM (UTC+8)</div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fab fa-weixin" style="color: #07c160;"></i>
+                        </div>
+                        <div>
+                            <div class="contact-label">微信 WeChat</div>
+                            <div class="wechat-qr-block">
+                                <img src="images/wechat-qr.png" alt="扫码添加微信咨询" onerror="this.style.display='none'">
+                                <span class="wechat-qr-text">扫码添加微信，国内客户欢迎直接咨询</span>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -2396,7 +2492,7 @@
                         <ul class="footer-contact">
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
-                                No. 309, Weishi Road, Yueqing Economic Development Zone, Wenzhou, Zhejiang, China
+                                No. 309, Weishi Road, Yueqing Economic Development Zone, Yueqing, Wenzhou, Zhejiang, China
                             </li>
                             <li>
                                 <i class="fas fa-phone-alt"></i>
@@ -2410,6 +2506,11 @@
                                 <i class="fas fa-envelope"></i>
                                 <a href="mailto:yqtianhong@163.com">yqtianhong@163.com</a>
                             </li>
+                            <li class="footer-wechat">
+                                <i class="fab fa-weixin" style="color: #07c160;"></i>
+                                <span>微信咨询</span>
+                                <img src="images/wechat-qr.png" alt="扫码加微信" class="footer-wechat-qr" onerror="this.style.display='none'">
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -2420,7 +2521,8 @@
             <div class="container">
                 <div class="footer-bottom-content">
                     <div class="copyright">
-                        &copy; 2026 <a href="#">TNHO 天虹</a> All Rights Reserved.
+                        &copy; 2026 <a href="https://www.tnho-fasteners.com">TNHO 天虹</a> All Rights Reserved.
+                        <span class="icp-wrap"> | <a href="https://beian.miit.gov.cn/" target="_blank" rel="noopener noreferrer">浙ICP备2026010279号</a></span>
                     </div>
                     <div class="footer-bottom-links">
                         <a href="#">Privacy Policy</a>
@@ -2441,6 +2543,15 @@
     <a href="https://wa.me/8618958770140" class="whatsapp-float" target="_blank" aria-label="Contact via WhatsApp">
         <i class="fab fa-whatsapp"></i>
     </a>
+
+    <!-- WeChat Float Button (click to show QR) -->
+    <button type="button" class="wechat-float" id="wechatFloat" aria-label="微信咨询">
+        <i class="fab fa-weixin"></i>
+    </button>
+    <div class="wechat-popup" id="wechatPopup">
+        <img src="images/wechat-qr.png" alt="扫码添加微信咨询" onerror="this.style.display='none'">
+        <p>扫码添加微信咨询</p>
+    </div>
 
     <!-- AOS Animation Library -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -2476,10 +2587,24 @@
         
         backToTop.addEventListener('click', function() {
             window.scrollTo({
-top: 0,
+                top: 0,
                 behavior: 'smooth'
             });
         });
+
+        // WeChat float: toggle QR popup
+        var wechatFloat = document.getElementById('wechatFloat');
+        var wechatPopup = document.getElementById('wechatPopup');
+        if (wechatFloat && wechatPopup) {
+            wechatFloat.addEventListener('click', function() {
+                wechatPopup.classList.toggle('visible');
+            });
+            document.addEventListener('click', function(e) {
+                if (wechatPopup.classList.contains('visible') && !wechatFloat.contains(e.target) && !wechatPopup.contains(e.target)) {
+                    wechatPopup.classList.remove('visible');
+                }
+            });
+        }
 
         // Form Submission Handler
         document.getElementById('inquiryForm').addEventListener('submit', function(e) {

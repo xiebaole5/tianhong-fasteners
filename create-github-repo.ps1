@@ -9,7 +9,7 @@ $headers = @{
 
 $body = @{
     "name" = "tianhong-fasteners"
-    "description" = "浙江天宏紧固件有限公司 - 外贸独立站 | Tianhong Fasteners Co., Ltd. - International Trade Website"
+    "description" = "浙江天虹紧固件有限公司 - 外贸独立站 | Tianhong Fasteners Co., Ltd. - International Trade Website"
     "homepage" = "https://tianhong-fasteners.pages.dev"
     "private" = $false
     "has_issues" = $true

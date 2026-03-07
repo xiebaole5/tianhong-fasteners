@@ -1,0 +1,118 @@
+{
+  "categories": [
+    { "id": "hex-bolts", "name": "六角螺栓", "nameEn": "Hex Bolts" },
+    { "id": "stainless", "name": "不锈钢件", "nameEn": "Stainless Steel" },
+    { "id": "custom", "name": "定制紧固件", "nameEn": "Custom Fasteners" },
+    { "id": "special", "name": "特殊/异形件", "nameEn": "Special & Shaped" }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "六角头螺栓",
+      "nameEn": "Hex Head Bolts",
+      "description": "高强度工业用六角螺栓，适用于各类工业场景",
+      "image": "images/products/hex-bolt-1.png",
+      "category": "hex-bolts",
+      "sort": 1
+    },
+    {
+      "id": "p2",
+      "name": "不锈钢螺母",
+      "nameEn": "Stainless Steel Nuts",
+      "description": "304、316 等材质，高品质螺母",
+      "image": "images/products/stainless-nuts.jpg",
+      "category": "stainless",
+      "sort": 2
+    },
+    {
+      "id": "p3",
+      "name": "定制紧固件",
+      "nameEn": "Custom Fasteners",
+      "description": "OEM/ODM 定制，满足特殊需求",
+      "image": "images/products/custom-fasteners.jpg",
+      "category": "custom",
+      "sort": 3
+    },
+    {
+      "id": "p4",
+      "name": "达克罗涂层螺栓",
+      "nameEn": "Dacromet Coated Bolts",
+      "description": "耐腐蚀涂层紧固件",
+      "image": "images/products/dacromet-bolt.webp",
+      "category": "hex-bolts",
+      "sort": 4
+    },
+    {
+      "id": "p5",
+      "name": "紧固件装配件",
+      "nameEn": "Fastener Assemblies",
+      "description": "成套装配方案，适用于制造产线",
+      "image": "images/products/fastener-assembly.jpg",
+      "category": "custom",
+      "sort": 5
+    },
+    {
+      "id": "p6",
+      "name": "六角法兰螺栓",
+      "nameEn": "Hex Flange Bolts",
+      "description": "带法兰设计，连接更稳固",
+      "image": "images/products/hex-flange-bolt.jpg",
+      "category": "hex-bolts",
+      "sort": 6
+    },
+    {
+      "id": "p7",
+      "name": "特殊紧固件",
+      "nameEn": "Special Fasteners",
+      "description": "按图加工非标件、异形件",
+      "image": "images/products/special-fasteners.jpg",
+      "category": "special",
+      "sort": 7
+    },
+    {
+      "id": "p8",
+      "name": "异形螺丝",
+      "nameEn": "Special Shaped Screws",
+      "description": "特殊形状与结构，满足独特应用",
+      "image": "images/products/special-shaped-screws.webp",
+      "category": "special",
+      "sort": 8
+    },
+    {
+      "id": "p9",
+      "name": "不锈钢六角螺栓",
+      "nameEn": "Stainless Hex Bolts",
+      "description": "不锈钢材质六角螺栓，耐腐蚀、高强度",
+      "image": "images/products/stainless-hex-bolt.jpg",
+      "category": "stainless",
+      "sort": 9
+    },
+    {
+      "id": "p10",
+      "name": "内六角螺丝",
+      "nameEn": "Hex Socket Screws",
+      "description": "内六角沉头/圆柱头螺丝，适用于精密装配",
+      "image": "images/products/hex-socket-screw.webp",
+      "category": "hex-bolts",
+      "sort": 10
+    },
+    {
+      "id": "p11",
+      "name": "镀锌螺栓",
+      "nameEn": "Zinc Plated Bolts",
+      "description": "镀锌防锈处理，适用于一般工业与户外",
+      "image": "images/products/zinc-plated-bolt.jpg",
+      "category": "hex-bolts",
+      "sort": 11
+    },
+    {
+      "id": "p12",
+      "name": "螺母螺栓组合",
+      "nameEn": "Nuts & Bolts Assortment",
+      "description": "多规格螺母螺栓组合，适用于维修与备件（临时图源：Unsplash）",
+      "image": "https://images.unsplash.com/photo-1710129084868-9ff5127b7e6e?w=600&q=80",
+      "category": "custom",
+      "sort": 12
+    }
+  ]
+}
