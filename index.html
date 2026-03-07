@@ -55,7 +55,14 @@
     .product-card:hover img { transform: scale(1.06); }
     .fade-up { opacity: 0; transform: translateY(30px); transition: opacity 0.6s ease, transform 0.6s ease; }
     .fade-up.visible { opacity: 1; transform: translateY(0); }
+    /* Disable fade-up animation on mobile to prevent blank-section issue */
+    @media (max-width: 767px) {
+      .fade-up { opacity: 1; transform: none; transition: none; }
+    }
     .section-divider { width: 60px; height: 4px; background: linear-gradient(90deg, #d4891a, #f0a833); border-radius: 2px; margin: 12px auto 0; }
+    /* Douyin/WeChat in-app browser banner */
+    #browser-hint { display: none; }
+    #browser-hint.show { display: flex; }
     ::-webkit-scrollbar { width: 6px; }
     ::-webkit-scrollbar-track { background: #f1f5f9; }
     ::-webkit-scrollbar-thumb { background: #d4891a; border-radius: 3px; }
@@ -63,6 +70,17 @@
 </head>
 
 <body class="lang-zh font-sans antialiased bg-white text-gray-800" id="body">
+
+<!-- DOUYIN / WECHAT IN-APP BROWSER HINT -->
+<div id="browser-hint" role="alert"
+  style="position:fixed;top:0;left:0;right:0;z-index:9999;background:#d4891a;color:#fff;padding:10px 16px;font-size:13px;align-items:center;justify-content:space-between;gap:8px;">
+  <span>
+    <span data-zh>📱 建议点击右上角 ··· 选择「在浏览器中打开」以获得最佳体验</span>
+    <span data-en>📱 For the best experience, tap ··· and choose "Open in Browser"</span>
+  </span>
+  <button onclick="document.getElementById('browser-hint').remove()" aria-label="Close"
+    style="background:rgba(0,0,0,0.2);border:none;color:#fff;border-radius:50%;width:22px;height:22px;cursor:pointer;font-size:14px;flex-shrink:0;display:flex;align-items:center;justify-content:center;line-height:1;">✕</button>
+</div>
 
 <!-- HEADER -->
 <header id="site-header" class="fixed top-0 left-0 right-0 z-50 bg-[#0d1b2a]/95 backdrop-blur-sm shadow-lg">
@@ -127,46 +145,46 @@
 
 
 <!-- HERO -->
-<section id="hero" class="relative min-h-screen flex items-center overflow-hidden">
+<section id="hero" class="relative min-h-screen flex items-center overflow-hidden" style="min-height:100svh">
   <div class="absolute inset-0">
-    <img src="warehouse.jpg" alt="Fastener factory" class="w-full h-full object-cover" onerror="this.style.display='none'" />
+    <img src="warehouse.jpg" alt="Fastener factory" class="w-full h-full object-cover" loading="eager" onerror="this.style.display='none'" />
     <div class="hero-overlay absolute inset-0"></div>
     <div class="absolute inset-0 bg-[#0d1b2a]/80"></div>
   </div>
-  <div class="absolute top-20 right-10 w-64 h-64 bg-[#d4891a]/10 rounded-full blur-3xl pointer-events-none"></div>
-  <div class="absolute bottom-20 left-10 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none"></div>
+  <div class="absolute top-20 right-10 w-64 h-64 bg-[#d4891a]/10 rounded-full blur-3xl pointer-events-none hidden sm:block"></div>
+  <div class="absolute bottom-20 left-10 w-80 h-80 bg-blue-500/10 rounded-full blur-3xl pointer-events-none hidden sm:block"></div>
 
-  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-24">
+  <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 md:pb-24">
     <div class="max-w-3xl">
-      <div class="inline-flex items-center gap-2 bg-[#d4891a]/20 border border-[#d4891a]/40 text-[#f0a833] rounded-full px-4 py-1.5 text-sm font-medium mb-8 fade-up">
+      <div class="inline-flex items-center gap-2 bg-[#d4891a]/20 border border-[#d4891a]/40 text-[#f0a833] rounded-full px-4 py-1.5 text-sm font-medium mb-6 fade-up">
         <i class="fas fa-industry text-xs"></i>
         <span data-zh>专业紧固件制造商 · 1987年创立</span>
         <span data-en>Professional Fastener Manufacturer · Est. 1987</span>
       </div>
 
-      <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-6 fade-up" style="font-family:Poppins,sans-serif">
+      <h1 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold text-white leading-tight mb-5 fade-up" style="font-family:Poppins,sans-serif">
         <span data-zh>浙江天虹<br/><span class="text-[#d4891a]">紧固件</span>有限公司</span>
         <span data-en>Zhejiang Tianhong<br/><span class="text-[#d4891a]">Fasteners</span> Co., Ltd.</span>
       </h1>
 
-      <p class="text-gray-300 text-lg md:text-xl leading-relaxed mb-10 fade-up max-w-2xl">
+      <p class="text-gray-300 text-base md:text-lg leading-relaxed mb-8 fade-up max-w-2xl">
         <span data-zh>专注高强度螺栓、螺母、垫圈及异型紧固件研发与制造，深耕汽车、光伏、机械装备等行业超过35年。</span>
         <span data-en>Specialising in high-strength bolts, nuts, washers and custom fasteners for automotive, solar energy and industrial machinery sectors for over 35 years.</span>
       </p>
 
-      <div class="flex flex-wrap gap-4 fade-up">
+      <div class="flex flex-col sm:flex-row flex-wrap gap-3 fade-up">
         <button onclick="openInquiry()"
-          class="inline-flex items-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold px-6 py-3 rounded-xl text-base transition-all shadow-lg">
+          class="inline-flex items-center justify-center gap-2 bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold px-6 py-3 rounded-xl text-base transition-all shadow-lg">
           <i class="fas fa-paper-plane"></i>
           <span data-zh>立即询价</span><span data-en>Get a Quote</span>
         </button>
         <a href="#products"
-          class="inline-flex items-center gap-2 border-2 border-white/40 hover:border-white text-white font-semibold px-6 py-3 rounded-xl text-base transition-all hover:bg-white/10">
+          class="inline-flex items-center justify-center gap-2 border-2 border-white/40 hover:border-white text-white font-semibold px-6 py-3 rounded-xl text-base transition-all hover:bg-white/10">
           <i class="fas fa-th-large"></i>
           <span data-zh>浏览产品</span><span data-en>View Products</span>
         </a>
         <a href="tel:+8618958770140"
-          class="inline-flex items-center gap-2 border-2 border-green-500/60 hover:border-green-400 text-green-400 font-semibold px-6 py-3 rounded-xl text-base transition-all hover:bg-green-500/10">
+          class="inline-flex items-center justify-center gap-2 border-2 border-green-500/60 hover:border-green-400 text-green-400 font-semibold px-6 py-3 rounded-xl text-base transition-all hover:bg-green-500/10">
           <i class="fas fa-phone"></i>
           <span>+86 189-5877-0140</span>
         </a>
@@ -174,7 +192,7 @@
     </div>
   </div>
 
-  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce">
+  <div class="absolute bottom-8 left-1/2 -translate-x-1/2 flex flex-col items-center gap-1 animate-bounce hidden sm:flex">
     <span class="text-gray-400 text-xs"><span data-zh>向下滚动</span><span data-en>Scroll</span></span>
     <i class="fas fa-chevron-down text-[#d4891a] text-sm"></i>
   </div>
@@ -245,7 +263,7 @@
 
       <div class="relative fade-up order-2 lg:order-1">
         <div class="aspect-[4/3] rounded-2xl overflow-hidden bg-gray-200 product-img-fallback">
-          <img src="workshop.jpg" alt="Workshop" class="w-full h-full object-cover" onerror="this.style.display='none'" />
+          <img src="workshop.jpg" alt="Workshop" class="w-full h-full object-cover" loading="lazy" onerror="this.style.display='none'" />
         </div>
         <div class="absolute -bottom-5 -right-5 bg-[#d4891a] text-white rounded-2xl px-6 py-4 shadow-2xl">
           <div class="font-extrabold text-3xl leading-none" style="font-family:Poppins,sans-serif">35+</div>
@@ -617,7 +635,7 @@
     </div>
     <div class="p-6">
       <form id="modal-form" onsubmit="submitModalForm(event)">
-        <div class="grid grid-cols-2 gap-4 mb-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-4">
           <div>
             <label class="block text-sm font-medium text-gray-700 mb-1"><span data-zh>姓名 *</span><span data-en>Name *</span></label>
             <input type="text" name="name" required class="w-full border border-gray-200 rounded-lg px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]" />
@@ -724,13 +742,18 @@ window.addEventListener('scroll', function() {
   else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
 });
 
-/* Scroll Fade-in */
-var observer = new IntersectionObserver(function(entries) {
-  entries.forEach(function(entry) {
-    if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
-  });
-}, { threshold: 0.1 });
-document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+/* Scroll Fade-in — skip on mobile (handled by CSS override) */
+if (window.innerWidth >= 768) {
+  var observer = new IntersectionObserver(function(entries) {
+    entries.forEach(function(entry) {
+      if (entry.isIntersecting) { entry.target.classList.add('visible'); observer.unobserve(entry.target); }
+    });
+  }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
+  document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+} else {
+  /* On mobile: mark all fade-up elements visible immediately */
+  document.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
+}
 
 /* Load Products */
 fetch('data/products.json')
@@ -764,7 +787,11 @@ function renderProducts(products) {
   /* Re-apply language and observe new elements */
   var currentLang = document.getElementById('html-root').className.includes('lang-en') ? 'en' : 'zh';
   setLang(currentLang);
-  grid.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+  if (window.innerWidth >= 768 && typeof observer !== 'undefined') {
+    grid.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+  } else {
+    grid.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
+  }
 }
 
 function getFallbackProducts() {
@@ -783,6 +810,15 @@ function getFallbackProducts() {
     {id:12, name_zh:"光伏支架紧固件", name_en:"Solar Mounting Fastener", spec:"M8–M16, 适用光伏铝型材", material:"SS304 / SS316 / 铝合金 6061", category_zh:"新能源紧固件", category_en:"Solar Energy", image:""}
   ];
 }
+/* Douyin / WeChat in-app browser detection */
+(function() {
+  var ua = navigator.userAgent || '';
+  var isInApp = /Aweme|BytedanceWebview|musical_ly|MicroMessenger|MQQBrowser|QQ\//i.test(ua);
+  if (isInApp) {
+    var hint = document.getElementById('browser-hint');
+    if (hint) hint.classList.add('show');
+  }
+})();
 <\/script>
 </body>
 </html>
