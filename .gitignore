@@ -42,6 +42,7 @@ npm-debug.log*
 *.html
 !index.html
 !products.html
+!en.html
 
 # Design documents (optional - keep if needed)
 !设计文档/
