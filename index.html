@@ -46,7 +46,7 @@
       display: inline-flex; align-items: center;
       border: 1.5px solid #d4891a; border-radius: 999px; overflow: hidden; cursor: pointer;
     }
-    .lang-btn { padding: 4px 12px; font-size: 0.8rem; font-weight: 600; transition: background 0.2s, color 0.2s; }
+    .lang-btn { padding: 4px 12px; font-size: 0.8rem; font-weight: 600; transition: background 0.2s, color 0.2s; cursor: pointer; -webkit-tap-highlight-color: transparent; }
     .lang-btn.active { background: #d4891a; color: #fff; }
     .lang-btn:not(.active) { background: transparent; color: #d4891a; }
     .product-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
@@ -460,8 +460,8 @@
           <div>
             <div class="font-semibold text-gray-800 mb-1"><span data-zh>公司地址</span><span data-en>Address</span></div>
             <div class="text-gray-700 text-sm leading-relaxed">
-              <span data-zh>浙江省乐清市纬实路309号</span>
-              <span data-en>No. 309, Weishi Road, Yueqing, Zhejiang, China</span>
+              <span data-zh>浙江省乐清经济开发区纬十路309号</span>
+              <span data-en>No. 309, Weishi Road, Yueqing Economic Development Zone, Zhejiang, China</span>
             </div>
           </div>
         </div>
@@ -594,8 +594,8 @@
           <li class="flex items-start gap-2">
             <i class="fas fa-map-marker-alt text-[#d4891a] mt-0.5 text-xs flex-shrink-0"></i>
             <span>
-              <span data-zh>浙江省乐清市纬实路309号</span>
-              <span data-en>No. 309 Weishi Rd, Yueqing, Zhejiang, China</span>
+              <span data-zh>浙江省乐清经济开发区纬十路309号</span>
+              <span data-en>No. 309 Weishi Rd, Yueqing Economic Development Zone, Zhejiang, China</span>
             </span>
           </li>
         </ul>
@@ -696,11 +696,23 @@ function setLang(lang) {
   html.setAttribute('lang', lang === 'zh' ? 'zh-CN' : 'en');
   document.getElementById('btn-zh').classList.toggle('active', lang === 'zh');
   document.getElementById('btn-en').classList.toggle('active', lang === 'en');
-  localStorage.setItem('th-lang', lang);
+  try { localStorage.setItem('th-lang', lang); } catch(e) {}
 }
 (function() {
-  var saved = localStorage.getItem('th-lang') || 'zh';
+  var saved = 'zh';
+  try { saved = localStorage.getItem('th-lang') || 'zh'; } catch(e) {}
   setLang(saved);
+})();
+/* Attach touch-safe listeners to language buttons */
+(function() {
+  function attachLangBtn(id, lang) {
+    var btn = document.getElementById(id);
+    if (!btn) return;
+    /* touchend with preventDefault stops the synthesised click, avoiding double-fire */
+    btn.addEventListener('touchend', function(e) { e.preventDefault(); setLang(lang); });
+  }
+  attachLangBtn('btn-zh', 'zh');
+  attachLangBtn('btn-en', 'en');
 })();
 
 /* Mobile Menu */
@@ -750,6 +762,10 @@ if (window.innerWidth >= 768) {
     });
   }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
   document.querySelectorAll('.fade-up').forEach(function(el) { observer.observe(el); });
+  /* Fallback: ensure all fade-up elements become visible after 1.5s in case observer misses them */
+  setTimeout(function() {
+    document.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
+  }, 1500);
 } else {
   /* On mobile: mark all fade-up elements visible immediately */
   document.querySelectorAll('.fade-up').forEach(function(el) { el.classList.add('visible'); });
