@@ -14,6 +14,8 @@
 
   <!-- Pre-built Tailwind CSS (primary stylesheet) -->
   <link rel="stylesheet" href="css/tailwind.css" />
+  <!-- Product Gallery Styles -->
+  <link rel="stylesheet" href="assets/css/product-style.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -140,22 +142,44 @@
 
 
 <!-- PRODUCTS CATALOG -->
-<section id="products" class="py-20 bg-gray-50">
+<section id="pg-section" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">Featured Products</p>
+    <div class="text-center mb-10">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">Product Catalog</p>
       <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
-        Professional Fastener Range
+        533 Professional Fasteners
       </h2>
       <div class="section-divider"></div>
       <p class="text-gray-500 mt-4 max-w-xl mx-auto text-base">
-        Founded in 1987, we specialise in high-strength bolts, nuts, washers and custom fasteners.
+        Founded in 1987, we specialise in high-strength bolts, nuts, security screws and custom fasteners.
       </p>
     </div>
 
-    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+    <!-- Search & Filter -->
+    <div class="pg-search-wrap">
+      <div class="flex flex-col sm:flex-row gap-3 mb-4">
+        <div class="pg-search-input-wrap">
+          <i class="fas fa-search pg-search-icon"></i>
+          <input id="pg-search" type="search" class="pg-search-input" autocomplete="off" />
+        </div>
+      </div>
+      <div id="pg-tabs" class="pg-filter-tabs">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Results Bar -->
+    <div class="pg-results-bar">
+      <span id="pg-results-bar" class="pg-results-count"></span>
+    </div>
+
+    <!-- Product Grid -->
+    <div id="pg-grid" class="pg-grid">
       <!-- Populated by JavaScript -->
     </div>
+
+    <!-- Pagination -->
+    <div id="pg-pagination" class="pg-pagination"></div>
   </div>
 </section>
 
@@ -490,49 +514,9 @@ window.addEventListener('scroll', function() {
   else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
 });
 
-/* Load Products */
-fetch('data/products.json')
-  .then(function(r) { return r.json(); })
-  .then(function(data) { renderProducts(data.products); })
-  .catch(function() { renderProducts(getFallbackProducts()); });
-
-function renderProducts(products) {
-  var grid = document.getElementById('product-grid');
-  if (!grid) return;
-  grid.innerHTML = products.map(function(p) {
-    return '<div class="product-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">' +
-      '<div class="relative aspect-[4/3] overflow-hidden product-img-fallback">' +
-      '<img src="' + p.image + '" alt="' + p.name_en + '"' +
-      ' class="w-full h-full object-cover" loading="lazy" onerror="this.style.display=\'none\'">' +
-      '<div class="absolute top-3 left-3"><span class="bg-[#d4891a] text-white text-xs font-semibold px-2.5 py-1 rounded-full">' +
-      p.category_en + '</span></div></div>' +
-      '<div class="p-4">' +
-      '<h3 class="font-bold text-[#0d1b2a] text-base mb-1" style="font-family:Poppins,sans-serif">' + p.name_en + '</h3>' +
-      '<p class="text-gray-500 text-xs mb-1">Spec: ' + p.spec + '</p>' +
-      '<p class="text-gray-500 text-xs mb-3">Material: ' + p.material + '</p>' +
-      '<button onclick="openInquiry(\'' + p.name_en + '\')" ' +
-      'class="w-full text-center border border-[#0d1b2a] text-[#0d1b2a] hover:bg-[#0d1b2a] hover:text-white text-xs font-semibold py-2 rounded-lg transition-colors">' +
-      'Inquire</button>' +
-      '</div></div>';
-  }).join('');
-}
-
-function getFallbackProducts() {
-  return [
-    {id:1, name_en:"Hex Bolt", spec:"M4–M64, Grade 4.6/8.8/10.9/12.9", material:"Carbon Steel / SS304 / SS316", category_en:"Bolts", image:""},
-    {id:2, name_en:"Socket Head Cap Screw", spec:"M3–M36, DIN 912", material:"Carbon Steel / Alloy Steel / SS304", category_en:"Screws", image:""},
-    {id:3, name_en:"Flange Bolt", spec:"M6–M24, Grade 8.8/10.9", material:"Zinc-Plated Carbon Steel / Stainless Steel", category_en:"Bolts", image:""},
-    {id:4, name_en:"High-Strength Bolt", spec:"M12–M100, Grade 10.9/12.9", material:"Alloy Steel, Heat-Treated", category_en:"High-Strength Fasteners", image:""},
-    {id:5, name_en:"U-Bolt", spec:"M6–M30, Custom by drawing", material:"Carbon Steel / SS316", category_en:"Special Bolts", image:""},
-    {id:6, name_en:"Stainless Self-Tapping Screw", spec:"ST2.2–ST6.3, DIN 7981", material:"SS304 / SS316L", category_en:"Screws", image:""},
-    {id:7, name_en:"Hex Nut", spec:"M3–M64, DIN 934", material:"Carbon Steel / SS304 / SS316", category_en:"Nuts", image:""},
-    {id:8, name_en:"Nylon Insert Lock Nut", spec:"M4–M36, DIN 985", material:"Zinc-Plated Carbon Steel / SS304", category_en:"Nuts", image:""},
-    {id:9, name_en:"Flat Washer", spec:"M3–M100, DIN 125", material:"Carbon Steel / SS304 / Brass", category_en:"Washers", image:""},
-    {id:10, name_en:"Spring Washer", spec:"M3–M64, DIN 127", material:"Spring Steel / SS301", category_en:"Washers", image:""},
-    {id:11, name_en:"Automotive Fastener", spec:"Custom to drawing, Grade 8.8–12.9", material:"Alloy Steel / Dacromet Coated", category_en:"Automotive Fasteners", image:""},
-    {id:12, name_en:"Solar Mounting Fastener", spec:"M8–M16, For PV aluminum profiles", material:"SS304 / SS316 / Aluminum 6061", category_en:"New Energy Fasteners", image:""}
-  ];
-}
+/* Load Products via product-gallery.js */
+window.PG_LANG = 'en';
+window.PG_OPEN_INQUIRY = openInquiry;
 
 /* Douyin / WeChat in-app browser detection */
 (function() {
@@ -544,5 +528,6 @@ function getFallbackProducts() {
   }
 })();
 </script>
+<script src="assets/js/product-gallery.js"></script>
 </body>
 </html>

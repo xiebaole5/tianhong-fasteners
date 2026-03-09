@@ -1,0 +1,4862 @@
+{
+  "meta": {
+    "total": 533,
+    "source": "ERP Export",
+    "generated": "2026-03-09",
+    "categories": [
+      {
+        "zh": "螺母类",
+        "en": "Nuts",
+        "count": 45,
+        "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "螺栓类",
+        "en": "Bolts",
+        "count": 39,
+        "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "铆钉类",
+        "en": "Rivets",
+        "count": 14,
+        "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "螺钉类",
+        "en": "Screws",
+        "count": 247,
+        "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "铅封螺钉",
+        "en": "Security Screws",
+        "count": 106,
+        "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "非标件",
+        "en": "Custom Parts",
+        "count": 43,
+        "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "嵌件类",
+        "en": "Press-In Inserts",
+        "count": 22,
+        "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "套管类",
+        "en": "Sleeves & Spacers",
+        "count": 8,
+        "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+      },
+      {
+        "zh": "销轴类",
+        "en": "Pins & Shafts",
+        "count": 9,
+        "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+      }
+    ]
+  },
+  "products": [
+    {
+      "id": 1,
+      "name_zh": "RCSK-1小方螺母 (铁) （网纹）",
+      "name_en": "Nut",
+      "spec": "M3*5.4*5.4*1.9",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 2,
+      "name_zh": "RCSK-1小方螺母 (铜)",
+      "name_en": "Nut",
+      "spec": "M3*5.4*5.4*1.9",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 3,
+      "name_zh": "RCSK-1小方螺母 (铜) （网纹）",
+      "name_en": "Nut",
+      "spec": "M3*5.4*5.4*1.9",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 4,
+      "name_zh": "SK20螺杆",
+      "name_en": "Threaded Rod",
+      "spec": "M4*28",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 5,
+      "name_zh": "T形铆钉",
+      "name_en": "Rivet",
+      "spec": "Φ2.5*13.8",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 6,
+      "name_zh": "Y型平头螺钉",
+      "name_en": "Flat Head Screw",
+      "spec": "M3*22",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 7,
+      "name_zh": "Y型盘头尖尾自攻螺钉",
+      "name_en": "Pan Head Screw",
+      "spec": "ST3*17.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 8,
+      "name_zh": "一字六角凹穴尖尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4.3*22/12.5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 9,
+      "name_zh": "一字六角凹穴束尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4.2*12.7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 10,
+      "name_zh": "一字六角凹穴法兰花齿束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "#8-32*9.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 11,
+      "name_zh": "一字内六角紧定螺钉（带孔）",
+      "name_en": "Slotted Screw",
+      "spec": "M8-1*16",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 12,
+      "name_zh": "一字内六角紧定螺钉（带孔）（无热处理）",
+      "name_en": "Slotted Screw",
+      "spec": "M8-1*16",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 13,
+      "name_zh": "一字单孔大头铅封螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M4*20/12.5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 14,
+      "name_zh": "一字圆头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*30/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 15,
+      "name_zh": "一字圆头四孔铅封螺钉(45°孔)",
+      "name_en": "Slotted Screw",
+      "spec": "M6*12",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 16,
+      "name_zh": "一字圆头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "SM9/64-40*6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 17,
+      "name_zh": "一字圆柱头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*13",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 18,
+      "name_zh": "一字大头单孔圆尾铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*16/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 19,
+      "name_zh": "一字大头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*34.5/11.5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 20,
+      "name_zh": "一字大扁头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "#8-32*12.7（9.3*2.4）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 21,
+      "name_zh": "一字平头凸缘束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 22,
+      "name_zh": "一字平头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*42/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 23,
+      "name_zh": "一字平头台阶螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "SM3/16-28*13（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 24,
+      "name_zh": "一字平头四孔平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST5.7*16/11.8mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 25,
+      "name_zh": "一字平头四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*43/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 26,
+      "name_zh": "一字平头尖尾单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*19.5/9.5mm（3.0小杆）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 27,
+      "name_zh": "一字平头拧断四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*43/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 28,
+      "name_zh": "一字平头束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*6.9（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 29,
+      "name_zh": "一字平头端子螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*15",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 30,
+      "name_zh": "一字平头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*9.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 31,
+      "name_zh": "一字平头螺钉（带M2孔）",
+      "name_en": "Slotted Screw",
+      "spec": "M6*9.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 32,
+      "name_zh": "一字拧断四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*10/8.5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 33,
+      "name_zh": "一字拧断平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.6*20/10mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 34,
+      "name_zh": "一字拧断铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*30/8mm（φ5.6）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 35,
+      "name_zh": "一字止逆四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*40/8mm（7*6.5）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 36,
+      "name_zh": "一字滚花开槽螺栓",
+      "name_en": "Slotted Bolt",
+      "spec": "M3*6.5/4mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 37,
+      "name_zh": "一字盘头尖尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST2.9*6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 38,
+      "name_zh": "一字盘头止逆螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 39,
+      "name_zh": "一字盘头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10/8.5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 40,
+      "name_zh": "一字端子螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*6.1",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 41,
+      "name_zh": "一字紧定螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M8-1*11",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 42,
+      "name_zh": "一字紧定螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M8*17",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 43,
+      "name_zh": "三角头单孔铅封螺钉",
+      "name_en": "Screw",
+      "spec": "M4*16/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 44,
+      "name_zh": "三角防盗螺钉",
+      "name_en": "Screw",
+      "spec": "1/4*27mm/10mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 45,
+      "name_zh": "下座螺丝",
+      "name_en": "Screw",
+      "spec": "M3*16.7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 46,
+      "name_zh": "下座螺钉",
+      "name_en": "Screw",
+      "spec": "ST3*22.3mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 47,
+      "name_zh": "下座螺钉 (头厚4.5)",
+      "name_en": "Screw",
+      "spec": "M3*22/5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 48,
+      "name_zh": "下座螺钉 (尾部带倒角)",
+      "name_en": "Screw",
+      "spec": "M3*22/5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 49,
+      "name_zh": "下座螺钉(特殊)",
+      "name_en": "Screw",
+      "spec": "M3*22/5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 50,
+      "name_zh": "不锈钢十一字平头四孔铅封螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M4*32/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 51,
+      "name_zh": "不锈钢铆钉",
+      "name_en": "Rivet",
+      "spec": "Φ6*13.8",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 52,
+      "name_zh": "元宝螺母",
+      "name_en": "Nut",
+      "spec": "φ6.2*21.8*10.2",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 53,
+      "name_zh": "全金属锁紧螺母",
+      "name_en": "Nut",
+      "spec": "M10",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 54,
+      "name_zh": "六角凹穴法兰花齿螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M5*6",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 55,
+      "name_zh": "六角凹穴法兰螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M6*188/15mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 56,
+      "name_zh": "六角凹穴法兰面花齿螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M8*12.7",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 57,
+      "name_zh": "六角凹穴法兰面螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M6*196/15mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 58,
+      "name_zh": "六角双头螺柱",
+      "name_en": "Hex Stud",
+      "spec": "M4*S7*69.3（总长）",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 59,
+      "name_zh": "六角头割槽螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M12*38",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 60,
+      "name_zh": "六角头割槽螺栓（带孔）",
+      "name_en": "Hex Bolt",
+      "spec": "M12*30",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 61,
+      "name_zh": "六角头单孔螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M8*43/24mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 62,
+      "name_zh": "六角头单孔铅封螺钉",
+      "name_en": "Hex Screw",
+      "spec": "M4*17/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 63,
+      "name_zh": "六角头带齿双螺纹螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M12*38",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 64,
+      "name_zh": "六角头带齿螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M8*20",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 65,
+      "name_zh": "六角头开槽螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M6*55",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 66,
+      "name_zh": "六角头弹平垫三组合螺",
+      "name_en": "Custom Parts",
+      "spec": "M6*16",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 67,
+      "name_zh": "六角头法兰螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M12*25",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 68,
+      "name_zh": "六角头滚花螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M10*110/26mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 69,
+      "name_zh": "六角头螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M8*25/20mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 70,
+      "name_zh": "六角头长螺杆",
+      "name_en": "Hex Threaded Rod",
+      "spec": "M6*123",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 71,
+      "name_zh": "六角定位销",
+      "name_en": "Custom Parts",
+      "spec": "M4*10/6mm/6mm",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 72,
+      "name_zh": "六角嵌件",
+      "name_en": "Hex Insert",
+      "spec": "M6*9.6/H9",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 73,
+      "name_zh": "六角嵌件（倒角口）",
+      "name_en": "Hex Insert",
+      "spec": "UNC3/8-16*24.5-φ15",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 74,
+      "name_zh": "六角嵌件（台阶口）",
+      "name_en": "Hex Insert",
+      "spec": "M8*13-φ12",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 75,
+      "name_zh": "六角开槽螺母",
+      "name_en": "Hex Nut",
+      "spec": "M4",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 76,
+      "name_zh": "六角开槽螺母（盲孔）（外台阶）",
+      "name_en": "Hex Nut",
+      "spec": "M12*20",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 77,
+      "name_zh": "六角开槽螺母（盲孔）（槽宽4）",
+      "name_en": "Hex Nut",
+      "spec": "M12*20",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 78,
+      "name_zh": "六角柱(对边6)",
+      "name_en": "Custom Parts",
+      "spec": "M4*8/7mm",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 79,
+      "name_zh": "六角柱（对边6）",
+      "name_en": "Custom Parts",
+      "spec": "M4*11.5/7mm",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 80,
+      "name_zh": "六角法兰尼龙螺母",
+      "name_en": "Hex Nut",
+      "spec": "M6",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 81,
+      "name_zh": "六角法兰花齿尼龙螺母",
+      "name_en": "Hex Nut",
+      "spec": "M8*8.1",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 82,
+      "name_zh": "六角法兰花齿螺母",
+      "name_en": "Hex Nut",
+      "spec": "M6",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 83,
+      "name_zh": "六角法兰花齿螺钉",
+      "name_en": "Hex Screw",
+      "spec": "M16*40",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 84,
+      "name_zh": "六角法兰螺母 （右牙）",
+      "name_en": "Hex Nut",
+      "spec": "M6",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 85,
+      "name_zh": "六角法兰面花齿螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M8*45",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 86,
+      "name_zh": "六角法兰面花齿螺母",
+      "name_en": "Hex Nut",
+      "spec": "M8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 87,
+      "name_zh": "六角法兰面螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M8*32",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 88,
+      "name_zh": "六角法兰高螺母（对边12）（盲孔）",
+      "name_en": "Hex Nut",
+      "spec": "M8*16",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 89,
+      "name_zh": "六角法兰高螺母（盲孔）",
+      "name_en": "Hex Nut",
+      "spec": "M6*30-φ13.5",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 90,
+      "name_zh": "六角滚花嵌件（倒角口+带孔）",
+      "name_en": "Hex Insert",
+      "spec": "M12*25-φ17",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 91,
+      "name_zh": "六角滚花嵌件（倒角口）",
+      "name_en": "Hex Insert",
+      "spec": "M8*23-φ12",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 92,
+      "name_zh": "六角滚花嵌件（台阶口）",
+      "name_en": "Hex Insert",
+      "spec": "M8*23-φ12",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 93,
+      "name_zh": "六角滚花铆螺母",
+      "name_en": "Hex Nut",
+      "spec": "M3*S5.5*3",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 94,
+      "name_zh": "六角薄螺母",
+      "name_en": "Hex Nut",
+      "spec": "M12",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 95,
+      "name_zh": "六角螺套",
+      "name_en": "Hex Thread Insert",
+      "spec": "M8*90",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 96,
+      "name_zh": "六角螺母",
+      "name_en": "Hex Nut",
+      "spec": "M8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 97,
+      "name_zh": "六角铆螺母",
+      "name_en": "Hex Nut",
+      "spec": "M8*28",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 98,
+      "name_zh": "六角铜柱",
+      "name_en": "Custom Parts",
+      "spec": "M4*51.5/6mm（对边7）",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 99,
+      "name_zh": "六角锁紧螺母",
+      "name_en": "Hex Nut",
+      "spec": "M10",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 100,
+      "name_zh": "六角长螺母",
+      "name_en": "Hex Nut",
+      "spec": "M4*38",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 101,
+      "name_zh": "六角长螺母（盲孔）",
+      "name_en": "Hex Nut",
+      "spec": "M5*12-S9",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 102,
+      "name_zh": "内三角平头四孔铅封螺钉",
+      "name_en": "Flat Head Screw",
+      "spec": "M4*20/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 103,
+      "name_zh": "内六角",
+      "name_en": "Custom Parts",
+      "spec": "M10*65",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 104,
+      "name_zh": "内六角圆尾紧定螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M8*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 105,
+      "name_zh": "内六角圆柱头三组合螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M6*11头9.9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 106,
+      "name_zh": "内六角圆柱头三角牙螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M5*9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 107,
+      "name_zh": "内六角圆柱头二组合螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M5*10头8.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 108,
+      "name_zh": "内六角圆柱头凸缘螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M5*42(总长)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 109,
+      "name_zh": "内六角圆柱头弹平垫三组合螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M8*20（头φ10.9）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 110,
+      "name_zh": "内六角圆柱头束尾螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M4*19.9（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 111,
+      "name_zh": "内六角圆柱头螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M8*75",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 112,
+      "name_zh": "内六角圆柱端紧定螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M5*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 113,
+      "name_zh": "内六角平头台阶螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M6*16",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 114,
+      "name_zh": "内六角平头四孔平尾自攻铅封螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "ST3.9*12.8/5mm（头φ7）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 115,
+      "name_zh": "内六角平头四孔自攻铅封螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "ST4.2*13.3/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 116,
+      "name_zh": "内六角平头四孔铅封螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M6*20/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 117,
+      "name_zh": "内六角平头螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M8*20",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 118,
+      "name_zh": "内六角平尾紧定螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M12-1.25-20",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 119,
+      "name_zh": "内六角平端紧定螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M10*25",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 120,
+      "name_zh": "内六角弹平垫三组合螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M8*20",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 121,
+      "name_zh": "内六角拉杆螺母毛坯",
+      "name_en": "Socket Head Nut",
+      "spec": "M8*φ12*19.6",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 122,
+      "name_zh": "内六角沉头螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M3*10（φ5.8）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 123,
+      "name_zh": "内六角法兰螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M6*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 124,
+      "name_zh": "内六角滚花螺栓",
+      "name_en": "Socket Head Bolt",
+      "spec": "M8*9（头厚8.0）",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 125,
+      "name_zh": "内六角盘头弹平垫三组合螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M6*20",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 126,
+      "name_zh": "内六角盘头束尾螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M5*9.5 (插深2.0)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 127,
+      "name_zh": "内六角盘头螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M4*8(φ11*2.5)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 128,
+      "name_zh": "内六角紧定螺钉",
+      "name_en": "Socket Head Screw",
+      "spec": "M8*17（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 129,
+      "name_zh": "内六角紧定螺钉（带凹槽）",
+      "name_en": "Socket Head Screw",
+      "spec": "M8-1*21.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 130,
+      "name_zh": "内六角锥形螺塞",
+      "name_en": "Custom Parts",
+      "spec": "Φ9.6*Φ9.2*7",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 131,
+      "name_zh": "内外牙螺栓",
+      "name_en": "Bolt",
+      "spec": "M4*8/7mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 132,
+      "name_zh": "内外牙螺栓(M3内螺纹)",
+      "name_en": "Bolt",
+      "spec": "M3*45/5mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 133,
+      "name_zh": "内梅花台阶螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M5*23.7(总长)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 134,
+      "name_zh": "内梅花圆柱头弹平垫三组合螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M4*36",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 135,
+      "name_zh": "内梅花圆柱头空心",
+      "name_en": "Custom Parts",
+      "spec": "M12*16.5-M8",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 136,
+      "name_zh": "内梅花圆柱头空心螺栓",
+      "name_en": "Torx Bolt",
+      "spec": "M10*14.5-M6",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 137,
+      "name_zh": "内梅花圆柱头螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M4*6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 138,
+      "name_zh": "内梅花平圆头凸缘螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST6*16（T30）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 139,
+      "name_zh": "内梅花平头四孔铅封螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M4*10/4mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 140,
+      "name_zh": "内梅花平头螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M4*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 141,
+      "name_zh": "内梅花平头螺钉(T10)",
+      "name_en": "Torx Screw",
+      "spec": "M3*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 142,
+      "name_zh": "内梅花平头螺钉（带槽）",
+      "name_en": "Torx Screw",
+      "spec": "M3*9.8/2.8mm（T15）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 143,
+      "name_zh": "内梅花沉头螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M6*31（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 144,
+      "name_zh": "内梅花沉头防盗平尾自攻螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST4*30（T20）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 145,
+      "name_zh": "内梅花盘头凸缘自攻螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST2.6*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 146,
+      "name_zh": "内梅花盘头割尾自攻螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST3.5*10 （T15）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 147,
+      "name_zh": "内梅花盘头尖尾自攻螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST2.9*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 148,
+      "name_zh": "内梅花盘头平尾自攻螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST3.5*14（T15）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 149,
+      "name_zh": "内梅花盘头弹平垫三组合螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M5*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 150,
+      "name_zh": "内梅花盘头螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M4*6（T20）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 151,
+      "name_zh": "内梅花盘头防盗三组合螺钉",
+      "name_en": "Torx Screw",
+      "spec": "M4*12/6mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 152,
+      "name_zh": "内梅花盘头防盗尖尾自攻螺钉",
+      "name_en": "Torx Screw",
+      "spec": "ST2.9*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 153,
+      "name_zh": "十一字六角法兰螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10（头高4）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 154,
+      "name_zh": "十一字台阶四孔圆尾铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*26/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 155,
+      "name_zh": "十一字台阶四孔圆尾铅封螺钉（特殊）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*14/4.5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 156,
+      "name_zh": "十一字台阶四孔尖尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4.2*13.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 157,
+      "name_zh": "十一字台阶四孔尖尾铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*10/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 158,
+      "name_zh": "十一字台阶四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*9/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 159,
+      "name_zh": "十一字台阶四孔铅封螺钉 (镀层14μm)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*32/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 160,
+      "name_zh": "十一字台阶四孔铅封螺钉(倒角螺纹加长)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*30/7mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 161,
+      "name_zh": "十一字台阶四孔铅封螺钉(孔位2.5)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*32/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 162,
+      "name_zh": "十一字台阶四孔铅封螺钉(尾部大倒角)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*32/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 163,
+      "name_zh": "十一字台阶四孔铅封螺钉(重庆专用)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*26/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 164,
+      "name_zh": "十一字台阶四孔铅封螺钉（φ5.6台阶）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*26/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 165,
+      "name_zh": "十一字台阶四孔铅封螺钉（倒角加长）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*22/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 166,
+      "name_zh": "十一字台阶四孔铅封螺钉（双段牙）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*24/6mm/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 167,
+      "name_zh": "十一字台阶四孔铅封螺钉（尾部大倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*26/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 168,
+      "name_zh": "十一字台阶四孔铅封螺钉（特殊倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*11/7mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 169,
+      "name_zh": "十一字台阶四孔铅封螺钉（重庆专用）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*26/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 170,
+      "name_zh": "十一字台阶四孔铅封螺钉（重庆标准）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*25/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 171,
+      "name_zh": "十一字台阶无孔圆尾铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*18/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 172,
+      "name_zh": "十一字台阶无孔尖尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST2.9*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 173,
+      "name_zh": "十一字台阶无孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*45/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 174,
+      "name_zh": "十一字四孔铅封螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 175,
+      "name_zh": "十一字圆头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 176,
+      "name_zh": "十一字圆头四孔自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4*20.5/12mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 177,
+      "name_zh": "十一字圆头四孔铅封螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M4*37/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 178,
+      "name_zh": "十一字圆头四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/4mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 179,
+      "name_zh": "十一字圆头端子螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 180,
+      "name_zh": "十一字圆头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "SM3/16-28*9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 181,
+      "name_zh": "十一字圆柱头割尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST2.9*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 182,
+      "name_zh": "十一字圆柱头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*15",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 183,
+      "name_zh": "十一字平头二组合束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3.5*7.5头5.8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 184,
+      "name_zh": "十一字平头二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*8.9头7.8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 185,
+      "name_zh": "十一字平头二组合螺钉(束尾加长)",
+      "name_en": "Slotted Screw",
+      "spec": "M3.5*7.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 186,
+      "name_zh": "十一字平头二组合螺钉（无止点）",
+      "name_en": "Slotted Screw",
+      "spec": "M3*10头5.4",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 187,
+      "name_zh": "十一字平头凸缘四孔螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*20/11mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 188,
+      "name_zh": "十一字平头凸缘螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*11.5（8.8级）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 189,
+      "name_zh": "十一字平头单孔尖尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.5*34/13mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 190,
+      "name_zh": "十一字平头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*47/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 191,
+      "name_zh": "十一字平头单孔铅封螺钉（尾部大倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*28/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 192,
+      "name_zh": "十一字平头四孔圆尾铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 193,
+      "name_zh": "十一字平头四孔自攻铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.9*15/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 194,
+      "name_zh": "十一字平头四孔铅封尖尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*15/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 195,
+      "name_zh": "十一字平头四孔铅封平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST2.9*10",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 196,
+      "name_zh": "十一字平头四孔铅封自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.9*21/12mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 197,
+      "name_zh": "十一字平头四孔铅封螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 198,
+      "name_zh": "十一字平头四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*9/4mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 199,
+      "name_zh": "十一字平头四孔铅封螺钉（仅发货，不生产）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 200,
+      "name_zh": "十一字平头四孔铅封螺钉（双螺纹）",
+      "name_en": "Slotted Screw",
+      "spec": "ST2.6*M4*34（总长）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 201,
+      "name_zh": "十一字平头四孔铅封螺钉（尾部大倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*30/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 202,
+      "name_zh": "十一字平头圆尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.5*26（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 203,
+      "name_zh": "十一字平头圆尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*14.6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 204,
+      "name_zh": "十一字平头弹平垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*10（6.7*2.8）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 205,
+      "name_zh": "十一字平头方垫二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*7（头6.8）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 206,
+      "name_zh": "十一字平头束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*14",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 207,
+      "name_zh": "十一字平头波垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3.5*7.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 208,
+      "name_zh": "十一字平头端子螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M8*15",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 209,
+      "name_zh": "十一字平头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M7*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 210,
+      "name_zh": "十一字平头螺钉（渗碳）",
+      "name_en": "Slotted Screw",
+      "spec": "M3*6（Φ4.4*1.8）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 211,
+      "name_zh": "十一字扁头三角牙螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 212,
+      "name_zh": "十一字扁头台阶单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 213,
+      "name_zh": "十一字扁头平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4*30",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 214,
+      "name_zh": "十一字扁头方垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*10.3（方垫10.3*10.3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 215,
+      "name_zh": "十一字扁头束尾二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*9头8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 216,
+      "name_zh": "十一字扁头花齿自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 217,
+      "name_zh": "十一字拉槽四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*9/3.5mm（6*8.5）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 218,
+      "name_zh": "十一字拧断四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*20/8mm（6*9. 7）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 219,
+      "name_zh": "十一字拧断四孔铅封螺钉（孔Φ3.0）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*12/6mm（6*8.8）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 220,
+      "name_zh": "十一字拧断自攻铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.9*30/9mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 221,
+      "name_zh": "十一字拧断铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm （6*6.7）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 222,
+      "name_zh": "十一字滚花开槽螺栓",
+      "name_en": "Slotted Bolt",
+      "spec": "M3*6.5/3.7mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 223,
+      "name_zh": "十一字盘头三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10（8.8*3.2）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 224,
+      "name_zh": "十一字盘头二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*12头10.2",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 225,
+      "name_zh": "十一字盘头凸缘平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3*15.4",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 226,
+      "name_zh": "十一字盘头凸缘螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M2.5*5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 227,
+      "name_zh": "十一字盘头凹槽螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "#6-32*10mm(总长)（Φ7.3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 228,
+      "name_zh": "十一字盘头割尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST2.9*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 229,
+      "name_zh": "十一字盘头割尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 230,
+      "name_zh": "十一字盘头圆尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.2*15.3",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 231,
+      "name_zh": "十一字盘头圆尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M2*6（Φ3*1.2）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 232,
+      "name_zh": "十一字盘头尖尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 233,
+      "name_zh": "十一字盘头尖尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*17(φ5*2)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 234,
+      "name_zh": "十一字盘头带点二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*12头5.4",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 235,
+      "name_zh": "十一字盘头平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 236,
+      "name_zh": "十一字盘头弹垫二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*8（8.4*2.5）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 237,
+      "name_zh": "十一字盘头弹平垫三组合的螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M8*16（13.5*5.2）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 238,
+      "name_zh": "十一字盘头弹平垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M8*16头13.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 239,
+      "name_zh": "十一字盘头方垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*12头10.2",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 240,
+      "name_zh": "十一字盘头方垫三组合螺钉(波形弹垫)",
+      "name_en": "Slotted Screw",
+      "spec": "M3*7(头5.5*2)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 241,
+      "name_zh": "十一字盘头方垫三组合螺钉（新款）",
+      "name_en": "Slotted Screw",
+      "spec": "M5*12（方垫11.5*11.5*1.6）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 242,
+      "name_zh": "十一字盘头方垫二组合束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*9（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 243,
+      "name_zh": "十一字盘头方垫二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*13头8.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 244,
+      "name_zh": "十一字盘头束尾方垫二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*6（5.5*2）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 245,
+      "name_zh": "十一字盘头束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M7*14（φ9*3.1）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 246,
+      "name_zh": "十一字盘头束尾螺钉（特殊倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10.5（Φ6.8*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 247,
+      "name_zh": "十一字盘头波垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*12（φ10.5*4）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 248,
+      "name_zh": "十一字盘头翘垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*10头7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 249,
+      "name_zh": "十一字盘头自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.5*12（φ5.5*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 250,
+      "name_zh": "十一字盘头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*32/7.5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 251,
+      "name_zh": "十一字盘头螺钉 (RoHS)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 252,
+      "name_zh": "十一字盘头螺钉(尾部平整)",
+      "name_en": "Slotted Screw",
+      "spec": "M5*11（6.8*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 253,
+      "name_zh": "十一字盘头螺钉（带倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4.5*8（Φ7.8*2.9）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 254,
+      "name_zh": "十一字盘头螺钉（特殊倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10（Φ6.5*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 255,
+      "name_zh": "十一字盘头螺钉（细牙）",
+      "name_en": "Slotted Screw",
+      "spec": "M6*10.5（Φ7.5*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 256,
+      "name_zh": "十一字盘头高扭矩自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST5*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 257,
+      "name_zh": "十一盘头平尾三角牙自攻螺钉",
+      "name_en": "Pan Head Screw",
+      "spec": "ST3*24.5/18.5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 258,
+      "name_zh": "十字六角凹穴弹平垫三组合束尾螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*10（束尾3.0）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 259,
+      "name_zh": "十字六角凹穴弹平垫三组合螺",
+      "name_en": "Custom Parts",
+      "spec": "M4*12",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 260,
+      "name_zh": "十字六角凹穴弹平垫三组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M8*25",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 261,
+      "name_zh": "十字六角凹穴弹平垫组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M5*10头8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 262,
+      "name_zh": "十字六角凹穴橡胶圈二组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*28",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 263,
+      "name_zh": "十字六角凹穴法兰尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST6.3*32",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 264,
+      "name_zh": "十字六角凹穴法兰螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M5*25",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 265,
+      "name_zh": "十字六角凹穴螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M5*14",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 266,
+      "name_zh": "十字六角弹平垫三组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M6*16头9.95",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 267,
+      "name_zh": "十字凹穴大头单孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M6*25",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 268,
+      "name_zh": "十字半沉头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 269,
+      "name_zh": "十字台阶平头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*6.1",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 270,
+      "name_zh": "十字四方圆尾螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*13.7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 271,
+      "name_zh": "十字圆头尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.9*6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 272,
+      "name_zh": "十字圆头平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.9*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 273,
+      "name_zh": "十字圆尾螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M2.5*6（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 274,
+      "name_zh": "十字大扁头平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*7.6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 275,
+      "name_zh": "十字平头单孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*21/20mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 276,
+      "name_zh": "十字平头台阶螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M6*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 277,
+      "name_zh": "十字平头四孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*14/13mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 278,
+      "name_zh": "十字平头尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.5*50",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 279,
+      "name_zh": "十字平头平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.5*50",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 280,
+      "name_zh": "十字平头端子螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*6.6(总长)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 281,
+      "name_zh": "十字平头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M6*50",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 282,
+      "name_zh": "十字扁头三角牙螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3.5-0.5*6.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 283,
+      "name_zh": "十字扁头三角牙螺钉（大胚径）",
+      "name_en": "Phillips Screw",
+      "spec": "M3.5-0.5*6.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 284,
+      "name_zh": "十字扁头台阶尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*8（φ8.5）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 285,
+      "name_zh": "十字扁头台阶螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 286,
+      "name_zh": "十字扁头尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 287,
+      "name_zh": "十字扁头平垫二组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M5*10（12*2.4）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 288,
+      "name_zh": "十字扁头束尾自攻螺钉(双线螺纹)",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*12.5（φ2.2*8）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 289,
+      "name_zh": "十字扁头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*6（Φ9*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 290,
+      "name_zh": "十字拉槽四孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*10/4mm（6*8.5）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 291,
+      "name_zh": "十字拧断铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*40/8mm（6.8*9.3）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 292,
+      "name_zh": "十字沉头三角牙平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST3*7.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 293,
+      "name_zh": "十字沉头三角牙螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 294,
+      "name_zh": "十字沉头割尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.9*8(总长)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 295,
+      "name_zh": "十字沉头尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4.2*20",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 296,
+      "name_zh": "十字沉头平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4.8*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 297,
+      "name_zh": "十字沉头自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST3*8.6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 298,
+      "name_zh": "十字沉头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*9（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 299,
+      "name_zh": "十字盘头二组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8头8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 300,
+      "name_zh": "十字盘头凸缘割尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST3.9*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 301,
+      "name_zh": "十字盘头凸缘尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.9*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 302,
+      "name_zh": "十字盘头凸缘螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 303,
+      "name_zh": "十字盘头割尾自攻螺丝",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.9*9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 304,
+      "name_zh": "十字盘头割尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST3.9*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 305,
+      "name_zh": "十字盘头台阶三角牙螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 306,
+      "name_zh": "十字盘头圆尾螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M3*7.5（Φ5.5）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 307,
+      "name_zh": "十字盘头尖尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST5.5*50",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 308,
+      "name_zh": "十字盘头带垫束尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST2.5*14",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 309,
+      "name_zh": "十字盘头平垫二组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*35（φ8*3.1）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 310,
+      "name_zh": "十字盘头平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4.2*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 311,
+      "name_zh": "十字盘头弹垫二组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M5*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 312,
+      "name_zh": "十字盘头弹平垫三组合螺丝",
+      "name_en": "Phillips Screw",
+      "spec": "M2.5*10头4.2",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 313,
+      "name_zh": "十字盘头弹平垫三组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M6*120",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 314,
+      "name_zh": "十字盘头束尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4.2*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 315,
+      "name_zh": "十字盘头束尾自攻螺钉（尾部加长）",
+      "name_en": "Phillips Screw",
+      "spec": "ST3.4*10（Φ6*2）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 316,
+      "name_zh": "十字盘头自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST4.2*19",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 317,
+      "name_zh": "十字盘头花齿平尾自攻螺钉(双线螺纹)",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*12（φ7*2.9）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 318,
+      "name_zh": "十字盘头花齿束尾自攻螺钉(单线螺纹)",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*14（φ7*2.9）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 319,
+      "name_zh": "十字盘头花齿束尾自攻螺钉(双线螺纹)",
+      "name_en": "Phillips Screw",
+      "spec": "ST4*12(φ7*2.9)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 320,
+      "name_zh": "十字盘头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M8*15（13.6*4.6）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 321,
+      "name_zh": "十字盘头齿垫二组合螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 322,
+      "name_zh": "十字紧定螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M8*16",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 323,
+      "name_zh": "半空心台阶铆钉",
+      "name_en": "Rivet",
+      "spec": "Φ7.6*Φ10.5*8.7",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 324,
+      "name_zh": "半空心套管台阶螺栓",
+      "name_en": "Bolt",
+      "spec": "M3.5*39.1",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 325,
+      "name_zh": "半空心铆钉",
+      "name_en": "Rivet",
+      "spec": "Φ5.8*8",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 326,
+      "name_zh": "卡扣式十一字单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 327,
+      "name_zh": "卡扣式十一字单孔铅封螺钉（头薄款）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*6/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 328,
+      "name_zh": "卡扣式十一字单孔铅封螺钉（尾部大倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*32/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 329,
+      "name_zh": "卡扣式十一字无孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*32/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 330,
+      "name_zh": "卡扣式十字单孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*35/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 331,
+      "name_zh": "卡扣式十字单孔铅封螺钉（头薄款）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*16/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 332,
+      "name_zh": "卡扣式十字单孔铅封螺钉（重庆标准）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*25/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 333,
+      "name_zh": "卡扣式十字无孔铅封螺钉（大倒角）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*35/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 334,
+      "name_zh": "压点式锁紧螺母",
+      "name_en": "Nut",
+      "spec": "M8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 335,
+      "name_zh": "压铆螺母",
+      "name_en": "Nut",
+      "spec": "M8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 336,
+      "name_zh": "双内牙螺栓",
+      "name_en": "Bolt",
+      "spec": "M4*52.5",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 337,
+      "name_zh": "双头螺栓",
+      "name_en": "Double-Ended Bolt",
+      "spec": "M8*25.5/M6*6.5",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 338,
+      "name_zh": "双头螺钉",
+      "name_en": "Double-Ended Screw",
+      "spec": "M5*30 （总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 339,
+      "name_zh": "双头轴",
+      "name_en": "Double-Ended Shaft",
+      "spec": "φ8*13.6（总长）",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 340,
+      "name_zh": "双头轴（带倒角）",
+      "name_en": "Double-Ended Shaft",
+      "spec": "φ2.4*18.5",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 341,
+      "name_zh": "双通六角螺母",
+      "name_en": "Hex Nut",
+      "spec": "M4*72",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 342,
+      "name_zh": "双通圆铜柱",
+      "name_en": "Custom Parts",
+      "spec": "φ7*φ4*30",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 343,
+      "name_zh": "台阶套管",
+      "name_en": "Sleeve",
+      "spec": "M10*15.5-φ18",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 344,
+      "name_zh": "台阶孔空心扁位套管（新）",
+      "name_en": "Sleeve",
+      "spec": "M3.5*17.5（φ6）",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 345,
+      "name_zh": "台阶轴",
+      "name_en": "Shaft",
+      "spec": "φ8.95*13.1",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 346,
+      "name_zh": "台阶轴套",
+      "name_en": "Shaft",
+      "spec": "Φ6.3*6.5",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 347,
+      "name_zh": "台阶针轴",
+      "name_en": "Shaft",
+      "spec": "Φ3.5*Φ8.5*60",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 348,
+      "name_zh": "四方头台阶束尾螺钉",
+      "name_en": "Screw",
+      "spec": "M8*24（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 349,
+      "name_zh": "四方头螺栓",
+      "name_en": "Bolt",
+      "spec": "M8*45（总长）",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 350,
+      "name_zh": "四方螺母",
+      "name_en": "Nut",
+      "spec": "M8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 351,
+      "name_zh": "圆尾销轴",
+      "name_en": "Pin",
+      "spec": "φ11*19.5",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 352,
+      "name_zh": "圆柱塞",
+      "name_en": "Custom Parts",
+      "spec": "圆柱塞φ6*18.5",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 353,
+      "name_zh": "圆柱头十一字带垫螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M5*11.5（12.9级）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 354,
+      "name_zh": "圆柱头滚花螺钉",
+      "name_en": "Screw",
+      "spec": "M5*46.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 355,
+      "name_zh": "圆柱头空心螺栓",
+      "name_en": "Bolt",
+      "spec": "M12*15",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 356,
+      "name_zh": "圆柱形导磁体",
+      "name_en": "Custom Parts",
+      "spec": "φ10*19.2",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 357,
+      "name_zh": "圆螺母",
+      "name_en": "Nut",
+      "spec": "φ16*φ7.1*9.5",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 358,
+      "name_zh": "圆销柱",
+      "name_en": "Custom Parts",
+      "spec": "Φ5*32",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 359,
+      "name_zh": "地板吸头轴",
+      "name_en": "Shaft",
+      "spec": "4*20.4",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 360,
+      "name_zh": "垫块",
+      "name_en": "Custom Parts",
+      "spec": "φ4.9*4.1",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 361,
+      "name_zh": "堵头金具（大635）",
+      "name_en": "Custom Parts",
+      "spec": "5/8*85*31.755/8*85*31.75",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 362,
+      "name_zh": "堵头金具（小625）",
+      "name_en": "Custom Parts",
+      "spec": "5/8*57*31.75",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 363,
+      "name_zh": "外六角三组合螺栓",
+      "name_en": "Hex Head Bolt",
+      "spec": "M12*25头18",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 364,
+      "name_zh": "外六角十字三组合",
+      "name_en": "Custom Parts",
+      "spec": "M5*12头8",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 365,
+      "name_zh": "外六角双螺纹割槽螺栓（带孔）",
+      "name_en": "Hex Head Bolt",
+      "spec": "M12*43",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 366,
+      "name_zh": "外六角双螺纹开槽螺栓",
+      "name_en": "Hex Head Bolt",
+      "spec": "M12*38",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 367,
+      "name_zh": "外六角平头螺钉",
+      "name_en": "Hex Head Screw",
+      "spec": "M8*20",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 368,
+      "name_zh": "外六角弹平垫三组合螺钉",
+      "name_en": "Hex Head Screw",
+      "spec": "M8*50",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 369,
+      "name_zh": "外六角空心螺母",
+      "name_en": "Hex Head Nut",
+      "spec": "M4*12（头厚0.5mm）",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 370,
+      "name_zh": "外六角空心铆钉",
+      "name_en": "Hex Head Rivet",
+      "spec": "M8",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 371,
+      "name_zh": "外六角螺栓",
+      "name_en": "Hex Head Bolt",
+      "spec": "M6*615/37mm",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 372,
+      "name_zh": "大倒角十字无孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/4.5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 373,
+      "name_zh": "大垫螺母",
+      "name_en": "Nut",
+      "spec": "M12*44",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 374,
+      "name_zh": "大垫螺母(滚花+台阶口)",
+      "name_en": "Nut",
+      "spec": "M10*28/φ28",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 375,
+      "name_zh": "大垫螺母（M4通孔）",
+      "name_en": "Nut",
+      "spec": "M16*60-50",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 376,
+      "name_zh": "头弧形十字无孔铅封螺钉（定制款）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*6/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 377,
+      "name_zh": "套管",
+      "name_en": "Sleeve",
+      "spec": "Φ16*12",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 378,
+      "name_zh": "安徽十字无孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*43/7mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 379,
+      "name_zh": "安徽十字无孔铅封螺钉（头薄款）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*16/7mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 380,
+      "name_zh": "安徽十字无孔铅封螺钉（尾部大倒角）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/4.5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 381,
+      "name_zh": "定位螺栓",
+      "name_en": "Bolt",
+      "spec": "M8*9.5",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 382,
+      "name_zh": "定位铆钉",
+      "name_en": "Rivet",
+      "spec": "3.5*18.8",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 383,
+      "name_zh": "定位销",
+      "name_en": "Custom Parts",
+      "spec": "M4*8/10mm/7mm",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 384,
+      "name_zh": "小倒角十一字无孔圆尾铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 385,
+      "name_zh": "小倒角十一字无孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 386,
+      "name_zh": "小倒角十一字无孔铅封螺钉(头薄款)",
+      "name_en": "Slotted Screw",
+      "spec": "M4*14/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 387,
+      "name_zh": "小倒角十一字无孔铅封螺钉（头薄款）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*28/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 388,
+      "name_zh": "小倒角十一字无孔铅封螺钉（尾部大倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*28/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 389,
+      "name_zh": "小倒角十字无孔圆尾铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 390,
+      "name_zh": "小倒角十字无孔铅封螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/8mm（无热处理）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 391,
+      "name_zh": "小倒角十字无孔铅封螺钉 （头薄款）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*22/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 392,
+      "name_zh": "小倒角十字无孔铅封螺钉(头薄款)",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 393,
+      "name_zh": "小倒角十字无孔铅封螺钉(特殊尖深)",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/4mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 394,
+      "name_zh": "小倒角十字无孔铅封螺钉(重庆专用)",
+      "name_en": "Phillips Screw",
+      "spec": "M4*28/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 395,
+      "name_zh": "小倒角十字无孔铅封螺钉(重庆标准)",
+      "name_en": "Phillips Screw",
+      "spec": "M4*28/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 396,
+      "name_zh": "小倒角十字无孔铅封螺钉（头薄款）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/5mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 397,
+      "name_zh": "小倒角十字无孔铅封螺钉（头薄款）（负公差）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*28/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 398,
+      "name_zh": "小倒角十字无孔铅封螺钉（尖深特殊）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*28/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 399,
+      "name_zh": "小倒角十字无孔铅封螺钉（尾部大倒角）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/4mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 400,
+      "name_zh": "小倒角十字无孔铅封螺钉（特殊）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*28/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 401,
+      "name_zh": "小倒角十字无孔铅封螺钉（重庆专用）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/4mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 402,
+      "name_zh": "小倒角十字无孔铅封螺钉（重庆标准）",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 403,
+      "name_zh": "小倒角无孔十字铅封螺丝",
+      "name_en": "Phillips Screw",
+      "spec": "M4*15/6mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 404,
+      "name_zh": "嵌套",
+      "name_en": "Press-In Inserts",
+      "spec": "φ6.5*6-φ9.5",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 405,
+      "name_zh": "幅度（气门）螺丝",
+      "name_en": "Screw",
+      "spec": "M8*1.0*17",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 406,
+      "name_zh": "平头六角螺母",
+      "name_en": "Hex Nut",
+      "spec": "M6*10.7（总长）",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 407,
+      "name_zh": "平头内外牙螺栓",
+      "name_en": "Flat Head Bolt",
+      "spec": "M12*M8*14",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 408,
+      "name_zh": "平头十一米字带垫螺丝",
+      "name_en": "Pozidriv Screw",
+      "spec": "M6*13.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 409,
+      "name_zh": "平头台阶铆钉",
+      "name_en": "Flat Head Rivet",
+      "spec": "φ3*12.3（总长）",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 410,
+      "name_zh": "平头扁位开槽螺钉",
+      "name_en": "Flat Head Screw",
+      "spec": "M4*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 411,
+      "name_zh": "平头扁位轴",
+      "name_en": "Flat Head Shaft",
+      "spec": "φ22*70（总长）",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 412,
+      "name_zh": "平头扁位铆钉",
+      "name_en": "Flat Head Rivet",
+      "spec": "φ3.4*17 (总长)",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 413,
+      "name_zh": "平头束尾自攻螺钉",
+      "name_en": "Flat Head Screw",
+      "spec": "ST2*6.4",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 414,
+      "name_zh": "平头米字槽半牙螺丝",
+      "name_en": "Pozidriv Screw",
+      "spec": "M4*33/15mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 415,
+      "name_zh": "平头花齿螺丝",
+      "name_en": "Flat Head Screw",
+      "spec": "M6x24.1",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 416,
+      "name_zh": "平头花齿螺丝(带头标)",
+      "name_en": "Flat Head Screw",
+      "spec": "M5*18.6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 417,
+      "name_zh": "平头花齿螺钉",
+      "name_en": "Flat Head Screw",
+      "spec": "M6*20.8（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 418,
+      "name_zh": "平头花齿螺钉（新款）",
+      "name_en": "Flat Head Screw",
+      "spec": "M6*20.8（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 419,
+      "name_zh": "平头铆压螺栓",
+      "name_en": "Flat Head Bolt",
+      "spec": "M8*40",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 420,
+      "name_zh": "平头铆螺母",
+      "name_en": "Flat Head Nut",
+      "spec": "M6*12-φ11.5",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 421,
+      "name_zh": "平头铆钉",
+      "name_en": "Flat Head Rivet",
+      "spec": "φ2.7*24",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 422,
+      "name_zh": "平头销钉",
+      "name_en": "Flat Head Pin",
+      "spec": "φ9*92(总长)",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 423,
+      "name_zh": "底板钉",
+      "name_en": "Custom Parts",
+      "spec": "M6*16",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 424,
+      "name_zh": "开花扁位台阶套管（退刀槽）",
+      "name_en": "Sleeve",
+      "spec": "M10-1.25*16",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 425,
+      "name_zh": "异形螺钉",
+      "name_en": "Screw",
+      "spec": "M7*10.7/M4*18.3",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 426,
+      "name_zh": "弹簧柱塞",
+      "name_en": "Custom Parts",
+      "spec": "H10*31*M6/10mm",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 427,
+      "name_zh": "扁位偏心轴",
+      "name_en": "Shaft",
+      "spec": "φ5.9*18.8",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 428,
+      "name_zh": "扁位台阶轴",
+      "name_en": "Shaft",
+      "spec": "φ10*10.2",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 429,
+      "name_zh": "扁轴",
+      "name_en": "Shaft",
+      "spec": "V54K0NL000/4*16.1",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 430,
+      "name_zh": "拉铆螺钉",
+      "name_en": "Screw",
+      "spec": "ST6.4*25",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 431,
+      "name_zh": "接线端子",
+      "name_en": "Custom Parts",
+      "spec": "Φ4.9*21.1",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 432,
+      "name_zh": "接触针",
+      "name_en": "Custom Parts",
+      "spec": "φ2*52（总长）",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 433,
+      "name_zh": "插针",
+      "name_en": "Pins & Shafts",
+      "spec": "Φ2.35*29.5",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 434,
+      "name_zh": "无倒角十一字无孔铅封螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M6*24.5",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 435,
+      "name_zh": "椭圆螺钉",
+      "name_en": "Screw",
+      "spec": "M8*43.5/12.5mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 436,
+      "name_zh": "横孔螺母",
+      "name_en": "Nut",
+      "spec": "φ16*21",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 437,
+      "name_zh": "横孔螺母（新款）",
+      "name_en": "Nut",
+      "spec": "Φ12*23",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 438,
+      "name_zh": "沉头铆钉",
+      "name_en": "Countersunk Rivet",
+      "spec": "φ1.98*10（总长）（束尾1.5）",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 439,
+      "name_zh": "法兰带齿螺母",
+      "name_en": "Flange Nut",
+      "spec": "M7*8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 440,
+      "name_zh": "注塑镶嵌六角螺母",
+      "name_en": "Hex Nut",
+      "spec": "M6x13",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 441,
+      "name_zh": "滚花台阶螺母",
+      "name_en": "Nut",
+      "spec": "M8",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 442,
+      "name_zh": "滚花嵌件",
+      "name_en": "Insert",
+      "spec": "φ9.5*11",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 443,
+      "name_zh": "滚花嵌件(倒角口)",
+      "name_en": "Insert",
+      "spec": "M5*10",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 444,
+      "name_zh": "滚花嵌件(八字花)",
+      "name_en": "Insert",
+      "spec": "M4*7/φ6",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 445,
+      "name_zh": "滚花嵌件(台阶口)",
+      "name_en": "Insert",
+      "spec": "M8*24-φ12",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 446,
+      "name_zh": "滚花嵌件（倒角口）",
+      "name_en": "Insert",
+      "spec": "M8*15-15",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 447,
+      "name_zh": "滚花嵌件（八字纹）",
+      "name_en": "Insert",
+      "spec": "M4*7-φ6",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 448,
+      "name_zh": "滚花嵌件（八字花台阶）",
+      "name_en": "Insert",
+      "spec": "M4*6-φ6",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 449,
+      "name_zh": "滚花嵌件（八字花）",
+      "name_en": "Insert",
+      "spec": "M4*7-φ5.8",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 450,
+      "name_zh": "滚花嵌件（内倒角加大）",
+      "name_en": "Insert",
+      "spec": "M4*6-φ5.7",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 451,
+      "name_zh": "滚花嵌件（台阶口）",
+      "name_en": "Insert",
+      "spec": "M6*18-φ10",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 452,
+      "name_zh": "滚花嵌件（盲孔）",
+      "name_en": "Insert",
+      "spec": "M8*15-φ12",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 453,
+      "name_zh": "滚花嵌件（直纹台阶）",
+      "name_en": "Insert",
+      "spec": "M4*6-φ5.7",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 454,
+      "name_zh": "滚花嵌件（网纹花）",
+      "name_en": "Insert",
+      "spec": "φ16*15",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 455,
+      "name_zh": "滚花嵌件（通孔）",
+      "name_en": "Insert",
+      "spec": "M10*45-16",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 456,
+      "name_zh": "滚花开槽螺栓",
+      "name_en": "Bolt",
+      "spec": "M8*15",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 457,
+      "name_zh": "滚花开槽螺母",
+      "name_en": "Nut",
+      "spec": "M6*10（φ9）",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 458,
+      "name_zh": "滚花螺栓",
+      "name_en": "Bolt",
+      "spec": "M6*16",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 459,
+      "name_zh": "滚花螺母",
+      "name_en": "Nut",
+      "spec": "M8*φ14*18",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 460,
+      "name_zh": "盘头十一字带垫螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 461,
+      "name_zh": "盘头十一字螺丝",
+      "name_en": "Slotted Screw",
+      "spec": "M6*12（Φ10）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 462,
+      "name_zh": "盘头十字自攻螺丝",
+      "name_en": "Phillips Screw",
+      "spec": "ST6.3*22",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 463,
+      "name_zh": "盘头十字螺丝",
+      "name_en": "Phillips Screw",
+      "spec": "M4*8（Φ8）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 464,
+      "name_zh": "盘帽",
+      "name_en": "Nuts",
+      "spec": "M12",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 465,
+      "name_zh": "直杆针轴",
+      "name_en": "Shaft",
+      "spec": "φ5.9*53.2",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 466,
+      "name_zh": "直纹螺母",
+      "name_en": "Nut",
+      "spec": "M5*7.5*Φ12",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 467,
+      "name_zh": "短六角铝件",
+      "name_en": "Custom Parts",
+      "spec": "42.42*28.58-H25.4",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 468,
+      "name_zh": "穿刺针带旋钮",
+      "name_en": "Custom Parts",
+      "spec": "M4*40.5",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 469,
+      "name_zh": "米十一字台阶四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*16/8mm（6.8*7.7）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 470,
+      "name_zh": "米十一字圆头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*9/7mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 471,
+      "name_zh": "米十一字圆头四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*42/8mm（头φ6.5*7）",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 472,
+      "name_zh": "米十一字圆头平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4.2*16（Φ8*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 473,
+      "name_zh": "米十一字圆柱头凸缘螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 474,
+      "name_zh": "米十一字圆柱头平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3.9*13",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 475,
+      "name_zh": "米十一字圆柱头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*17.9（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 476,
+      "name_zh": "米十一字平头三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*8头5.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 477,
+      "name_zh": "米十一字平头二组合束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3.5*6.5（头5.7）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 478,
+      "name_zh": "米十一字平头二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3.5*8头5.7（正常倒角）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 479,
+      "name_zh": "米十一字平头凸缘束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*13",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 480,
+      "name_zh": "米十一字平头凸缘止点螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*15.4",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 481,
+      "name_zh": "米十一字平头单孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*48/8mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 482,
+      "name_zh": "米十一字平头四孔铅封螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*48/10mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 483,
+      "name_zh": "米十一字平头四孔铅封螺钉（定制款）",
+      "name_en": "Slotted Screw",
+      "spec": "M4*10/3mm",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 484,
+      "name_zh": "米十一字平头圆尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*14",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 485,
+      "name_zh": "米十一字平头平尾自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST4.1*34/16mm",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 486,
+      "name_zh": "米十一字平头方垫三组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3*8头5.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 487,
+      "name_zh": "米十一字平头方垫二组合螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M3.5*7头5.7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 488,
+      "name_zh": "米十一字平头束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M7*14(φ9*3.1)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 489,
+      "name_zh": "米十一字平头止点圆尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M6*14",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 490,
+      "name_zh": "米十一字平头止点螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*9",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 491,
+      "name_zh": "米十一字平头端子螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M7*13",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 492,
+      "name_zh": "米十一字平头自攻螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "ST3*7",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 493,
+      "name_zh": "米十一字平头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M7*17（总长）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 494,
+      "name_zh": "米十一字平头螺钉（新款）",
+      "name_en": "Slotted Screw",
+      "spec": "M5*10.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 495,
+      "name_zh": "米十一字平头螺钉（特殊倒角）",
+      "name_en": "Slotted Screw",
+      "spec": "M6*16",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 496,
+      "name_zh": "米十一字平头螺钉（镀层＞8μm）",
+      "name_en": "Slotted Screw",
+      "spec": "M6*14（7.2*3）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 497,
+      "name_zh": "米十一字盘头束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M8*14",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 498,
+      "name_zh": "米十一字盘头花齿束尾螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M5*9.5",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 499,
+      "name_zh": "米十一字盘头螺钉",
+      "name_en": "Slotted Screw",
+      "spec": "M4*9/9mm（7*2.62）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 500,
+      "name_zh": "米十字盘头凸缘平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST3*8",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 501,
+      "name_zh": "米十字盘头平尾自攻螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "ST3.5*12",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 502,
+      "name_zh": "米十字盘头螺钉",
+      "name_en": "Phillips Screw",
+      "spec": "M4*4.5（φ6.8*2.5）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 503,
+      "name_zh": "米字盘头花齿束尾自攻螺钉",
+      "name_en": "Pozidriv Screw",
+      "spec": "ST4.2*10（Φ7.7）",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 504,
+      "name_zh": "紧定螺钉（双螺纹）",
+      "name_en": "Screw",
+      "spec": "M10*26.5 (总长)",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 505,
+      "name_zh": "线轮",
+      "name_en": "Custom Parts",
+      "spec": "φ9.4*11.95",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 506,
+      "name_zh": "组合件",
+      "name_en": "Custom Parts",
+      "spec": "φ5.3*29",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 507,
+      "name_zh": "自攻螺钉",
+      "name_en": "Screw",
+      "spec": "ST5*17.1",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 508,
+      "name_zh": "螺纹柱带旋钮",
+      "name_en": "Custom Parts",
+      "spec": "M4*43",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 509,
+      "name_zh": "衬套",
+      "name_en": "Sleeves & Spacers",
+      "spec": "φ9*φ8*4",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 510,
+      "name_zh": "触头盒中孔补芯件",
+      "name_en": "Custom Parts",
+      "spec": "M24*M16*30",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 511,
+      "name_zh": "贴片螺母",
+      "name_en": "Nut",
+      "spec": "M5*4.6",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 512,
+      "name_zh": "轴",
+      "name_en": "Shaft",
+      "spec": "φ8*91.1",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 513,
+      "name_zh": "轴套",
+      "name_en": "Shaft",
+      "spec": "φ14*3.35",
+      "category_zh": "套管类",
+      "category_en": "Sleeves & Spacers",
+      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 514,
+      "name_zh": "输出转架轴",
+      "name_en": "Shaft",
+      "spec": "Φ8.1*55",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 515,
+      "name_zh": "铁芯",
+      "name_en": "Custom Parts",
+      "spec": "φ9.5*2.7",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 516,
+      "name_zh": "铆压螺柱",
+      "name_en": "Stud",
+      "spec": "13*7",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 517,
+      "name_zh": "铆压螺母",
+      "name_en": "Nut",
+      "spec": "UNC 6/32*Φ7*2.5",
+      "category_zh": "螺母类",
+      "category_en": "Nuts",
+      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 518,
+      "name_zh": "铆套",
+      "name_en": "Rivets",
+      "spec": "φ6.4*9",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 519,
+      "name_zh": "铆钉",
+      "name_en": "Rivet",
+      "spec": "φ10*19(总长)",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 520,
+      "name_zh": "铆钉套",
+      "name_en": "Rivet",
+      "spec": "φ19.8*φ31.6",
+      "category_zh": "铆钉类",
+      "category_en": "Rivets",
+      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 521,
+      "name_zh": "铜嵌件",
+      "name_en": "Insert",
+      "spec": "M4*6-φ9.9",
+      "category_zh": "嵌件类",
+      "category_en": "Press-In Inserts",
+      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 522,
+      "name_zh": "铜螺钉",
+      "name_en": "Screw",
+      "spec": "M4*6",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 523,
+      "name_zh": "铝轴",
+      "name_en": "Shaft",
+      "spec": "Φ4*17.5",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 524,
+      "name_zh": "销扁轴",
+      "name_en": "Shaft",
+      "spec": "Φ5*23.5",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 525,
+      "name_zh": "销轴",
+      "name_en": "Pin",
+      "spec": "Φ5*11",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 526,
+      "name_zh": "销轴（尖尾）",
+      "name_en": "Pin",
+      "spec": "Φ1.2*7.5",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 527,
+      "name_zh": "销钉",
+      "name_en": "Pin",
+      "spec": "φ4*10",
+      "category_zh": "销轴类",
+      "category_en": "Pins & Shafts",
+      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 528,
+      "name_zh": "长方螺钉",
+      "name_en": "Screw",
+      "spec": "SM7/32-32*21/7mm-H6.2",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 529,
+      "name_zh": "防盗铅封螺丝",
+      "name_en": "Screw",
+      "spec": "M4*10.5",
+      "category_zh": "铅封螺钉",
+      "category_en": "Security Screws",
+      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 530,
+      "name_zh": "静铁芯（漏电）",
+      "name_en": "Custom Parts",
+      "spec": "Φ4*5.2",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 531,
+      "name_zh": "马车螺栓",
+      "name_en": "Bolt",
+      "spec": "M8*70",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 532,
+      "name_zh": "马车螺栓(四方台阶)",
+      "name_en": "Bolt",
+      "spec": "3/8-24UNF*30",
+      "category_zh": "螺栓类",
+      "category_en": "Bolts",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 533,
+      "name_zh": "齿轮片毛坯",
+      "name_en": "Custom Parts",
+      "spec": "Φ17*Φ5*6",
+      "category_zh": "非标件",
+      "category_en": "Custom Parts",
+      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+    }
+  ]
+}
