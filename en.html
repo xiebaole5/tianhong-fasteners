@@ -489,6 +489,67 @@
 </section>
 
 
+<!-- HS CODE LOOKUP TOOL -->
+<section id="hs-lookup" class="py-20 bg-gray-50">
+  <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-10">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">Export Declaration</p>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
+        HS Code Lookup Tool
+      </h2>
+      <div class="section-divider"></div>
+      <p class="text-gray-500 mt-4 max-w-xl mx-auto text-sm">
+        Enter a product name or code (e.g. RCSK-1, Rivet, Insert, Hex Bolt) to quickly find its HS Code and export tax rebate information.
+      </p>
+    </div>
+
+    <div class="bg-white rounded-2xl shadow-sm border border-gray-100 p-6 md:p-8">
+      <div class="flex gap-3 mb-6">
+        <div class="relative flex-1">
+          <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
+          <input id="hs-search-input" type="text" placeholder="Search by product name or code (e.g. RCSK-1, Rivet, Insert)…"
+            class="w-full pl-9 pr-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]"
+            oninput="hsSearch(this.value)" />
+        </div>
+        <button onclick="hsSearch(document.getElementById('hs-search-input').value)"
+          class="bg-[#d4891a] hover:bg-[#f0a833] text-white font-semibold px-5 py-3 rounded-xl transition-colors text-sm">
+          Search
+        </button>
+      </div>
+
+      <div id="hs-results" class="hidden">
+        <div class="overflow-x-auto rounded-xl border border-gray-100">
+          <table class="w-full text-sm">
+            <thead>
+              <tr class="bg-[#0d1b2a] text-white">
+                <th class="text-left px-4 py-3 font-semibold rounded-tl-xl">Product (EN)</th>
+                <th class="text-left px-4 py-3 font-semibold">Product (ZH)</th>
+                <th class="text-left px-4 py-3 font-semibold">Spec</th>
+                <th class="text-left px-4 py-3 font-semibold">HS Code</th>
+                <th class="text-left px-4 py-3 font-semibold">Export Tax Rebate</th>
+                <th class="text-left px-4 py-3 font-semibold rounded-tr-xl">Declaration Elements</th>
+              </tr>
+            </thead>
+            <tbody id="hs-table-body" class="divide-y divide-gray-100">
+            </tbody>
+          </table>
+        </div>
+        <p id="hs-result-count" class="text-gray-400 text-xs mt-3 text-right"></p>
+      </div>
+
+      <div id="hs-no-result" class="hidden text-center py-8">
+        <i class="fas fa-search text-3xl text-gray-300 mb-3"></i>
+        <p class="text-gray-500 text-sm">No matching products found. Please try a different keyword.</p>
+      </div>
+
+      <div id="hs-hint" class="text-center py-4">
+        <p class="text-gray-400 text-xs">Database contains HS Code information for 620 fastener products. All products carry an export tax rebate of <span class="text-[#d4891a] font-semibold">13%</span>.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
 <!-- FOOTER -->
 <footer class="bg-[#0d1b2a] text-gray-400">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -529,6 +590,7 @@
           <li><a href="#quality" class="hover:text-[#d4891a] transition-colors">Quality</a></li>
           <li><a href="#contact" class="hover:text-[#d4891a] transition-colors">Contact</a></li>
           <li><a href="en-products.html" class="hover:text-[#d4891a] transition-colors">All Products</a></li>
+          <li><a href="#hs-lookup" class="hover:text-[#d4891a] transition-colors">HS Code Lookup</a></li>
         </ul>
       </div>
 
@@ -726,6 +788,54 @@ function getFallbackProducts() {
     {id:11, name_en:"Automotive Fastener", spec:"Custom to drawing, Grade 8.8–12.9", material:"Alloy Steel / Dacromet Coated", category_en:"Automotive Fasteners", image:""},
     {id:12, name_en:"Solar Mounting Fastener", spec:"M8–M16, For PV aluminum profiles", material:"SS304 / SS316 / Aluminum 6061", category_en:"New Energy Fasteners", image:""}
   ];
+}
+
+/* HS Code Lookup Tool */
+var hsData = null;
+function hsLoadData(callback) {
+  if (hsData) { callback(hsData); return; }
+  fetch('data/hs-codes.json')
+    .then(function(r) { return r.json(); })
+    .then(function(d) { hsData = d.products; callback(hsData); })
+    .catch(function() { hsData = []; callback([]); });
+}
+function hsSearch(query) {
+  query = (query || '').trim().toLowerCase();
+  document.getElementById('hs-hint').classList.add('hidden');
+  if (!query) {
+    document.getElementById('hs-results').classList.add('hidden');
+    document.getElementById('hs-no-result').classList.add('hidden');
+    document.getElementById('hs-hint').classList.remove('hidden');
+    return;
+  }
+  hsLoadData(function(products) {
+    var results = products.filter(function(p) {
+      return p.name_zh.toLowerCase().indexOf(query) !== -1 ||
+             p.name_en.toLowerCase().indexOf(query) !== -1 ||
+             (p.code && p.code.toLowerCase().indexOf(query) !== -1) ||
+             p.hs_code.toLowerCase().indexOf(query) !== -1 ||
+             p.category_en.toLowerCase().indexOf(query) !== -1 ||
+             p.spec.toLowerCase().indexOf(query) !== -1;
+    }).slice(0, 50);
+    if (results.length === 0) {
+      document.getElementById('hs-results').classList.add('hidden');
+      document.getElementById('hs-no-result').classList.remove('hidden');
+    } else {
+      document.getElementById('hs-no-result').classList.add('hidden');
+      document.getElementById('hs-results').classList.remove('hidden');
+      document.getElementById('hs-table-body').innerHTML = results.map(function(p) {
+        return '<tr class="hover:bg-gray-50 transition-colors">' +
+          '<td class="px-4 py-3 font-medium text-[#0d1b2a]">' + p.name_en + '</td>' +
+          '<td class="px-4 py-3 text-gray-600">' + p.name_zh + '</td>' +
+          '<td class="px-4 py-3 text-gray-500">' + p.spec + '</td>' +
+          '<td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 font-semibold px-2.5 py-1 rounded-lg text-xs">' + p.hs_code + '</span></td>' +
+          '<td class="px-4 py-3"><span class="bg-green-50 text-green-700 font-semibold px-2.5 py-1 rounded-lg text-xs">' + p.export_tax_rebate + '</span></td>' +
+          '<td class="px-4 py-3 text-gray-500 text-xs">' + p.declaration_elements.replace(/;/g, ' / ') + '</td>' +
+          '</tr>';
+      }).join('');
+      document.getElementById('hs-result-count').textContent = results.length + ' result' + (results.length !== 1 ? 's' : '') + ' found' + (results.length === 50 ? ' (showing first 50)' : '');
+    }
+  });
 }
 
 /* Douyin / WeChat in-app browser detection */
