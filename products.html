@@ -14,6 +14,8 @@
 
   <!-- Pre-built Tailwind CSS (primary stylesheet) -->
   <link rel="stylesheet" href="css/tailwind.css" />
+  <!-- Product Gallery Styles -->
+  <link rel="stylesheet" href="assets/css/product-style.css" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -140,22 +142,44 @@
 
 
 <!-- PRODUCTS CATALOG -->
-<section id="products" class="py-20 bg-gray-50">
+<section id="pg-section" class="py-20 bg-gray-50">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-    <div class="text-center mb-14">
-      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">精选产品</p>
+    <div class="text-center mb-10">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">产品目录</p>
       <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
-        专业紧固件系列
+        533项专业紧固件
       </h2>
       <div class="section-divider"></div>
       <p class="text-gray-500 mt-4 max-w-xl mx-auto text-base">
-        1987年创立，专注高强度螺栓、螺母、垫圈及定制异型紧固件研发与制造。
+        1987年创立，专注高强度螺栓、螺母、铅封螺钉及定制异型紧固件研发与制造。
       </p>
     </div>
 
-    <div id="product-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
+    <!-- Search & Filter -->
+    <div class="pg-search-wrap">
+      <div class="flex flex-col sm:flex-row gap-3 mb-4">
+        <div class="pg-search-input-wrap">
+          <i class="fas fa-search pg-search-icon"></i>
+          <input id="pg-search" type="search" class="pg-search-input" autocomplete="off" />
+        </div>
+      </div>
+      <div id="pg-tabs" class="pg-filter-tabs">
+        <!-- Populated by JavaScript -->
+      </div>
+    </div>
+
+    <!-- Results Bar -->
+    <div class="pg-results-bar">
+      <span id="pg-results-bar" class="pg-results-count"></span>
+    </div>
+
+    <!-- Product Grid -->
+    <div id="pg-grid" class="pg-grid">
       <!-- Populated by JavaScript -->
     </div>
+
+    <!-- Pagination -->
+    <div id="pg-pagination" class="pg-pagination"></div>
   </div>
 </section>
 
@@ -490,49 +514,9 @@ window.addEventListener('scroll', function() {
   else { btn.classList.add('hidden'); btn.classList.remove('flex'); }
 });
 
-/* Load Products */
-fetch('data/products.json')
-  .then(function(r) { return r.json(); })
-  .then(function(data) { renderProducts(data.products); })
-  .catch(function() { renderProducts(getFallbackProducts()); });
-
-function renderProducts(products) {
-  var grid = document.getElementById('product-grid');
-  if (!grid) return;
-  grid.innerHTML = products.map(function(p) {
-    return '<div class="product-card bg-white rounded-2xl overflow-hidden shadow-sm border border-gray-100">' +
-      '<div class="relative aspect-[4/3] overflow-hidden product-img-fallback">' +
-      '<img src="' + p.image + '" alt="' + p.name_zh + '"' +
-      ' class="w-full h-full object-cover" loading="lazy" onerror="this.style.display=\'none\'">' +
-      '<div class="absolute top-3 left-3"><span class="bg-[#d4891a] text-white text-xs font-semibold px-2.5 py-1 rounded-full">' +
-      p.category_zh + '</span></div></div>' +
-      '<div class="p-4">' +
-      '<h3 class="font-bold text-[#0d1b2a] text-base mb-1" style="font-family:Poppins,sans-serif">' + p.name_zh + '</h3>' +
-      '<p class="text-gray-500 text-xs mb-1">规格：' + p.spec + '</p>' +
-      '<p class="text-gray-500 text-xs mb-3">材质：' + p.material + '</p>' +
-      '<button onclick="openInquiry(\'' + p.name_zh + '\')" ' +
-      'class="w-full text-center border border-[#0d1b2a] text-[#0d1b2a] hover:bg-[#0d1b2a] hover:text-white text-xs font-semibold py-2 rounded-lg transition-colors">' +
-      '询价</button>' +
-      '</div></div>';
-  }).join('');
-}
-
-function getFallbackProducts() {
-  return [
-    {id:1, name_zh:"六角螺栓", spec:"M4–M64, Grade 4.6/8.8/10.9/12.9", material:"碳钢 / SS304 / SS316", category_zh:"螺栓类", image:""},
-    {id:2, name_zh:"内六角螺钉", spec:"M3–M36, DIN 912", material:"碳钢 / 合金钢 / SS304", category_zh:"螺钉类", image:""},
-    {id:3, name_zh:"法兰螺栓", spec:"M6–M24, Grade 8.8/10.9", material:"碳钢镀锌 / 不锈钢", category_zh:"螺栓类", image:""},
-    {id:4, name_zh:"高强度螺栓", spec:"M12–M100, Grade 10.9/12.9", material:"合金钢热处理", category_zh:"高强度紧固件", image:""},
-    {id:5, name_zh:"U型螺栓", spec:"M6–M30, Custom", material:"碳钢 / SS316", category_zh:"异型螺栓", image:""},
-    {id:6, name_zh:"不锈钢自攻螺钉", spec:"ST2.2–ST6.3, DIN 7981", material:"SS304 / SS316L", category_zh:"螺钉类", image:""},
-    {id:7, name_zh:"六角螺母", spec:"M3–M64, DIN 934", material:"碳钢 / SS304 / SS316", category_zh:"螺母类", image:""},
-    {id:8, name_zh:"尼龙自锁螺母", spec:"M4–M36, DIN 985", material:"碳钢镀锌 / SS304", category_zh:"螺母类", image:""},
-    {id:9, name_zh:"平垫圈", spec:"M3–M100, DIN 125", material:"碳钢 / SS304 / 黄铜", category_zh:"垫圈类", image:""},
-    {id:10, name_zh:"弹簧垫圈", spec:"M3–M64, DIN 127", material:"弹簧钢 / SS301", category_zh:"垫圈类", image:""},
-    {id:11, name_zh:"汽车专用紧固件", spec:"按图定制, Grade 8.8–12.9", material:"合金钢 / 达克罗镀层", category_zh:"汽车紧固件", image:""},
-    {id:12, name_zh:"光伏支架紧固件", spec:"M8–M16, 适用光伏铝型材", material:"SS304 / SS316 / 铝合金 6061", category_zh:"新能源紧固件", image:""}
-  ];
-}
+/* Load Products via product-gallery.js */
+window.PG_LANG = 'zh';
+window.PG_OPEN_INQUIRY = openInquiry;
 
 /* Douyin / WeChat in-app browser detection */
 (function() {
@@ -544,5 +528,6 @@ function getFallbackProducts() {
   }
 })();
 </script>
+<script src="assets/js/product-gallery.js"></script>
 </body>
 </html>
