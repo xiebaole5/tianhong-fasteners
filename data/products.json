@@ -8,7 +8,7 @@
       "material": "碳钢 / 不锈钢 SS304 / SS316",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/hex-bolt-1.png"
     },
     {
       "id": 2,
@@ -18,7 +18,7 @@
       "material": "碳钢 / 合金钢 / 不锈钢 SS304",
       "category_zh": "螺钉类",
       "category_en": "Screws",
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/hex-socket-screw.webp"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "material": "碳钢镀锌 / 不锈钢",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/hex-flange-bolt.jpg"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "material": "合金钢热处理 (Alloy Steel, Heat-Treated)",
       "category_zh": "高强度紧固件",
       "category_en": "High-Strength Fasteners",
-      "image": "https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/stainless-hex-bolt.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "material": "碳钢 / 不锈钢 SS316",
       "category_zh": "异型螺栓",
       "category_en": "Special Bolts",
-      "image": "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/zinc-plated-bolt.jpg"
     },
     {
       "id": 6,
@@ -58,7 +58,7 @@
       "material": "不锈钢 SS304 / SS316L",
       "category_zh": "螺钉类",
       "category_en": "Screws",
-      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/special-shaped-screws.webp"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "material": "碳钢 / 不锈钢 SS304 / SS316",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/stainless-nuts.jpg"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "material": "碳钢镀锌 / 不锈钢 SS304",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "https://images.unsplash.com/photo-1486262715619-67b85e0b08d3?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/stainless-nuts.jpg"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "material": "碳钢 / 不锈钢 SS304 / 黄铜",
       "category_zh": "垫圈类",
       "category_en": "Washers",
-      "image": "https://images.unsplash.com/photo-1509391366360-2e959784a276?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/fastener-assembly.jpg"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "material": "弹簧钢 / 不锈钢 SS301",
       "category_zh": "垫圈类",
       "category_en": "Washers",
-      "image": "https://images.unsplash.com/photo-1567789884554-0b844b597180?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/fastener-assembly.jpg"
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "material": "合金钢 / 不锈钢，表面镀锌或达克罗",
       "category_zh": "汽车紧固件",
       "category_en": "Automotive Fasteners",
-      "image": "https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/custom-fasteners.jpg"
     },
     {
       "id": 12,
@@ -118,7 +118,7 @@
       "material": "不锈钢 SS304 / SS316 / 铝合金 6061",
       "category_zh": "新能源紧固件",
       "category_en": "New Energy Fasteners",
-      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/stainless-hex-bolt.jpg"
     },
     {
       "id": 13,
@@ -128,7 +128,7 @@
       "material": "碳钢 / 不锈钢 SS304 / 铜",
       "category_zh": "螺钉类",
       "category_en": "Screws",
-      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
+      "image": "images/products/special-shaped-screws.webp"
     }
   ]
 }
