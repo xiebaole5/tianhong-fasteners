@@ -119,6 +119,16 @@
       "category_zh": "新能源紧固件",
       "category_en": "New Energy Fasteners",
       "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=600&q=80"
+    },
+    {
+      "id": 13,
+      "name_zh": "盘头螺钉",
+      "name_en": "Pan Head Screw",
+      "spec": "M2–M8, ST2.2–ST6.3; 十字/一字/内六角/内梅花/十一字 (Phillips / Slotted / Socket / Torx / Combo)",
+      "material": "碳钢 / 不锈钢 SS304 / 铜",
+      "category_zh": "螺钉类",
+      "category_en": "Screws",
+      "image": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=600&q=80"
     }
   ]
 }
