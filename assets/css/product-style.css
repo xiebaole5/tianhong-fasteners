@@ -194,14 +194,37 @@
 .pg-card-spec {
   font-size: 12px;
   color: #6b7280;
-  margin: 0 0 12px;
+  margin: 0 0 4px;
   line-height: 1.5;
-  flex: 1;
+}
+
+.pg-card-hs {
+  font-size: 11px;
+  color: #9ca3af;
+  margin: 0 0 10px;
+  line-height: 1.5;
+  font-family: 'Courier New', monospace;
+}
+
+.pg-card-hs span {
+  color: #6b7280;
+  font-weight: 500;
+  font-family: inherit;
 }
 
 .pg-card-spec span {
   color: #374151;
   font-weight: 500;
+}
+
+.pg-card-hs span {
+  color: #6b7280;
+  font-weight: 500;
+  font-family: inherit;
+}
+
+.pg-card-body-spacer {
+  flex: 1;
 }
 
 .pg-card-btn {

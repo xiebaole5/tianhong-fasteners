@@ -30,9 +30,10 @@
   var i18n = {
     zh: {
       allCategory: '全部',
-      searchPlaceholder: '搜索产品名称或规格…',
+      searchPlaceholder: '搜索产品名称、规格或HS编码…',
       resultsOf: function (n, t) { return '找到 <strong>' + n + '</strong> 项，共 ' + t + ' 项'; },
       spec: '规格',
+      hsCode: 'HS编码',
       inquire: '询价',
       emptyTitle: '未找到相关产品',
       emptyDesc: '请尝试更换关键词或切换分类',
@@ -41,9 +42,10 @@
     },
     en: {
       allCategory: 'All',
-      searchPlaceholder: 'Search product name or specification…',
+      searchPlaceholder: 'Search by name, spec or HS code…',
       resultsOf: function (n, t) { return 'Showing <strong>' + n + '</strong> of ' + t + ' products'; },
       spec: 'Spec',
+      hsCode: 'HS Code',
       inquire: 'Inquire',
       emptyTitle: 'No products found',
       emptyDesc: 'Try a different keyword or category',
@@ -88,7 +90,7 @@
 
       if (!q) return true;
 
-      var haystack = (p.name_zh + ' ' + p.name_en + ' ' + p.spec + ' ' + p.category_zh).toLowerCase();
+      var haystack = (p.name_zh + ' ' + p.name_en + ' ' + p.spec + ' ' + p.category_zh + ' ' + (p.hs_code || '')).toLowerCase();
       return haystack.indexOf(q) !== -1;
     });
 
@@ -172,6 +174,7 @@
       var cat = esc(catName(p));
       var img = esc(p.image || '');
       var altText = esc(p.name_zh);
+      var hsCode = esc(p.hs_code || '');
       // Use data attribute to avoid inline onclick XSS risk
       var inquireData = esc(productName(p) + ' ' + (p.spec || ''));
 
@@ -184,6 +187,8 @@
         '<div class="pg-card-body">' +
         '<h3 class="pg-card-title">' + name + '</h3>' +
         '<p class="pg-card-spec"><span>' + esc(t('spec')) + ': </span>' + spec + '</p>' +
+        (hsCode ? '<p class="pg-card-hs"><span>' + esc(t('hsCode')) + ': </span>' + hsCode + '</p>' : '') +
+        '<div class="pg-card-body-spacer"></div>' +
         '<button class="pg-card-btn pg-inquire-btn" data-inquiry="' + inquireData + '">' +
         esc(t('inquire')) + '</button>' +
         '</div>' +
@@ -294,12 +299,27 @@
     state.categories = (data.meta && data.meta.categories) || [];
     state.filtered = state.allProducts.slice();
 
+    // Expose category setter for category pages (category-zh.php / category-en.php)
+    window.PG_SET_CATEGORY = function (cat) {
+      state.activeCategory = cat || 'all';
+      applyFilters();
+      renderTabs();
+      renderResultsBar();
+      renderGrid();
+      renderPagination();
+    };
+
     wireSearch();
     wireGridDelegation();
     renderTabs();
     renderResultsBar();
     renderGrid();
     renderPagination();
+
+    // Notify category page that data is ready
+    if (typeof window.PG_ON_DATA_LOADED === 'function') {
+      window.PG_ON_DATA_LOADED(data);
+    }
   }
 
   /* ─── Event delegation for inquire buttons ───────────────────────── */
