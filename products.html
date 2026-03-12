@@ -50,6 +50,28 @@
     .section-divider { width: 60px; height: 4px; background: linear-gradient(90deg, #d4891a, #f0a833); border-radius: 2px; margin: 12px auto 0; }
     .category-card { transition: transform 0.3s ease, box-shadow 0.3s ease; }
     .category-card:hover { transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.1); }
+    /* Category nav cards */
+    .cat-nav-card {
+      position: relative; border-radius: 16px; overflow: hidden; cursor: pointer;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      background: #1b263b;
+      border: 2px solid transparent;
+    }
+    .cat-nav-card:hover { transform: translateY(-4px); box-shadow: 0 12px 28px rgba(13,27,42,0.18); border-color: #d4891a; }
+    .cat-nav-card .cat-img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; transition: transform 0.4s ease; }
+    .cat-nav-card:hover .cat-img { transform: scale(1.07); }
+    .cat-nav-card .cat-overlay {
+      position: absolute; inset: 0;
+      background: linear-gradient(to top, rgba(13,27,42,0.88) 0%, rgba(13,27,42,0.3) 60%, transparent 100%);
+      display: flex; flex-direction: column; justify-content: flex-end; padding: 12px;
+    }
+    .cat-nav-card .cat-name { color: #fff; font-weight: 700; font-size: 0.875rem; line-height: 1.3; }
+    .cat-nav-card .cat-count { color: #f0a833; font-size: 0.72rem; margin-top: 2px; }
+    .cat-nav-card .cat-badge {
+      position: absolute; top: 8px; right: 8px;
+      background: #d4891a; color: #fff; border-radius: 999px;
+      font-size: 0.65rem; font-weight: 700; padding: 2px 8px; line-height: 1.6;
+    }
     #browser-hint { display: none; }
     #browser-hint.show { display: flex; }
     ::-webkit-scrollbar { width: 6px; }
@@ -188,7 +210,30 @@
 <section class="py-20 bg-white">
   <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
     <div class="text-center mb-14">
-      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">产品分类</p>
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">按类型浏览</p>
+      <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
+        产品分类导航
+      </h2>
+      <div class="section-divider"></div>
+      <p class="text-gray-500 mt-4 max-w-xl mx-auto text-sm">点击分类卡片，可直接筛选对应产品。全部 533 项规格一览无余。</p>
+    </div>
+
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4 mb-10" id="cat-nav-grid">
+      <!-- Populated by JavaScript from products_data.json categories -->
+    </div>
+
+    <div class="text-center mt-2">
+      <p class="text-gray-400 text-xs">点击上方分类卡片可快速过滤；也可直接在产品搜索框输入关键词。</p>
+    </div>
+  </div>
+</section>
+
+
+<!-- PRODUCT APPLICATIONS -->
+<section class="py-20 bg-gray-50">
+  <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="text-center mb-14">
+      <p class="text-[#d4891a] font-semibold text-sm uppercase tracking-widest mb-2">应用领域</p>
       <h2 class="text-3xl md:text-4xl font-extrabold text-[#0d1b2a]" style="font-family:Poppins,sans-serif">
         全面的紧固件解决方案
       </h2>
@@ -196,73 +241,18 @@
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
-        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
-          <i class="fas fa-ruler-vertical text-white text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">超长紧固件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">可生产300mm及以上超长螺钉、螺栓，满足特殊行业需求。</p>
-        <button onclick="openInquiry('超长紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
-          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
-        </button>
-      </div>
-
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
-        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
-          <i class="fas fa-shield-alt text-white text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">高强度紧固件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">强度等级可达12.9级及以上，满足高载荷工况要求。</p>
-        <button onclick="openInquiry('高强度紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
-          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
-        </button>
-      </div>
-
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
-        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
-          <i class="fas fa-drafting-compass text-white text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">异型头部设计</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">根据客户图纸或样品进行异型头部开发，满足个性化需求。</p>
-        <button onclick="openInquiry('异型头部设计紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
-          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
-        </button>
-      </div>
-
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
-        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
-          <i class="fas fa-cogs text-white text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">冷镦+CNC复合件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">冷镦成形与CNC精密加工结合，生产高精度复合结构零件。</p>
-        <button onclick="openInquiry('冷镦CNC复合紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
-          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
-        </button>
-      </div>
-
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
-        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
-          <i class="fas fa-bezier-curve text-white text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">U型螺栓及弯形件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">按图定制U型螺栓及各类弯形紧固件，满足特殊安装需求。</p>
-        <button onclick="openInquiry('U型螺栓及弯形件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
-          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
-        </button>
-      </div>
-
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+      <div class="category-card bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-sm">
         <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i class="fas fa-car text-white text-2xl"></i>
         </div>
         <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">汽车紧固件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">高强度及特殊结构汽车用螺钉、螺栓，按图定制。</p>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">高强度及特殊结构汽车用螺钉、螺栓，按图定制，Grade 8.8–12.9。</p>
         <button onclick="openInquiry('汽车紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
           了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
         </button>
       </div>
 
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+      <div class="category-card bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-sm">
         <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i class="fas fa-solar-panel text-white text-2xl"></i>
         </div>
@@ -273,24 +263,46 @@
         </button>
       </div>
 
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
-        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
-          <i class="fas fa-industry text-white text-2xl"></i>
-        </div>
-        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">机械设备紧固件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">为机械装配提供定制紧固件及异型零件，满足各类工况。</p>
-        <button onclick="openInquiry('机械设备紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
-          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
-        </button>
-      </div>
-
-      <div class="category-card bg-gray-50 rounded-2xl p-8 text-center border border-gray-100">
+      <div class="category-card bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-sm">
         <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
           <i class="fas fa-bolt text-white text-2xl"></i>
         </div>
         <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">电气仪表紧固件</h3>
-        <p class="text-gray-500 text-sm leading-relaxed mb-4">精密螺钉及零件，适用于电表、仪表及电子设备的装配需求。</p>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">精密螺钉及铅封螺钉，适用于电表、仪表及电子设备的装配需求。</p>
         <button onclick="openInquiry('电气仪表紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-sm">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-cogs text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">冷镦+CNC复合件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">冷镦成形与CNC精密加工结合，生产高精度复合结构零件。</p>
+        <button onclick="openInquiry('冷镦CNC复合紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-sm">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-bezier-curve text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">U型螺栓及弯形件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">按图定制U型螺栓及各类弯形紧固件，满足特殊安装需求。</p>
+        <button onclick="openInquiry('U型螺栓及弯形件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
+          了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
+        </button>
+      </div>
+
+      <div class="category-card bg-white rounded-2xl p-8 text-center border border-gray-100 shadow-sm">
+        <div class="w-16 h-16 bg-gradient-to-br from-[#1a5f7a] to-[#57837b] rounded-2xl flex items-center justify-center mx-auto mb-5">
+          <i class="fas fa-drafting-compass text-white text-2xl"></i>
+        </div>
+        <h3 class="text-xl font-bold text-[#0d1b2a] mb-3" style="font-family:Poppins,sans-serif">异型定制紧固件</h3>
+        <p class="text-gray-500 text-sm leading-relaxed mb-4">根据客户图纸或样品进行异型头部开发，OEM/ODM全程服务。</p>
+        <button onclick="openInquiry('异型定制紧固件')" class="text-[#1a5f7a] font-semibold text-sm hover:text-[#d4891a] transition-colors">
           了解更多 <i class="fas fa-arrow-right ml-1 text-xs"></i>
         </button>
       </div>
@@ -517,6 +529,62 @@ window.addEventListener('scroll', function() {
 /* Load Products via product-gallery.js */
 window.PG_LANG = 'zh';
 window.PG_OPEN_INQUIRY = openInquiry;
+
+/* Populate category nav grid from products_data.json */
+window.PG_ON_DATA_LOADED = function(data) {
+  var grid = document.getElementById('cat-nav-grid');
+  if (!grid) return;
+  var cats = (data.meta && data.meta.categories) || [];
+  // Use DOM creation for safe insertion (avoids XSS from JSON data)
+  grid.innerHTML = '';
+  cats.forEach(function(cat) {
+    var name = cat.zh || '';
+    var count = cat.count || 0;
+    var img = cat.image || '';
+    var card = document.createElement('div');
+    card.className = 'cat-nav-card';
+    card.setAttribute('role', 'button');
+    card.setAttribute('tabindex', '0');
+    card.setAttribute('aria-label', '筛选：' + name);
+    card.addEventListener('click', function() { jumpToCategory(name); });
+    card.addEventListener('keydown', function(e) { if (e.key === 'Enter' || e.key === ' ') jumpToCategory(name); });
+    var imgEl = document.createElement('img');
+    imgEl.className = 'cat-img';
+    imgEl.src = img;
+    imgEl.alt = name;
+    imgEl.loading = 'lazy';
+    imgEl.onerror = function() { this.style.display = 'none'; };
+    var overlay = document.createElement('div');
+    overlay.className = 'cat-overlay';
+    var nameEl = document.createElement('div');
+    nameEl.className = 'cat-name';
+    nameEl.textContent = name;
+    var countEl = document.createElement('div');
+    countEl.className = 'cat-count';
+    countEl.textContent = count + ' 项规格';
+    overlay.appendChild(nameEl);
+    overlay.appendChild(countEl);
+    var badge = document.createElement('span');
+    badge.className = 'cat-badge';
+    badge.textContent = '筛选';
+    card.appendChild(imgEl);
+    card.appendChild(overlay);
+    card.appendChild(badge);
+    grid.appendChild(card);
+  });
+};
+
+function jumpToCategory(catName) {
+  // Scroll to product grid section
+  var section = document.getElementById('pg-section');
+  if (section) { section.scrollIntoView({ behavior: 'smooth', block: 'start' }); }
+  // Set category filter after a short delay to let scroll settle
+  setTimeout(function() {
+    if (window.PG_SET_CATEGORY) {
+      window.PG_SET_CATEGORY(catName);
+    }
+  }, 300);
+}
 
 /* Douyin / WeChat in-app browser detection */
 (function() {
