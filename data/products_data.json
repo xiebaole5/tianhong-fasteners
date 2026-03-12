@@ -5,67 +5,95 @@
     "generated": "2026-03-09",
     "categories": [
       {
-        "zh": "螺母类",
-        "en": "Nuts",
-        "count": 45,
-        "image": "images/products/stainless-nuts.jpg",
-        "hs_code": "7318.16"
-      },
-      {
         "zh": "螺栓类",
         "en": "Bolts",
         "count": 39,
-        "image": "images/products/hex-bolt-1.png",
+        "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
+        "hs_code": "7318.15"
+      },
+      {
+        "zh": "螺母类",
+        "en": "Nuts",
+        "count": 45,
+        "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
+        "hs_code": "7318.16"
+      },
+      {
+        "zh": "盘头螺钉",
+        "en": "Pan Head Screws",
+        "count": 84,
+        "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
+        "hs_code": "7318.15"
+      },
+      {
+        "zh": "沉头螺钉",
+        "en": "Countersunk Screws",
+        "count": 11,
+        "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
+        "hs_code": "7318.15"
+      },
+      {
+        "zh": "自攻螺钉",
+        "en": "Self-Tapping Screws",
+        "count": 27,
+        "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
+        "hs_code": "7318.14"
+      },
+      {
+        "zh": "内六角螺钉",
+        "en": "Socket Cap Screws",
+        "count": 23,
+        "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
+        "hs_code": "7318.15"
+      },
+      {
+        "zh": "铅封螺钉",
+        "en": "Security/Lead Seal Screws",
+        "count": 106,
+        "image": "imgs/custom-special-shape-industrial-fastener.jpg",
         "hs_code": "7318.15"
       },
       {
         "zh": "铆钉类",
         "en": "Rivets",
         "count": 14,
-        "image": "images/products/fastener-assembly.jpg",
+        "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
         "hs_code": "7318.24"
-      },
-      {
-        "zh": "螺钉类",
-        "en": "Screws",
-        "count": 247,
-        "image": "images/products/hex-socket-screw.webp",
-        "hs_code": "7318.15"
-      },
-      {
-        "zh": "铅封螺钉",
-        "en": "Security Screws",
-        "count": 106,
-        "image": "images/products/dacromet-bolt.webp",
-        "hs_code": "7318.15"
       },
       {
         "zh": "非标件",
         "en": "Custom Parts",
         "count": 43,
-        "image": "images/products/custom-fasteners.jpg",
+        "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
         "hs_code": "7318.29"
       },
       {
         "zh": "嵌件类",
         "en": "Press-In Inserts",
         "count": 22,
-        "image": "images/products/special-fasteners.jpg",
+        "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
         "hs_code": "7318.29"
       },
       {
         "zh": "套管类",
         "en": "Sleeves & Spacers",
         "count": 8,
-        "image": "images/products/stainless-hex-bolt.jpg",
+        "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
         "hs_code": "7318.22"
       },
       {
         "zh": "销轴类",
         "en": "Pins & Shafts",
         "count": 9,
-        "image": "images/products/zinc-plated-bolt.jpg",
+        "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
         "hs_code": "7318.23"
+      },
+      {
+        "zh": "螺钉类",
+        "en": "Other Screws",
+        "count": 102,
+        "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
+        "hs_code": "7318.15"
       }
     ]
   },
@@ -77,7 +105,7 @@
       "spec": "M3*5.4*5.4*1.9",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -87,7 +115,7 @@
       "spec": "M3*5.4*5.4*1.9",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -97,7 +125,7 @@
       "spec": "M3*5.4*5.4*1.9",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -107,7 +135,7 @@
       "spec": "M4*28",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -117,7 +145,7 @@
       "spec": "Φ2.5*13.8",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -126,8 +154,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M3*22",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -135,9 +163,9 @@
       "name_zh": "Y型盘头尖尾自攻螺钉",
       "name_en": "Pan Head Screw",
       "spec": "ST3*17.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -145,9 +173,9 @@
       "name_zh": "一字六角凹穴尖尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4.3*22/12.5mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -155,9 +183,9 @@
       "name_zh": "一字六角凹穴束尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4.2*12.7",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -166,8 +194,8 @@
       "name_en": "Slotted Screw",
       "spec": "#8-32*9.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -175,9 +203,9 @@
       "name_zh": "一字内六角紧定螺钉（带孔）",
       "name_en": "Slotted Screw",
       "spec": "M8-1*16",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -185,9 +213,9 @@
       "name_zh": "一字内六角紧定螺钉（带孔）（无热处理）",
       "name_en": "Slotted Screw",
       "spec": "M8-1*16",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -196,8 +224,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*20/12.5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -206,8 +234,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*30/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -216,8 +244,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*12",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -226,8 +254,8 @@
       "name_en": "Slotted Screw",
       "spec": "SM9/64-40*6",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -236,8 +264,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*13",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -246,8 +274,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*16/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -256,8 +284,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*34.5/11.5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -266,8 +294,8 @@
       "name_en": "Slotted Screw",
       "spec": "#8-32*12.7（9.3*2.4）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -276,8 +304,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*10.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -286,8 +314,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*42/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -296,8 +324,8 @@
       "name_en": "Slotted Screw",
       "spec": "SM3/16-28*13（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -305,9 +333,9 @@
       "name_zh": "一字平头四孔平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST5.7*16/11.8mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -316,8 +344,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*43/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -326,8 +354,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*19.5/9.5mm（3.0小杆）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -336,8 +364,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*43/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -346,8 +374,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*6.9（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -356,8 +384,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*15",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -366,8 +394,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*9.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -376,8 +404,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*9.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -386,8 +414,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*10/8.5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -395,9 +423,9 @@
       "name_zh": "一字拧断平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3.6*20/10mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -406,8 +434,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*30/8mm（φ5.6）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -416,8 +444,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*40/8mm（7*6.5）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -427,7 +455,7 @@
       "spec": "M3*6.5/4mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -435,9 +463,9 @@
       "name_zh": "一字盘头尖尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST2.9*6",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -445,9 +473,9 @@
       "name_zh": "一字盘头止逆螺钉",
       "name_en": "Slotted Screw",
       "spec": "M3*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -455,9 +483,9 @@
       "name_zh": "一字盘头螺钉",
       "name_en": "Slotted Screw",
       "spec": "M5*10/8.5mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -466,8 +494,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*6.1",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -475,9 +503,9 @@
       "name_zh": "一字紧定螺丝",
       "name_en": "Slotted Screw",
       "spec": "M8-1*11",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -485,9 +513,9 @@
       "name_zh": "一字紧定螺钉",
       "name_en": "Slotted Screw",
       "spec": "M8*17",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -496,8 +524,8 @@
       "name_en": "Screw",
       "spec": "M4*16/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -506,8 +534,8 @@
       "name_en": "Screw",
       "spec": "1/4*27mm/10mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -516,8 +544,8 @@
       "name_en": "Screw",
       "spec": "M3*16.7",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -526,8 +554,8 @@
       "name_en": "Screw",
       "spec": "ST3*22.3mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -536,8 +564,8 @@
       "name_en": "Screw",
       "spec": "M3*22/5mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -546,8 +574,8 @@
       "name_en": "Screw",
       "spec": "M3*22/5mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -556,8 +584,8 @@
       "name_en": "Screw",
       "spec": "M3*22/5mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -566,8 +594,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*32/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -577,7 +605,7 @@
       "spec": "Φ6*13.8",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -587,7 +615,7 @@
       "spec": "φ6.2*21.8*10.2",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -597,7 +625,7 @@
       "spec": "M10",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -607,7 +635,7 @@
       "spec": "M5*6",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -617,7 +645,7 @@
       "spec": "M6*188/15mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -627,7 +655,7 @@
       "spec": "M8*12.7",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -637,7 +665,7 @@
       "spec": "M6*196/15mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -647,7 +675,7 @@
       "spec": "M4*S7*69.3（总长）",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -657,7 +685,7 @@
       "spec": "M12*38",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -667,7 +695,7 @@
       "spec": "M12*30",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -677,7 +705,7 @@
       "spec": "M8*43/24mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -686,8 +714,8 @@
       "name_en": "Hex Screw",
       "spec": "M4*17/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -697,7 +725,7 @@
       "spec": "M12*38",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -707,7 +735,7 @@
       "spec": "M8*20",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -717,7 +745,7 @@
       "spec": "M6*55",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -727,7 +755,7 @@
       "spec": "M6*16",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -737,7 +765,7 @@
       "spec": "M12*25",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -747,7 +775,7 @@
       "spec": "M10*110/26mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -757,7 +785,7 @@
       "spec": "M8*25/20mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -767,7 +795,7 @@
       "spec": "M6*123",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -777,7 +805,7 @@
       "spec": "M4*10/6mm/6mm",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -787,7 +815,7 @@
       "spec": "M6*9.6/H9",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -797,7 +825,7 @@
       "spec": "UNC3/8-16*24.5-φ15",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -807,7 +835,7 @@
       "spec": "M8*13-φ12",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -817,7 +845,7 @@
       "spec": "M4",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -827,7 +855,7 @@
       "spec": "M12*20",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -837,7 +865,7 @@
       "spec": "M12*20",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -847,7 +875,7 @@
       "spec": "M4*8/7mm",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-shaped-screws.webp",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -857,7 +885,7 @@
       "spec": "M4*11.5/7mm",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-shaped-screws.webp",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -867,7 +895,7 @@
       "spec": "M6",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -877,7 +905,7 @@
       "spec": "M8*8.1",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -887,7 +915,7 @@
       "spec": "M6",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -896,8 +924,8 @@
       "name_en": "Hex Screw",
       "spec": "M16*40",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -907,7 +935,7 @@
       "spec": "M6",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -917,7 +945,7 @@
       "spec": "M8*45",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -927,7 +955,7 @@
       "spec": "M8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -937,7 +965,7 @@
       "spec": "M8*32",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -947,7 +975,7 @@
       "spec": "M8*16",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -957,7 +985,7 @@
       "spec": "M6*30-φ13.5",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -967,7 +995,7 @@
       "spec": "M12*25-φ17",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -977,7 +1005,7 @@
       "spec": "M8*23-φ12",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -987,7 +1015,7 @@
       "spec": "M8*23-φ12",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -997,7 +1025,7 @@
       "spec": "M3*S5.5*3",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1007,7 +1035,7 @@
       "spec": "M12",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1017,7 +1045,7 @@
       "spec": "M8*90",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -1027,7 +1055,7 @@
       "spec": "M8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1037,7 +1065,7 @@
       "spec": "M8*28",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1047,7 +1075,7 @@
       "spec": "M4*51.5/6mm（对边7）",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-shaped-screws.webp",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -1057,7 +1085,7 @@
       "spec": "M10",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1067,7 +1095,7 @@
       "spec": "M4*38",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1077,7 +1105,7 @@
       "spec": "M5*12-S9",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1086,8 +1114,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M4*20/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1097,7 +1125,7 @@
       "spec": "M10*65",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -1105,9 +1133,9 @@
       "name_zh": "内六角圆尾紧定螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M8*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1115,9 +1143,9 @@
       "name_zh": "内六角圆柱头三组合螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M6*11头9.9",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1125,9 +1153,9 @@
       "name_zh": "内六角圆柱头三角牙螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M5*9",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1135,9 +1163,9 @@
       "name_zh": "内六角圆柱头二组合螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M5*10头8.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1145,9 +1173,9 @@
       "name_zh": "内六角圆柱头凸缘螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M5*42(总长)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1155,9 +1183,9 @@
       "name_zh": "内六角圆柱头弹平垫三组合螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M8*20（头φ10.9）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1165,9 +1193,9 @@
       "name_zh": "内六角圆柱头束尾螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M4*19.9（总长）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1175,9 +1203,9 @@
       "name_zh": "内六角圆柱头螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M8*75",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1185,9 +1213,9 @@
       "name_zh": "内六角圆柱端紧定螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M5*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1195,9 +1223,9 @@
       "name_zh": "内六角平头台阶螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M6*16",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1206,8 +1234,8 @@
       "name_en": "Socket Head Screw",
       "spec": "ST3.9*12.8/5mm（头φ7）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1216,8 +1244,8 @@
       "name_en": "Socket Head Screw",
       "spec": "ST4.2*13.3/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1226,8 +1254,8 @@
       "name_en": "Socket Head Screw",
       "spec": "M6*20/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1235,9 +1263,9 @@
       "name_zh": "内六角平头螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M8*20",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1245,9 +1273,9 @@
       "name_zh": "内六角平尾紧定螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M12-1.25-20",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1255,9 +1283,9 @@
       "name_zh": "内六角平端紧定螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M10*25",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1265,9 +1293,9 @@
       "name_zh": "内六角弹平垫三组合螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M8*20",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1277,7 +1305,7 @@
       "spec": "M8*φ12*19.6",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -1285,9 +1313,9 @@
       "name_zh": "内六角沉头螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M3*10（φ5.8）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1295,9 +1323,9 @@
       "name_zh": "内六角法兰螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M6*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1307,7 +1335,7 @@
       "spec": "M8*9（头厚8.0）",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1315,9 +1343,9 @@
       "name_zh": "内六角盘头弹平垫三组合螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M6*20",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1325,9 +1353,9 @@
       "name_zh": "内六角盘头束尾螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M5*9.5 (插深2.0)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1335,9 +1363,9 @@
       "name_zh": "内六角盘头螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M4*8(φ11*2.5)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1345,9 +1373,9 @@
       "name_zh": "内六角紧定螺钉",
       "name_en": "Socket Head Screw",
       "spec": "M8*17（总长）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1355,9 +1383,9 @@
       "name_zh": "内六角紧定螺钉（带凹槽）",
       "name_en": "Socket Head Screw",
       "spec": "M8-1*21.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1367,7 +1395,7 @@
       "spec": "Φ9.6*Φ9.2*7",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-shaped-screws.webp",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -1377,7 +1405,7 @@
       "spec": "M4*8/7mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1387,7 +1415,7 @@
       "spec": "M3*45/5mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1396,8 +1424,8 @@
       "name_en": "Torx Screw",
       "spec": "M5*23.7(总长)",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1406,8 +1434,8 @@
       "name_en": "Torx Screw",
       "spec": "M4*36",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1417,7 +1445,7 @@
       "spec": "M12*16.5-M8",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -1427,7 +1455,7 @@
       "spec": "M10*14.5-M6",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1436,8 +1464,8 @@
       "name_en": "Torx Screw",
       "spec": "M4*6",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1446,8 +1474,8 @@
       "name_en": "Torx Screw",
       "spec": "ST6*16（T30）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1456,8 +1484,8 @@
       "name_en": "Torx Screw",
       "spec": "M4*10/4mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1466,8 +1494,8 @@
       "name_en": "Torx Screw",
       "spec": "M4*8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1476,8 +1504,8 @@
       "name_en": "Torx Screw",
       "spec": "M3*8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1486,8 +1514,8 @@
       "name_en": "Torx Screw",
       "spec": "M3*9.8/2.8mm（T15）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1495,9 +1523,9 @@
       "name_zh": "内梅花沉头螺钉",
       "name_en": "Torx Screw",
       "spec": "M6*31（总长）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1505,9 +1533,9 @@
       "name_zh": "内梅花沉头防盗平尾自攻螺钉",
       "name_en": "Torx Screw",
       "spec": "ST4*30（T20）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1515,9 +1543,9 @@
       "name_zh": "内梅花盘头凸缘自攻螺钉",
       "name_en": "Torx Screw",
       "spec": "ST2.6*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1525,9 +1553,9 @@
       "name_zh": "内梅花盘头割尾自攻螺钉",
       "name_en": "Torx Screw",
       "spec": "ST3.5*10 （T15）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1535,9 +1563,9 @@
       "name_zh": "内梅花盘头尖尾自攻螺钉",
       "name_en": "Torx Screw",
       "spec": "ST2.9*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1545,9 +1573,9 @@
       "name_zh": "内梅花盘头平尾自攻螺钉",
       "name_en": "Torx Screw",
       "spec": "ST3.5*14（T15）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1555,9 +1583,9 @@
       "name_zh": "内梅花盘头弹平垫三组合螺钉",
       "name_en": "Torx Screw",
       "spec": "M5*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1565,9 +1593,9 @@
       "name_zh": "内梅花盘头螺钉",
       "name_en": "Torx Screw",
       "spec": "M4*6（T20）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1575,9 +1603,9 @@
       "name_zh": "内梅花盘头防盗三组合螺钉",
       "name_en": "Torx Screw",
       "spec": "M4*12/6mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1585,9 +1613,9 @@
       "name_zh": "内梅花盘头防盗尖尾自攻螺钉",
       "name_en": "Torx Screw",
       "spec": "ST2.9*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1596,8 +1624,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*10（头高4）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1606,8 +1634,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*26/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1616,8 +1644,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*14/4.5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1625,9 +1653,9 @@
       "name_zh": "十一字台阶四孔尖尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4.2*13.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1636,8 +1664,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*10/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1646,8 +1674,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*9/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1656,8 +1684,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*32/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1666,8 +1694,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*30/7mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1676,8 +1704,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*32/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1686,8 +1714,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*32/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1696,8 +1724,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*26/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1706,8 +1734,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*26/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1716,8 +1744,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*22/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1726,8 +1754,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*24/6mm/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1736,8 +1764,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*26/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1746,8 +1774,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*11/7mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1756,8 +1784,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*26/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1766,8 +1794,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*25/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1776,8 +1804,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*18/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1785,9 +1813,9 @@
       "name_zh": "十一字台阶无孔尖尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST2.9*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1796,8 +1824,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*45/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1806,8 +1834,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1816,8 +1844,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1825,9 +1853,9 @@
       "name_zh": "十一字圆头四孔自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4*20.5/12mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1836,8 +1864,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*37/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1846,8 +1874,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/4mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1856,8 +1884,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*12",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1866,8 +1894,8 @@
       "name_en": "Slotted Screw",
       "spec": "SM3/16-28*9",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1875,9 +1903,9 @@
       "name_zh": "十一字圆柱头割尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST2.9*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1886,8 +1914,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*15",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1896,8 +1924,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3.5*7.5头5.8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1906,8 +1934,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*8.9头7.8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1916,8 +1944,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3.5*7.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1926,8 +1954,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*10头5.4",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1936,8 +1964,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*20/11mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1946,8 +1974,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*11.5（8.8级）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1955,9 +1983,9 @@
       "name_zh": "十一字平头单孔尖尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3.5*34/13mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1966,8 +1994,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*47/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1976,8 +2004,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*28/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1986,8 +2014,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -1996,8 +2024,8 @@
       "name_en": "Slotted Screw",
       "spec": "ST3.9*15/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2006,8 +2034,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*15/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2016,8 +2044,8 @@
       "name_en": "Slotted Screw",
       "spec": "ST2.9*10",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2026,8 +2054,8 @@
       "name_en": "Slotted Screw",
       "spec": "ST3.9*21/12mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2036,8 +2064,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2046,8 +2074,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*9/4mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2056,8 +2084,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2066,8 +2094,8 @@
       "name_en": "Slotted Screw",
       "spec": "ST2.6*M4*34（总长）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2076,8 +2104,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*30/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2085,9 +2113,9 @@
       "name_zh": "十一字平头圆尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3.5*26（总长）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2096,8 +2124,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*14.6",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2106,8 +2134,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*10（6.7*2.8）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2116,8 +2144,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*7（头6.8）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2126,8 +2154,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*14",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2136,8 +2164,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3.5*7.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2146,8 +2174,8 @@
       "name_en": "Slotted Screw",
       "spec": "M8*15",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2156,8 +2184,8 @@
       "name_en": "Slotted Screw",
       "spec": "M7*12",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2166,8 +2194,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*6（Φ4.4*1.8）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2176,8 +2204,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*12",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2186,8 +2214,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2195,9 +2223,9 @@
       "name_zh": "十一字扁头平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4*30",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2206,8 +2234,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*10.3（方垫10.3*10.3）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2216,8 +2244,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*9头8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2225,9 +2253,9 @@
       "name_zh": "十一字扁头花齿自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2236,8 +2264,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*9/3.5mm（6*8.5）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2246,8 +2274,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*20/8mm（6*9. 7）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2256,8 +2284,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*12/6mm（6*8.8）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2266,8 +2294,8 @@
       "name_en": "Slotted Screw",
       "spec": "ST3.9*30/9mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2276,8 +2304,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm （6*6.7）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2287,7 +2315,7 @@
       "spec": "M3*6.5/3.7mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2295,9 +2323,9 @@
       "name_zh": "十一字盘头三组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M5*10（8.8*3.2）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2305,9 +2333,9 @@
       "name_zh": "十一字盘头二组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M6*12头10.2",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2315,9 +2343,9 @@
       "name_zh": "十一字盘头凸缘平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3*15.4",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2325,9 +2353,9 @@
       "name_zh": "十一字盘头凸缘螺钉",
       "name_en": "Slotted Screw",
       "spec": "M2.5*5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2335,9 +2363,9 @@
       "name_zh": "十一字盘头凹槽螺钉",
       "name_en": "Slotted Screw",
       "spec": "#6-32*10mm(总长)（Φ7.3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2345,9 +2373,9 @@
       "name_zh": "十一字盘头割尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST2.9*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2355,9 +2383,9 @@
       "name_zh": "十一字盘头割尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M5*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2365,9 +2393,9 @@
       "name_zh": "十一字盘头圆尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3.2*15.3",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2375,9 +2403,9 @@
       "name_zh": "十一字盘头圆尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M2*6（Φ3*1.2）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2385,9 +2413,9 @@
       "name_zh": "十一字盘头尖尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2395,9 +2423,9 @@
       "name_zh": "十一字盘头尖尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M3*17(φ5*2)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2405,9 +2433,9 @@
       "name_zh": "十一字盘头带点二组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M3*12头5.4",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2415,9 +2443,9 @@
       "name_zh": "十一字盘头平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2425,9 +2453,9 @@
       "name_zh": "十一字盘头弹垫二组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M5*8（8.4*2.5）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2435,9 +2463,9 @@
       "name_zh": "十一字盘头弹平垫三组合的螺钉",
       "name_en": "Slotted Screw",
       "spec": "M8*16（13.5*5.2）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2445,9 +2473,9 @@
       "name_zh": "十一字盘头弹平垫三组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M8*16头13.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2455,9 +2483,9 @@
       "name_zh": "十一字盘头方垫三组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M6*12头10.2",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2465,9 +2493,9 @@
       "name_zh": "十一字盘头方垫三组合螺钉(波形弹垫)",
       "name_en": "Slotted Screw",
       "spec": "M3*7(头5.5*2)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2475,9 +2503,9 @@
       "name_zh": "十一字盘头方垫三组合螺钉（新款）",
       "name_en": "Slotted Screw",
       "spec": "M5*12（方垫11.5*11.5*1.6）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2485,9 +2513,9 @@
       "name_zh": "十一字盘头方垫二组合束尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M3*9（总长）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2495,9 +2523,9 @@
       "name_zh": "十一字盘头方垫二组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M5*13头8.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2505,9 +2533,9 @@
       "name_zh": "十一字盘头束尾方垫二组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M3*6（5.5*2）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2515,9 +2543,9 @@
       "name_zh": "十一字盘头束尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M7*14（φ9*3.1）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2525,9 +2553,9 @@
       "name_zh": "十一字盘头束尾螺钉（特殊倒角）",
       "name_en": "Slotted Screw",
       "spec": "M5*10.5（Φ6.8*3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2535,9 +2563,9 @@
       "name_zh": "十一字盘头波垫三组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M6*12（φ10.5*4）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2545,9 +2573,9 @@
       "name_zh": "十一字盘头翘垫三组合螺钉",
       "name_en": "Slotted Screw",
       "spec": "M4*10头7",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2555,9 +2583,9 @@
       "name_zh": "十一字盘头自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3.5*12（φ5.5*3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2565,9 +2593,9 @@
       "name_zh": "十一字盘头螺钉",
       "name_en": "Slotted Screw",
       "spec": "M6*32/7.5mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2575,9 +2603,9 @@
       "name_zh": "十一字盘头螺钉 (RoHS)",
       "name_en": "Slotted Screw",
       "spec": "M4*9",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2585,9 +2613,9 @@
       "name_zh": "十一字盘头螺钉(尾部平整)",
       "name_en": "Slotted Screw",
       "spec": "M5*11（6.8*3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2595,9 +2623,9 @@
       "name_zh": "十一字盘头螺钉（带倒角）",
       "name_en": "Slotted Screw",
       "spec": "M4.5*8（Φ7.8*2.9）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2605,9 +2633,9 @@
       "name_zh": "十一字盘头螺钉（特殊倒角）",
       "name_en": "Slotted Screw",
       "spec": "M5*10（Φ6.5*3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2615,9 +2643,9 @@
       "name_zh": "十一字盘头螺钉（细牙）",
       "name_en": "Slotted Screw",
       "spec": "M6*10.5（Φ7.5*3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2625,9 +2653,9 @@
       "name_zh": "十一字盘头高扭矩自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST5*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2635,9 +2663,9 @@
       "name_zh": "十一盘头平尾三角牙自攻螺钉",
       "name_en": "Pan Head Screw",
       "spec": "ST3*24.5/18.5mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2646,8 +2674,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*10（束尾3.0）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2657,7 +2685,7 @@
       "spec": "M4*12",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -2666,8 +2694,8 @@
       "name_en": "Phillips Screw",
       "spec": "M8*25",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2676,8 +2704,8 @@
       "name_en": "Phillips Screw",
       "spec": "M5*10头8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2686,8 +2714,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*28",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2695,9 +2723,9 @@
       "name_zh": "十字六角凹穴法兰尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST6.3*32",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2706,8 +2734,8 @@
       "name_en": "Phillips Screw",
       "spec": "M5*25",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2716,8 +2744,8 @@
       "name_en": "Phillips Screw",
       "spec": "M5*14",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2726,8 +2754,8 @@
       "name_en": "Phillips Screw",
       "spec": "M6*16头9.95",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2736,8 +2764,8 @@
       "name_en": "Phillips Screw",
       "spec": "M6*25",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2745,9 +2773,9 @@
       "name_zh": "十字半沉头螺钉",
       "name_en": "Phillips Screw",
       "spec": "M3*7",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2756,8 +2784,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3*6.1",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2766,8 +2794,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3*13.7",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2775,9 +2803,9 @@
       "name_zh": "十字圆头尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.9*6",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2785,9 +2813,9 @@
       "name_zh": "十字圆头平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.9*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2796,8 +2824,8 @@
       "name_en": "Phillips Screw",
       "spec": "M2.5*6（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2805,9 +2833,9 @@
       "name_zh": "十字大扁头平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4*7.6",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2816,8 +2844,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3*21/20mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2826,8 +2854,8 @@
       "name_en": "Phillips Screw",
       "spec": "M6*8",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2836,8 +2864,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3*14/13mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2845,9 +2873,9 @@
       "name_zh": "十字平头尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.5*50",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2855,9 +2883,9 @@
       "name_zh": "十字平头平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.5*50",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2866,8 +2894,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3*6.6(总长)",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2876,8 +2904,8 @@
       "name_en": "Phillips Screw",
       "spec": "M6*50",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2886,8 +2914,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3.5-0.5*6.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2896,8 +2924,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3.5-0.5*6.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2905,9 +2933,9 @@
       "name_zh": "十字扁头台阶尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4*8（φ8.5）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2916,8 +2944,8 @@
       "name_en": "Phillips Screw",
       "spec": "M3*6",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2925,9 +2953,9 @@
       "name_zh": "十字扁头尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4*9",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2936,8 +2964,8 @@
       "name_en": "Phillips Screw",
       "spec": "M5*10（12*2.4）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2945,9 +2973,9 @@
       "name_zh": "十字扁头束尾自攻螺钉(双线螺纹)",
       "name_en": "Phillips Screw",
       "spec": "ST4*12.5（φ2.2*8）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2956,8 +2984,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*6（Φ9*3）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2966,8 +2994,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*10/4mm（6*8.5）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2976,8 +3004,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*40/8mm（6.8*9.3）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2985,9 +3013,9 @@
       "name_zh": "十字沉头三角牙平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST3*7.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -2995,9 +3023,9 @@
       "name_zh": "十字沉头三角牙螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3005,9 +3033,9 @@
       "name_zh": "十字沉头割尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.9*8(总长)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3015,9 +3043,9 @@
       "name_zh": "十字沉头尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4.2*20",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3025,9 +3053,9 @@
       "name_zh": "十字沉头平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4.8*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3035,9 +3063,9 @@
       "name_zh": "十字沉头自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST3*8.6",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3045,9 +3073,9 @@
       "name_zh": "十字沉头螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*9（总长）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "沉头螺钉",
+      "category_en": "Countersunk Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3055,9 +3083,9 @@
       "name_zh": "十字盘头二组合螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*8头8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3065,9 +3093,9 @@
       "name_zh": "十字盘头凸缘割尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST3.9*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3075,9 +3103,9 @@
       "name_zh": "十字盘头凸缘尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.9*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3085,9 +3113,9 @@
       "name_zh": "十字盘头凸缘螺钉",
       "name_en": "Phillips Screw",
       "spec": "M3*5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3095,9 +3123,9 @@
       "name_zh": "十字盘头割尾自攻螺丝",
       "name_en": "Phillips Screw",
       "spec": "ST2.9*9",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3105,9 +3133,9 @@
       "name_zh": "十字盘头割尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST3.9*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3115,9 +3143,9 @@
       "name_zh": "十字盘头台阶三角牙螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3125,9 +3153,9 @@
       "name_zh": "十字盘头圆尾螺钉",
       "name_en": "Phillips Screw",
       "spec": "M3*7.5（Φ5.5）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3135,9 +3163,9 @@
       "name_zh": "十字盘头尖尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST5.5*50",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3145,9 +3173,9 @@
       "name_zh": "十字盘头带垫束尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST2.5*14",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3155,9 +3183,9 @@
       "name_zh": "十字盘头平垫二组合螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*35（φ8*3.1）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3165,9 +3193,9 @@
       "name_zh": "十字盘头平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4.2*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3175,9 +3203,9 @@
       "name_zh": "十字盘头弹垫二组合螺钉",
       "name_en": "Phillips Screw",
       "spec": "M5*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3185,9 +3213,9 @@
       "name_zh": "十字盘头弹平垫三组合螺丝",
       "name_en": "Phillips Screw",
       "spec": "M2.5*10头4.2",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3195,9 +3223,9 @@
       "name_zh": "十字盘头弹平垫三组合螺钉",
       "name_en": "Phillips Screw",
       "spec": "M6*120",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3205,9 +3233,9 @@
       "name_zh": "十字盘头束尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4.2*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3215,9 +3243,9 @@
       "name_zh": "十字盘头束尾自攻螺钉（尾部加长）",
       "name_en": "Phillips Screw",
       "spec": "ST3.4*10（Φ6*2）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3225,9 +3253,9 @@
       "name_zh": "十字盘头自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST4.2*19",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3235,9 +3263,9 @@
       "name_zh": "十字盘头花齿平尾自攻螺钉(双线螺纹)",
       "name_en": "Phillips Screw",
       "spec": "ST4*12（φ7*2.9）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3245,9 +3273,9 @@
       "name_zh": "十字盘头花齿束尾自攻螺钉(单线螺纹)",
       "name_en": "Phillips Screw",
       "spec": "ST4*14（φ7*2.9）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3255,9 +3283,9 @@
       "name_zh": "十字盘头花齿束尾自攻螺钉(双线螺纹)",
       "name_en": "Phillips Screw",
       "spec": "ST4*12(φ7*2.9)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3265,9 +3293,9 @@
       "name_zh": "十字盘头螺钉",
       "name_en": "Phillips Screw",
       "spec": "M8*15（13.6*4.6）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3275,9 +3303,9 @@
       "name_zh": "十字盘头齿垫二组合螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3285,9 +3313,9 @@
       "name_zh": "十字紧定螺钉",
       "name_en": "Phillips Screw",
       "spec": "M8*16",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3297,7 +3325,7 @@
       "spec": "Φ7.6*Φ10.5*8.7",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -3307,7 +3335,7 @@
       "spec": "M3.5*39.1",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -3317,7 +3345,7 @@
       "spec": "Φ5.8*8",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -3326,8 +3354,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3336,8 +3364,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*6/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3346,8 +3374,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*32/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3356,8 +3384,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*32/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3366,8 +3394,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*35/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3376,8 +3404,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*16/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3386,8 +3414,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*25/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3396,8 +3424,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*35/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3407,7 +3435,7 @@
       "spec": "M8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3417,7 +3445,7 @@
       "spec": "M8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3427,7 +3455,7 @@
       "spec": "M4*52.5",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3437,7 +3465,7 @@
       "spec": "M8*25.5/M6*6.5",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3446,8 +3474,8 @@
       "name_en": "Double-Ended Screw",
       "spec": "M5*30 （总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3457,7 +3485,7 @@
       "spec": "φ8*13.6（总长）",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3467,7 +3495,7 @@
       "spec": "φ2.4*18.5",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3477,7 +3505,7 @@
       "spec": "M4*72",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3487,7 +3515,7 @@
       "spec": "φ7*φ4*30",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-shaped-screws.webp",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3497,7 +3525,7 @@
       "spec": "M10*15.5-φ18",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -3507,7 +3535,7 @@
       "spec": "M3.5*17.5（φ6）",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -3517,7 +3545,7 @@
       "spec": "φ8.95*13.1",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3527,7 +3555,7 @@
       "spec": "Φ6.3*6.5",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -3537,7 +3565,7 @@
       "spec": "Φ3.5*Φ8.5*60",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -3546,8 +3574,8 @@
       "name_en": "Screw",
       "spec": "M8*24（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3557,7 +3585,7 @@
       "spec": "M8*45（总长）",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3567,7 +3595,7 @@
       "spec": "M8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3577,7 +3605,7 @@
       "spec": "φ11*19.5",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -3587,7 +3615,7 @@
       "spec": "圆柱塞φ6*18.5",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3596,8 +3624,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*11.5（12.9级）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3606,8 +3634,8 @@
       "name_en": "Screw",
       "spec": "M5*46.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3617,7 +3645,7 @@
       "spec": "M12*15",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3627,7 +3655,7 @@
       "spec": "φ10*19.2",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3637,7 +3665,7 @@
       "spec": "φ16*φ7.1*9.5",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3647,7 +3675,7 @@
       "spec": "Φ5*32",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3657,7 +3685,7 @@
       "spec": "4*20.4",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3667,7 +3695,7 @@
       "spec": "φ4.9*4.1",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3677,7 +3705,7 @@
       "spec": "5/8*85*31.755/8*85*31.75",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3687,7 +3715,7 @@
       "spec": "5/8*57*31.75",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3697,7 +3725,7 @@
       "spec": "M12*25头18",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3707,7 +3735,7 @@
       "spec": "M5*12头8",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3717,7 +3745,7 @@
       "spec": "M12*43",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3727,7 +3755,7 @@
       "spec": "M12*38",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3736,8 +3764,8 @@
       "name_en": "Hex Head Screw",
       "spec": "M8*20",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3746,8 +3774,8 @@
       "name_en": "Hex Head Screw",
       "spec": "M8*50",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3757,7 +3785,7 @@
       "spec": "M4*12（头厚0.5mm）",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3767,7 +3795,7 @@
       "spec": "M8",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -3777,7 +3805,7 @@
       "spec": "M6*615/37mm",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3786,8 +3814,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/4.5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3797,7 +3825,7 @@
       "spec": "M12*44",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3807,7 +3835,7 @@
       "spec": "M10*28/φ28",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3817,7 +3845,7 @@
       "spec": "M16*60-50",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -3826,8 +3854,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*6/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3837,7 +3865,7 @@
       "spec": "Φ16*12",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -3846,8 +3874,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*43/7mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3856,8 +3884,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*16/7mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3866,8 +3894,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/4.5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3877,7 +3905,7 @@
       "spec": "M8*9.5",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3887,7 +3915,7 @@
       "spec": "3.5*18.8",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -3897,7 +3925,7 @@
       "spec": "M4*8/10mm/7mm",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -3906,8 +3934,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3916,8 +3944,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3926,8 +3954,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*14/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3936,8 +3964,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*28/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3946,8 +3974,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*28/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3956,8 +3984,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3966,8 +3994,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/8mm（无热处理）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3976,8 +4004,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*22/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3986,8 +4014,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -3996,8 +4024,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/4mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4006,8 +4034,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*28/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4016,8 +4044,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*28/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4026,8 +4054,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/5mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4036,8 +4064,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*28/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4046,8 +4074,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*28/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4056,8 +4084,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/4mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4066,8 +4094,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*28/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4076,8 +4104,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/4mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4086,8 +4114,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*8/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4096,8 +4124,8 @@
       "name_en": "Phillips Screw",
       "spec": "M4*15/6mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4107,7 +4135,7 @@
       "spec": "φ6.5*6-φ9.5",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4116,8 +4144,8 @@
       "name_en": "Screw",
       "spec": "M8*1.0*17",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4127,7 +4155,7 @@
       "spec": "M6*10.7（总长）",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4137,7 +4165,7 @@
       "spec": "M12*M8*14",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4146,8 +4174,8 @@
       "name_en": "Pozidriv Screw",
       "spec": "M6*13.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4157,7 +4185,7 @@
       "spec": "φ3*12.3（总长）",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -4166,8 +4194,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M4*12",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4177,7 +4205,7 @@
       "spec": "φ22*70（总长）",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4187,7 +4215,7 @@
       "spec": "φ3.4*17 (总长)",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -4195,9 +4223,9 @@
       "name_zh": "平头束尾自攻螺钉",
       "name_en": "Flat Head Screw",
       "spec": "ST2*6.4",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4206,8 +4234,8 @@
       "name_en": "Pozidriv Screw",
       "spec": "M4*33/15mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4216,8 +4244,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M6x24.1",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4226,8 +4254,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M5*18.6",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4236,8 +4264,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M6*20.8（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4246,8 +4274,8 @@
       "name_en": "Flat Head Screw",
       "spec": "M6*20.8（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4257,7 +4285,7 @@
       "spec": "M8*40",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4267,7 +4295,7 @@
       "spec": "M6*12-φ11.5",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4277,7 +4305,7 @@
       "spec": "φ2.7*24",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -4287,7 +4315,7 @@
       "spec": "φ9*92(总长)",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -4297,7 +4325,7 @@
       "spec": "M6*16",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4307,7 +4335,7 @@
       "spec": "M10-1.25*16",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -4316,8 +4344,8 @@
       "name_en": "Screw",
       "spec": "M7*10.7/M4*18.3",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4327,7 +4355,7 @@
       "spec": "H10*31*M6/10mm",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4337,7 +4365,7 @@
       "spec": "φ5.9*18.8",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4347,7 +4375,7 @@
       "spec": "φ10*10.2",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4357,7 +4385,7 @@
       "spec": "V54K0NL000/4*16.1",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4366,8 +4394,8 @@
       "name_en": "Screw",
       "spec": "ST6.4*25",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4377,7 +4405,7 @@
       "spec": "Φ4.9*21.1",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4387,7 +4415,7 @@
       "spec": "φ2*52（总长）",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4397,7 +4425,7 @@
       "spec": "Φ2.35*29.5",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -4406,8 +4434,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*24.5",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4416,8 +4444,8 @@
       "name_en": "Screw",
       "spec": "M8*43.5/12.5mm",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4427,7 +4455,7 @@
       "spec": "φ16*21",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4437,7 +4465,7 @@
       "spec": "Φ12*23",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4447,7 +4475,7 @@
       "spec": "φ1.98*10（总长）（束尾1.5）",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -4457,7 +4485,7 @@
       "spec": "M7*8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4467,7 +4495,7 @@
       "spec": "M6x13",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4477,7 +4505,7 @@
       "spec": "M8",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4487,7 +4515,7 @@
       "spec": "φ9.5*11",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4497,7 +4525,7 @@
       "spec": "M5*10",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4507,7 +4535,7 @@
       "spec": "M4*7/φ6",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4517,7 +4545,7 @@
       "spec": "M8*24-φ12",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4527,7 +4555,7 @@
       "spec": "M8*15-15",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4537,7 +4565,7 @@
       "spec": "M4*7-φ6",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4547,7 +4575,7 @@
       "spec": "M4*6-φ6",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4557,7 +4585,7 @@
       "spec": "M4*7-φ5.8",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4567,7 +4595,7 @@
       "spec": "M4*6-φ5.7",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4577,7 +4605,7 @@
       "spec": "M6*18-φ10",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4587,7 +4615,7 @@
       "spec": "M8*15-φ12",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4597,7 +4625,7 @@
       "spec": "M4*6-φ5.7",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4607,7 +4635,7 @@
       "spec": "φ16*15",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4617,7 +4645,7 @@
       "spec": "M10*45-16",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4627,7 +4655,7 @@
       "spec": "M8*15",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4637,7 +4665,7 @@
       "spec": "M6*10（φ9）",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4647,7 +4675,7 @@
       "spec": "M6*16",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4657,7 +4685,7 @@
       "spec": "M8*φ14*18",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4665,9 +4693,9 @@
       "name_zh": "盘头十一字带垫螺丝",
       "name_en": "Slotted Screw",
       "spec": "M5*10",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4675,9 +4703,9 @@
       "name_zh": "盘头十一字螺丝",
       "name_en": "Slotted Screw",
       "spec": "M6*12（Φ10）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4685,9 +4713,9 @@
       "name_zh": "盘头十字自攻螺丝",
       "name_en": "Phillips Screw",
       "spec": "ST6.3*22",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4695,9 +4723,9 @@
       "name_zh": "盘头十字螺丝",
       "name_en": "Phillips Screw",
       "spec": "M4*8（Φ8）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4707,7 +4735,7 @@
       "spec": "M12",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4717,7 +4745,7 @@
       "spec": "φ5.9*53.2",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -4727,7 +4755,7 @@
       "spec": "M5*7.5*Φ12",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -4737,7 +4765,7 @@
       "spec": "42.42*28.58-H25.4",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4747,7 +4775,7 @@
       "spec": "M4*40.5",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -4756,8 +4784,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*16/8mm（6.8*7.7）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4766,8 +4794,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*9/7mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4776,8 +4804,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*42/8mm（头φ6.5*7）",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4785,9 +4813,9 @@
       "name_zh": "米十一字圆头平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4.2*16（Φ8*3）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4796,8 +4824,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*12",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4805,9 +4833,9 @@
       "name_zh": "米十一字圆柱头平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3.9*13",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4816,8 +4844,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*17.9（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4826,8 +4854,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*8头5.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4836,8 +4864,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3.5*6.5（头5.7）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4846,8 +4874,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3.5*8头5.7（正常倒角）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4856,8 +4884,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*13",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4866,8 +4894,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*15.4",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4876,8 +4904,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*48/8mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4886,8 +4914,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*48/10mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4896,8 +4924,8 @@
       "name_en": "Slotted Screw",
       "spec": "M4*10/3mm",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4906,8 +4934,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*14",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4915,9 +4943,9 @@
       "name_zh": "米十一字平头平尾自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST4.1*34/16mm",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4926,8 +4954,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3*8头5.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4936,8 +4964,8 @@
       "name_en": "Slotted Screw",
       "spec": "M3.5*7头5.7",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4946,8 +4974,8 @@
       "name_en": "Slotted Screw",
       "spec": "M7*14(φ9*3.1)",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4956,8 +4984,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*14",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4966,8 +4994,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*9",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4976,8 +5004,8 @@
       "name_en": "Slotted Screw",
       "spec": "M7*13",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4985,9 +5013,9 @@
       "name_zh": "米十一字平头自攻螺钉",
       "name_en": "Slotted Screw",
       "spec": "ST3*7",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -4996,8 +5024,8 @@
       "name_en": "Slotted Screw",
       "spec": "M7*17（总长）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5006,8 +5034,8 @@
       "name_en": "Slotted Screw",
       "spec": "M5*10.5",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5016,8 +5044,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*16",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5026,8 +5054,8 @@
       "name_en": "Slotted Screw",
       "spec": "M6*14（7.2*3）",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5035,9 +5063,9 @@
       "name_zh": "米十一字盘头束尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M8*14",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5045,9 +5073,9 @@
       "name_zh": "米十一字盘头花齿束尾螺钉",
       "name_en": "Slotted Screw",
       "spec": "M5*9.5",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5055,9 +5083,9 @@
       "name_zh": "米十一字盘头螺钉",
       "name_en": "Slotted Screw",
       "spec": "M4*9/9mm（7*2.62）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5065,9 +5093,9 @@
       "name_zh": "米十字盘头凸缘平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST3*8",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5075,9 +5103,9 @@
       "name_zh": "米十字盘头平尾自攻螺钉",
       "name_en": "Phillips Screw",
       "spec": "ST3.5*12",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5085,9 +5113,9 @@
       "name_zh": "米十字盘头螺钉",
       "name_en": "Phillips Screw",
       "spec": "M4*4.5（φ6.8*2.5）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5095,9 +5123,9 @@
       "name_zh": "米字盘头花齿束尾自攻螺钉",
       "name_en": "Pozidriv Screw",
       "spec": "ST4.2*10（Φ7.7）",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5105,9 +5133,9 @@
       "name_zh": "紧定螺钉（双螺纹）",
       "name_en": "Screw",
       "spec": "M10*26.5 (总长)",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_zh": "内六角螺钉",
+      "category_en": "Socket Cap Screws",
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5117,7 +5145,7 @@
       "spec": "φ9.4*11.95",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5127,7 +5155,7 @@
       "spec": "φ5.3*29",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5135,9 +5163,9 @@
       "name_zh": "自攻螺钉",
       "name_en": "Screw",
       "spec": "ST5*17.1",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp",
+      "category_zh": "自攻螺钉",
+      "category_en": "Self-Tapping Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5147,7 +5175,7 @@
       "spec": "M4*43",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5157,7 +5185,7 @@
       "spec": "φ9*φ8*4",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -5167,7 +5195,7 @@
       "spec": "M24*M16*30",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5177,7 +5205,7 @@
       "spec": "M5*4.6",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -5187,7 +5215,7 @@
       "spec": "φ8*91.1",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5197,7 +5225,7 @@
       "spec": "φ14*3.35",
       "category_zh": "套管类",
       "category_en": "Sleeves & Spacers",
-      "image": "images/products/stainless-hex-bolt.jpg",
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg",
       "hs_code": "7318.22"
     },
     {
@@ -5207,7 +5235,7 @@
       "spec": "Φ8.1*55",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5217,7 +5245,7 @@
       "spec": "φ9.5*2.7",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5227,7 +5255,7 @@
       "spec": "13*7",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -5237,7 +5265,7 @@
       "spec": "UNC 6/32*Φ7*2.5",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg",
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg",
       "hs_code": "7318.16"
     },
     {
@@ -5247,7 +5275,7 @@
       "spec": "φ6.4*9",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -5257,7 +5285,7 @@
       "spec": "φ10*19(总长)",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -5267,7 +5295,7 @@
       "spec": "φ19.8*φ31.6",
       "category_zh": "铆钉类",
       "category_en": "Rivets",
-      "image": "images/products/fastener-assembly.jpg",
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg",
       "hs_code": "7318.24"
     },
     {
@@ -5277,7 +5305,7 @@
       "spec": "M4*6-φ9.9",
       "category_zh": "嵌件类",
       "category_en": "Press-In Inserts",
-      "image": "images/products/special-fasteners.jpg",
+      "image": "imgs/custom-fasteners-special-shape-machined-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5286,8 +5314,8 @@
       "name_en": "Screw",
       "spec": "M4*6",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5297,7 +5325,7 @@
       "spec": "Φ4*17.5",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5307,7 +5335,7 @@
       "spec": "Φ5*23.5",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -5317,7 +5345,7 @@
       "spec": "Φ5*11",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -5327,7 +5355,7 @@
       "spec": "Φ1.2*7.5",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -5337,7 +5365,7 @@
       "spec": "φ4*10",
       "category_zh": "销轴类",
       "category_en": "Pins & Shafts",
-      "image": "images/products/zinc-plated-bolt.jpg",
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg",
       "hs_code": "7318.23"
     },
     {
@@ -5346,8 +5374,8 @@
       "name_en": "Screw",
       "spec": "SM7/32-32*21/7mm-H6.2",
       "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp",
+      "category_en": "Other Screws",
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5356,8 +5384,8 @@
       "name_en": "Screw",
       "spec": "M4*10.5",
       "category_zh": "铅封螺钉",
-      "category_en": "Security Screws",
-      "image": "images/products/dacromet-bolt.webp",
+      "category_en": "Security/Lead Seal Screws",
+      "image": "imgs/custom-special-shape-industrial-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5367,7 +5395,7 @@
       "spec": "Φ4*5.2",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     },
     {
@@ -5377,7 +5405,7 @@
       "spec": "M8*70",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5387,7 +5415,7 @@
       "spec": "3/8-24UNF*30",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png",
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg",
       "hs_code": "7318.15"
     },
     {
@@ -5397,7 +5425,7 @@
       "spec": "Φ17*Φ5*6",
       "category_zh": "非标件",
       "category_en": "Custom Parts",
-      "image": "images/products/custom-fasteners.jpg",
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg",
       "hs_code": "7318.29"
     }
   ]

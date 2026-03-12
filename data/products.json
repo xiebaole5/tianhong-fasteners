@@ -8,7 +8,7 @@
       "material": "碳钢 / 不锈钢 SS304 / SS316",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-bolt-1.png"
+      "image": "imgs/professional-hex-bolt-stainless-steel-fastener.jpg"
     },
     {
       "id": 2,
@@ -16,9 +16,9 @@
       "name_en": "Socket Head Cap Screw",
       "spec": "M3–M36, DIN 912 / ISO 4762",
       "material": "碳钢 / 合金钢 / 不锈钢 SS304",
-      "category_zh": "螺钉类",
+      "category_zh": "内六角螺钉",
       "category_en": "Screws",
-      "image": "images/products/hex-socket-screw.webp"
+      "image": "imgs/socket-head-cap-screw-hex-fastener.jpg"
     },
     {
       "id": 3,
@@ -28,7 +28,7 @@
       "material": "碳钢镀锌 / 不锈钢",
       "category_zh": "螺栓类",
       "category_en": "Bolts",
-      "image": "images/products/hex-flange-bolt.jpg"
+      "image": "imgs/professional-stainless-steel-hex-flange-bolt-fastener.jpg"
     },
     {
       "id": 4,
@@ -38,7 +38,7 @@
       "material": "合金钢热处理 (Alloy Steel, Heat-Treated)",
       "category_zh": "高强度紧固件",
       "category_en": "High-Strength Fasteners",
-      "image": "images/products/stainless-hex-bolt.jpg"
+      "image": "imgs/professional-hex-bolt-fasteners-stainless-steel.jpg"
     },
     {
       "id": 5,
@@ -48,7 +48,7 @@
       "material": "碳钢 / 不锈钢 SS316",
       "category_zh": "异型螺栓",
       "category_en": "Special Bolts",
-      "image": "images/products/zinc-plated-bolt.jpg"
+      "image": "imgs/custom-industrial-fastener-special-bolt.jpg"
     },
     {
       "id": 6,
@@ -56,9 +56,9 @@
       "name_en": "Stainless Self-Tapping Screw",
       "spec": "ST2.2–ST6.3, DIN 7981 / ISO 14585",
       "material": "不锈钢 SS304 / SS316L",
-      "category_zh": "螺钉类",
+      "category_zh": "自攻螺钉",
       "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp"
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg"
     },
     {
       "id": 7,
@@ -68,7 +68,7 @@
       "material": "碳钢 / 不锈钢 SS304 / SS316",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg"
+      "image": "imgs/dacromet-coated-stud-bolts-hex-nuts.jpg"
     },
     {
       "id": 8,
@@ -78,7 +78,7 @@
       "material": "碳钢镀锌 / 不锈钢 SS304",
       "category_zh": "螺母类",
       "category_en": "Nuts",
-      "image": "images/products/stainless-nuts.jpg"
+      "image": "imgs/industrial-fastener-set-screw-nut-washer.jpg"
     },
     {
       "id": 9,
@@ -88,7 +88,7 @@
       "material": "碳钢 / 不锈钢 SS304 / 黄铜",
       "category_zh": "垫圈类",
       "category_en": "Washers",
-      "image": "images/products/fastener-assembly.jpg"
+      "image": "imgs/industrial-fastener-screws-bolts-nuts-assembly.jpg"
     },
     {
       "id": 10,
@@ -98,7 +98,7 @@
       "material": "弹簧钢 / 不锈钢 SS301",
       "category_zh": "垫圈类",
       "category_en": "Washers",
-      "image": "images/products/fastener-assembly.jpg"
+      "image": "imgs/industrial-metal-fasteners-screws-nuts-bolts.jpg"
     },
     {
       "id": 11,
@@ -108,7 +108,7 @@
       "material": "合金钢 / 不锈钢，表面镀锌或达克罗",
       "category_zh": "汽车紧固件",
       "category_en": "Automotive Fasteners",
-      "image": "images/products/custom-fasteners.jpg"
+      "image": "imgs/custom-special-shape-fasteners-industrial-parts.jpg"
     },
     {
       "id": 12,
@@ -118,17 +118,17 @@
       "material": "不锈钢 SS304 / SS316 / 铝合金 6061",
       "category_zh": "新能源紧固件",
       "category_en": "New Energy Fasteners",
-      "image": "images/products/stainless-hex-bolt.jpg"
+      "image": "imgs/stainless-steel-hex-bolt-fastener-product.jpg"
     },
     {
       "id": 13,
       "name_zh": "盘头螺钉",
       "name_en": "Pan Head Screw",
-      "spec": "M2–M8, ST2.2–ST6.3; 十字/一字/内六角/内梅花/十一字 (Phillips / Slotted / Socket / Torx / Combo)",
+      "spec": "M2–M8 / ST2.2–ST6.3；十字/一字/内六角/内梅花",
       "material": "碳钢 / 不锈钢 SS304 / 铜",
-      "category_zh": "螺钉类",
-      "category_en": "Screws",
-      "image": "images/products/special-shaped-screws.webp"
+      "category_zh": "盘头螺钉",
+      "category_en": "Pan Head Screws",
+      "image": "imgs/dacromet-coated-hex-head-self-drilling-screws.jpg"
     }
   ]
 }

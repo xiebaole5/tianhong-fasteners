@@ -499,7 +499,7 @@
       </h2>
       <div class="section-divider"></div>
       <p class="text-gray-500 mt-4 max-w-xl mx-auto text-sm">
-        输入产品名称或型号（如 RCSK-1、铅封、铆钉、螺母），快速查询 HS 编码及出口退税信息。
+        输入产品名称或关键词（如 盘头螺钉、铅封、内六角、螺母、自攻）或 HS 编码，快速查询出口申报信息。
       </p>
     </div>
 
@@ -507,7 +507,7 @@
       <div class="flex gap-3 mb-6">
         <div class="relative flex-1">
           <i class="fas fa-search absolute left-3 top-1/2 -translate-y-1/2 text-gray-400 text-sm"></i>
-          <input id="hs-search-input" type="text" placeholder="搜索产品名称或型号（如 RCSK-1、铅封、铆钉、盘头螺钉）…"
+          <input id="hs-search-input" type="text" placeholder="搜索产品名称（如：盘头螺钉、内六角螺钉、铅封、螺母、7318.15）…"
             class="w-full pl-9 pr-4 py-3 border border-gray-200 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-[#d4891a]/40 focus:border-[#d4891a]"
             oninput="hsSearch(this.value)" />
         </div>
@@ -543,7 +543,7 @@
       </div>
 
       <div id="hs-hint" class="text-center py-4">
-        <p class="text-gray-400 text-xs">数据库包含 667 种紧固件产品的 HS 编码信息（含盘头螺钉等47种新品类）。所有产品出口退税率均为 <span class="text-[#d4891a] font-semibold">13%</span>。</p>
+        <p class="text-gray-400 text-xs">数据库包含 <span class="text-[#0d1b2a] font-semibold">1200+</span> 种紧固件产品（含盘头螺钉、内六角螺钉、自攻螺钉等全系列）。所有产品出口退税率均为 <span class="text-[#d4891a] font-semibold">13%</span>。</p>
       </div>
     </div>
   </div>
@@ -792,13 +792,41 @@ function getFallbackProducts() {
 
 /* HS Code Lookup Tool */
 var hsData = null;
+var hsCombinedLoaded = false;
+
 function hsLoadData(callback) {
   if (hsData) { callback(hsData); return; }
-  fetch('data/hs-codes.json')
-    .then(function(r) { return r.json(); })
-    .then(function(d) { hsData = d.products; callback(hsData); })
-    .catch(function() { hsData = []; callback([]); });
+  // Load both hs-codes.json (667 items with full HS data) and products_data.json (533 ERP items)
+  var p1 = fetch('data/hs-codes.json').then(function(r) { return r.json(); }).catch(function() { return {products:[]}; });
+  var p2 = fetch('data/products_data.json').then(function(r) { return r.json(); }).catch(function() { return {products:[]}; });
+  Promise.all([p1, p2]).then(function(results) {
+    var hsProducts = results[0].products || [];
+    var erpProducts = results[1].products || [];
+    // Build a set of name+spec keys already in hsProducts to avoid duplicates
+    var existingKeys = {};
+    hsProducts.forEach(function(p) { existingKeys[(p.name_zh || '') + '|' + (p.spec || '')] = true; });
+    // Normalize ERP products to match hs-codes format
+    var erpNormalized = erpProducts.filter(function(p) {
+      return !existingKeys[(p.name_zh || '') + '|' + (p.spec || '')];
+    }).map(function(p) {
+      return {
+        id: p.id,
+        code: '',
+        name_zh: p.name_zh || '',
+        name_en: p.name_en || p.category_en || '',
+        hs_code: p.hs_code || '7318.15',
+        spec: p.spec || '',
+        category_zh: p.category_zh || '',
+        category_en: p.category_en || '',
+        export_tax_rebate: '13%',
+        declaration_elements: '品名;材质;规格'
+      };
+    });
+    hsData = hsProducts.concat(erpNormalized);
+    callback(hsData);
+  });
 }
+
 function hsSearch(query) {
   query = (query || '').trim().toLowerCase();
   document.getElementById('hs-hint').classList.add('hidden');
@@ -810,12 +838,12 @@ function hsSearch(query) {
   }
   hsLoadData(function(products) {
     var results = products.filter(function(p) {
-      return p.name_zh.toLowerCase().indexOf(query) !== -1 ||
-             p.name_en.toLowerCase().indexOf(query) !== -1 ||
+      return (p.name_zh || '').toLowerCase().indexOf(query) !== -1 ||
+             (p.name_en || '').toLowerCase().indexOf(query) !== -1 ||
              (p.code && p.code.toLowerCase().indexOf(query) !== -1) ||
-             p.hs_code.toLowerCase().indexOf(query) !== -1 ||
-             p.category_zh.toLowerCase().indexOf(query) !== -1 ||
-             p.spec.toLowerCase().indexOf(query) !== -1;
+             (p.hs_code || '').toLowerCase().indexOf(query) !== -1 ||
+             (p.category_zh || '').toLowerCase().indexOf(query) !== -1 ||
+             (p.spec || '').toLowerCase().indexOf(query) !== -1;
     }).slice(0, 50);
     if (results.length === 0) {
       document.getElementById('hs-results').classList.add('hidden');
@@ -824,13 +852,14 @@ function hsSearch(query) {
       document.getElementById('hs-no-result').classList.add('hidden');
       document.getElementById('hs-results').classList.remove('hidden');
       document.getElementById('hs-table-body').innerHTML = results.map(function(p) {
+        var decl = (p.declaration_elements || '').replace(/;/g, ' / ');
         return '<tr class="hover:bg-gray-50 transition-colors">' +
-          '<td class="px-4 py-3 font-medium text-[#0d1b2a]">' + p.name_zh + '</td>' +
-          '<td class="px-4 py-3 text-gray-600">' + p.name_en + '</td>' +
-          '<td class="px-4 py-3 text-gray-500">' + p.spec + '</td>' +
-          '<td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 font-semibold px-2.5 py-1 rounded-lg text-xs">' + p.hs_code + '</span></td>' +
-          '<td class="px-4 py-3"><span class="bg-green-50 text-green-700 font-semibold px-2.5 py-1 rounded-lg text-xs">' + p.export_tax_rebate + '</span></td>' +
-          '<td class="px-4 py-3 text-gray-500 text-xs">' + p.declaration_elements.replace(/;/g, ' / ') + '</td>' +
+          '<td class="px-4 py-3 font-medium text-[#0d1b2a]">' + (p.name_zh || '') + '</td>' +
+          '<td class="px-4 py-3 text-gray-600">' + (p.name_en || '') + '</td>' +
+          '<td class="px-4 py-3 text-gray-500">' + (p.spec || '') + '</td>' +
+          '<td class="px-4 py-3"><span class="bg-blue-50 text-blue-700 font-semibold px-2.5 py-1 rounded-lg text-xs">' + (p.hs_code || '') + '</span></td>' +
+          '<td class="px-4 py-3"><span class="bg-green-50 text-green-700 font-semibold px-2.5 py-1 rounded-lg text-xs">' + (p.export_tax_rebate || '13%') + '</span></td>' +
+          '<td class="px-4 py-3 text-gray-500 text-xs">' + decl + '</td>' +
           '</tr>';
       }).join('');
       document.getElementById('hs-result-count').textContent = '共找到 ' + results.length + ' 条结果' + (results.length === 50 ? '（显示前50条）' : '');
