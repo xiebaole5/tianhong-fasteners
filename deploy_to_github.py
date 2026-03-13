@@ -11,7 +11,7 @@ import os
 import sys
 
 # GitHub Token
-TOKEN = "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"
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 GITHUB_API = "https://api.github.com"
 REPO_NAME = "tianhong-fasteners"
 USERNAME = "xiebaole5"

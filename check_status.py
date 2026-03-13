@@ -3,10 +3,11 @@
 Check GitHub Actions deployment status
 """
 
+import os
 import requests
 import time
 
-TOKEN = "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"
+TOKEN = os.environ.get("GITHUB_TOKEN", "")
 USERNAME = "xiebaole5"
 REPO_NAME = "tianhong-fasteners"
 

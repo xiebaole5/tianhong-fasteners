@@ -1,7 +1,13 @@
 # PowerShell script to create GitHub repository
 # Run this script to create the tianhong-fasteners repository
+# Usage: Set the GITHUB_TOKEN environment variable before running:
+#   $env:GITHUB_TOKEN = "your_personal_access_token"
 
-$token = "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"
+$token = $env:GITHUB_TOKEN
+if (-not $token) {
+    Write-Error "GITHUB_TOKEN environment variable is not set. Please set it before running this script."
+    exit 1
+}
 $headers = @{
     "Authorization" = "token $token"
     "Accept" = "application/vnd.github.v3+json"
