@@ -1,0 +1,170 @@
+{
+  "_comment": "产品知识库 FAQ — 从 products.json 转换而来，AI 回答问题时参考此文件",
+  "_usage": "orchestrator.py 在构建 Prompt 时加载此文件，注入到 system prompt 的产品知识段",
+
+  "company_intro": {
+    "zh": "浙江天宏紧固件有限公司成立于1987年，专业生产高强度螺栓、螺母、垫圈及异型紧固件，主要服务汽车、光伏、机械等行业客户，具备 ISO9001 质量认证。",
+    "en": "Zhejiang Tianhong Fasteners Co., Ltd. was established in 1987. We manufacture high-strength bolts, nuts, washers and custom fasteners, primarily serving the automotive, solar energy and industrial machinery sectors. ISO9001 certified."
+  },
+
+  "capabilities": {
+    "custom_manufacturing": true,
+    "min_order_qty": "询盘确认 / Subject to inquiry",
+    "certifications": ["ISO9001", "达克罗认证 / Dacromet certified"],
+    "processes": ["冷镦 Cold Heading", "热处理 Heat Treatment", "表面处理 Surface Treatment", "达克罗涂层 Dacromet Coating", "镀锌 Zinc Plating", "发黑 Black Oxide"]
+  },
+
+  "products": [
+    {
+      "id": 1,
+      "name_zh": "六角螺栓",
+      "name_en": "Hex Bolt",
+      "spec": "M4–M64",
+      "grades": ["4.6", "8.8", "10.9", "12.9"],
+      "materials": ["碳钢 Carbon Steel", "不锈钢 SS304", "不锈钢 SS316"],
+      "standards": ["DIN 931", "DIN 933", "ISO 4014", "ISO 4017"],
+      "applications": ["通用工业 General Industry", "机械制造 Machinery", "建筑钢结构 Steel Structure"],
+      "faq": [
+        {"q": "最大规格能做多大？", "a": "最大可做到 M64。"},
+        {"q": "What is the maximum size?", "a": "Up to M64 is available."},
+        {"q": "有没有12.9级的？", "a": "有，六角螺栓最高可供 12.9 级合金钢材质。"}
+      ]
+    },
+    {
+      "id": 2,
+      "name_zh": "内六角圆柱头螺钉",
+      "name_en": "Socket Head Cap Screw",
+      "spec": "M3–M36",
+      "standards": ["DIN 912", "ISO 4762"],
+      "materials": ["碳钢 Carbon Steel", "合金钢 Alloy Steel", "不锈钢 SS304"],
+      "applications": ["精密设备 Precision Equipment", "模具 Mold", "自动化 Automation"],
+      "faq": [
+        {"q": "Do you have DIN 912 socket screws?", "a": "Yes, we supply DIN 912 socket head cap screws in M3–M36, stainless or alloy steel."}
+      ]
+    },
+    {
+      "id": 3,
+      "name_zh": "法兰螺栓",
+      "name_en": "Flange Bolt",
+      "spec": "M6–M24",
+      "grades": ["8.8", "10.9"],
+      "materials": ["碳钢镀锌 Zinc-Plated Carbon Steel", "不锈钢 Stainless Steel"],
+      "applications": ["汽车 Automotive", "重型机械 Heavy Machinery"]
+    },
+    {
+      "id": 4,
+      "name_zh": "高强度螺栓",
+      "name_en": "High-Strength Bolt",
+      "spec": "M12–M100",
+      "grades": ["10.9", "12.9"],
+      "materials": ["合金钢热处理 Heat-Treated Alloy Steel"],
+      "applications": ["桥梁 Bridge", "钢结构 Steel Structure", "重型设备 Heavy Equipment"],
+      "faq": [
+        {"q": "能做M100的高强螺栓吗？", "a": "可以，高强螺栓最大可做到 M100，10.9/12.9 级，欢迎发图纸或规格询盘。"}
+      ]
+    },
+    {
+      "id": 5,
+      "name_zh": "U型螺栓",
+      "name_en": "U-Bolt",
+      "spec": "M6–M30，可按图定制",
+      "materials": ["碳钢 Carbon Steel", "不锈钢 SS316"],
+      "applications": ["管道固定 Pipe Clamp", "车辆悬挂 Vehicle Suspension", "农机 Agricultural Machinery"],
+      "custom": true
+    },
+    {
+      "id": 6,
+      "name_zh": "不锈钢自攻螺钉",
+      "name_en": "Stainless Self-Tapping Screw",
+      "spec": "ST2.2–ST6.3",
+      "standards": ["DIN 7981", "ISO 14585"],
+      "materials": ["SS304", "SS316L"],
+      "applications": ["薄板连接 Sheet Metal", "建筑幕墙 Curtain Wall", "电气箱体 Electrical Enclosure"]
+    },
+    {
+      "id": 7,
+      "name_zh": "六角螺母",
+      "name_en": "Hex Nut",
+      "spec": "M3–M64",
+      "standards": ["DIN 934", "ISO 4032"],
+      "materials": ["碳钢 Carbon Steel", "不锈钢 SS304", "SS316"],
+      "applications": ["通用紧固 General Fastening"]
+    },
+    {
+      "id": 8,
+      "name_zh": "尼龙自锁螺母",
+      "name_en": "Nylon Insert Lock Nut",
+      "spec": "M4–M36",
+      "standards": ["DIN 985", "ISO 7042"],
+      "materials": ["碳钢镀锌 Zinc-Plated Carbon Steel", "不锈钢 SS304"],
+      "applications": ["防松 Anti-Loosening", "振动环境 Vibration Environment"]
+    },
+    {
+      "id": 9,
+      "name_zh": "平垫圈",
+      "name_en": "Flat Washer",
+      "spec": "M3–M100",
+      "standards": ["DIN 125", "ISO 7089"],
+      "materials": ["碳钢 Carbon Steel", "不锈钢 SS304", "黄铜 Brass"]
+    },
+    {
+      "id": 10,
+      "name_zh": "弹簧垫圈",
+      "name_en": "Spring Washer",
+      "spec": "M3–M64",
+      "standards": ["DIN 127", "ISO 7090"],
+      "materials": ["弹簧钢 Spring Steel", "不锈钢 SS301"]
+    },
+    {
+      "id": 11,
+      "name_zh": "汽车专用紧固件",
+      "name_en": "Automotive Fastener",
+      "spec": "按客户图纸定制",
+      "grades": ["8.8", "10.9", "12.9"],
+      "materials": ["合金钢 Alloy Steel", "不锈钢 Stainless Steel"],
+      "surface": ["镀锌 Zinc Plating", "达克罗 Dacromet"],
+      "custom": true,
+      "applications": ["发动机 Engine", "底盘 Chassis", "车身 Body"],
+      "faq": [
+        {"q": "Can you make automotive fasteners to drawing?", "a": "Yes, we specialize in custom automotive fasteners. Please share your drawing or specification and we'll provide a quote within 24 hours."}
+      ]
+    },
+    {
+      "id": 12,
+      "name_zh": "光伏支架紧固件",
+      "name_en": "Solar Mounting Fastener",
+      "spec": "M8–M16，适用光伏铝型材",
+      "materials": ["不锈钢 SS304", "SS316", "铝合金 6061"],
+      "applications": ["光伏地面支架 Ground-Mount Solar", "屋顶系统 Rooftop PV", "跟踪支架 Solar Tracker"],
+      "faq": [
+        {"q": "Do you supply solar fasteners?", "a": "Yes, we supply T-bolts, carriage bolts, hex bolts and nuts for solar panel mounting systems, in SS304/316 and aluminum alloy."}
+      ]
+    },
+    {
+      "id": 13,
+      "name_zh": "盘头螺钉",
+      "name_en": "Pan Head Screw",
+      "spec": "M2–M8 / ST2.2–ST6.3",
+      "drive": ["十字 Phillips", "一字 Slotted", "内六角 Hex Socket", "内梅花 Torx"],
+      "materials": ["碳钢 Carbon Steel", "不锈钢 SS304", "铜 Brass"]
+    }
+  ],
+
+  "dacromet_info": {
+    "name_zh": "达克罗涂层",
+    "name_en": "Dacromet Coating",
+    "description_zh": "达克罗是一种以鳞片状锌铝合金为主要成分的高性能防腐涂层，耐盐雾性能超过镀锌10倍以上，无氢脆风险，适合高强度螺栓。",
+    "description_en": "Dacromet is a high-performance anti-corrosion coating based on zinc-aluminum flakes. It offers 10x better salt spray resistance than standard zinc plating, with no hydrogen embrittlement risk — ideal for high-strength fasteners.",
+    "salt_spray_hours": "720~1000小时 / 720–1000 hours",
+    "suitable_for": "10.9 / 12.9 高强螺栓、汽车零部件"
+  },
+
+  "inquiry_guide": {
+    "required_info": ["产品名称/图纸 Product name or drawing", "规格 Specification (diameter × length)", "数量 Quantity", "材质要求 Material requirement", "表面处理 Surface treatment"],
+    "response_time": "24小时内回复 / Reply within 24 hours",
+    "contact": {
+      "whatsapp": "+86 189 5877 0140",
+      "email": "xiebaole5@gmail.com"
+    }
+  }
+}
