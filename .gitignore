@@ -39,6 +39,17 @@ npm-debug.log*
 
 # Agent/Debug files
 .agent/
+
+# AI system — runtime data (do not commit)
+ai/data/conversation_logs/*.jsonl
+ai/data/product_embeddings/
+ai/core/memory/memory.db
+ai/core/state/state.json
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
 *.html
 !index.html
 !products.html
